@@ -84,3 +84,7 @@ function parse_url_json()
   curl -s "$@" | python -mjson.tool
 }
 
+if [ -f ~/.zshrc_local ]; then
+  . ~/.zshrc_local
+fi
+
