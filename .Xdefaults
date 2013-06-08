@@ -36,7 +36,7 @@ urxvt*urgentOnBell:       true
 ! https://github.com/muennich/urxvt-perls.git
 urxvt*perl-lib:        ~/bin/urxvt-perls/
 urxvt*perl-ext-common: default,clipboard,matcher,searchable-scrollback
-urxvt*urlLauncher:     /usr/local/bin/firefox
+urxvt*urlLauncher:     firefox
 urxvt*matcher.button:  1
 ! Catch ugly URLs
 urxvt*cutchars:        '"'()*<>[]{|}
@@ -167,7 +167,7 @@ Xman*directoryFontNormal: -xos4-terminus-medium-*-*-*-12-*-*-*-*-*-iso8859-2
 !{{{ XPDF
 xpdf*foreground:     black
 xpdf*background:     white
-xpdf*urlCommand:     /usr/local/bin/firefox %s
+xpdf*urlCommand:     firefox %s
 xpdf*antialias:      yes
 xpdf*enableFreetype: yes
 !}}}
