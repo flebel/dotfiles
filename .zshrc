@@ -6,6 +6,7 @@ ZSH=$HOME/.oh-my-zsh
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
 ZSH_THEME="nanotech"
+MODE_INDICATOR="COMMAND %{$fg_bold[red]%}<%{$fg[red]%}<<%{$reset_color%}"
 
 # Set to this to use case-sensitive completion
 CASE_SENSITIVE="true"
@@ -36,7 +37,7 @@ CASE_SENSITIVE="true"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(autoenv bower cp django git screen svn tmux)
+plugins=(autoenv bower cp django git screen svn tmux vi-mode)
 
 source $ZSH/oh-my-zsh.sh
 
