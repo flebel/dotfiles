@@ -3,7 +3,7 @@
 CURRENT=`pwd`
 
 chsh -s /bin/zsh
-git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
+git clone git://github.com/flebel/oh-my-zsh.git ~/.oh-my-zhs
 git clone git://github.com/kennethreitz/autoenv.git ~/.autoenv
 git clone git://github.com/creationix/nvm.git ~/nvm
 
