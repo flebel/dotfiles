@@ -48,7 +48,7 @@ URxvt*font:     -xos4-terminus-medium-*-*-*-12-*-*-*-*-*-iso8859-2
 URxvt*boldFont: -xos4-terminus-bold-*-*-*-12-*-*-*-*-*-iso8859-2
 !
 ! Cursor
-URxvt*cursorColor: #DCDCCC
+URxvt*cursorColor: #657b83
 ! URLs
 URxvt*.colorUL:    #ffffff
 !
