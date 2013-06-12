@@ -37,7 +37,7 @@ CASE_SENSITIVE="true"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(autoenv bower cp django git screen svn tmux vi-mode)
+plugins=(autoenv bower cp django git mercurial screen svn tmux vi-mode)
 
 source $ZSH/oh-my-zsh.sh
 
