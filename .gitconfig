@@ -1,0 +1,21 @@
+[alias]
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)%Creset' --abbrev-commit
+	unpack-refs = "!bash -c 'IFS=$''\\n''; for f in $(git show-ref --heads); do /bin/echo ''Writing  '' $(echo $f | cut -c42-); echo $(echo $f | cut -c1-40) > \"${GIT_DIR:-.git}/$(echo $f | cut -c42-)\"; done'"
+
+[color]
+	ui = true
+
+[core]
+	editor = vim
+	filemode = false
+
+[help]
+	autocorrect = 1
+
+[merge]
+	tool = meld
+
+[user]
+	email = francoislebel@gmail.com
+	name = Francois Lebel
+
