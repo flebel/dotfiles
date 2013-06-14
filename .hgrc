@@ -1,0 +1,7 @@
+[extensions]
+hgk=
+
+[ui]
+username = Francois Lebel <francoislebel@gmail.com>
+verbose = True
+
