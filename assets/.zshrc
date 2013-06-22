@@ -12,7 +12,7 @@ MODE_INDICATOR="COMMAND %{$fg_bold[red]%}<%{$fg[red]%}<<%{$reset_color%}"
 CASE_SENSITIVE="true"
 
 # Comment this out to disable bi-weekly auto-update checks
-# DISABLE_AUTO_UPDATE="true"
+DISABLE_AUTO_UPDATE="true"
 
 # Uncomment to change how often before auto-updates occur? (in days)
 # export UPDATE_ZSH_DAYS=13
