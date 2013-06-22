@@ -85,6 +85,8 @@ function parse_url_json()
   curl -s "$@" | python -mjson.tool
 }
 
+alias l=less
+
 #
 # Key bindings
 #
