@@ -9,6 +9,7 @@ git clone git://github.com/creationix/nvm.git ~/nvm
 
 ln -s ${ASSETS}/.Xdefaults ~/.Xdefaults
 ln -s ${ASSETS}/.gitconfig ~/.gitconfig
+ln -s ${ASSETS}/.grepoptions ~/.grepoptions
 ln -s ${ASSETS}/.hgrc ~/.hgrc
 ln -s ${ASSETS}/.inputrc ~/.inputrc
 ln -s ${ASSETS}/.zshrc ~/.zshrc

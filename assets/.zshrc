@@ -141,6 +141,27 @@ zle -N down-line-or-beginning-search
 bindkey "^[[A" up-line-or-beginning-search # Up
 bindkey "^[[B" down-line-or-beginning-search # Down
 
+local -a precmd_functions
+function grep_options() {
+  local -a opts
+  local proj_opts=${PWD}/.grepoptions
+
+  # Grab the global options
+  if [[ -e ${HOME}/.grepoptions ]] ; then
+    opts=( ${(f)"$(< "${HOME}/.grepoptions")"} )
+  fi
+
+  # Grab any project-local options
+  if [[ -r ${proj_opts} ]] ; then
+   opts+=( ${${(f)"$(< "${proj_opts}")"}:#[#]*} )
+  fi
+
+  # Assemble and export
+  GREP_OPTIONS="${(j: :)opts}"
+  export GREP_OPTIONS
+}
+precmd_functions=( grep_options )
+
 
 if [ -f ~/.zshrc_local ]; then
   . ~/.zshrc_local
