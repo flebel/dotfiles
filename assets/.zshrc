@@ -41,6 +41,13 @@ plugins=(autoenv bower cp django git mercurial screen svn tmux vi-mode)
 
 source $ZSH/oh-my-zsh.sh
 
+HISTFILE=$HOME/.zhistory
+setopt APPEND_HISTORY
+HISTSIZE=5500
+SAVEHIST=5000
+setopt HIST_EXPIRE_DUPS_FIRST
+setopt EXTENDED_HISTORY
+
 export GREP_COLOR="1;32"
 export GREP_OPTIONS="--color=auto"
 
