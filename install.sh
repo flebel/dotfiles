@@ -6,9 +6,11 @@ SCRIPTS=`pwd`/scripts
 SCRIPTS_FILES=`find $SCRIPTS -maxdepth 1 -type f`
 
 chsh -s /bin/zsh
-git clone git://github.com/flebel/oh-my-zsh.git ~/.oh-my-zhs
-git clone git://github.com/kennethreitz/autoenv.git ~/.autoenv
-git clone git://github.com/creationix/nvm.git ~/nvm
+git submodule init
+git submodule update
+ln -s `pwd`/oh-my-zsh ~/.oh-my-zsh
+ln -s `pwd`/autoenv ~/.autoenv
+ln -s `pwd`/nvm ~/.nvm
 
 mkdir -p ~/dotfiles_backup/assets > /dev/null 2>&1
 for f in $ASSETS_FILES; do
