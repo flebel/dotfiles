@@ -1,3 +1,4 @@
 --color=auto
 --exclude-dir=.git
+-r
 
