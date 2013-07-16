@@ -8,9 +8,10 @@ SCRIPTS_FILES=`find $SCRIPTS -maxdepth 1 -type f`
 chsh -s /bin/zsh
 git submodule init
 git submodule update
-ln -s `pwd`/oh-my-zsh ~/.oh-my-zsh
 ln -s `pwd`/autoenv ~/.autoenv
 ln -s `pwd`/nvm ~/.nvm
+ln -s `pwd`/oh-my-zsh ~/.oh-my-zsh
+ln -s `pwd`/pyenv ~/.pyenv
 
 mkdir -p ~/dotfiles_backup/assets > /dev/null 2>&1
 for f in $ASSETS_FILES; do
