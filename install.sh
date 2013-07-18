@@ -4,6 +4,7 @@ ASSETS=`pwd`/assets
 ASSETS_FILES=`find $ASSETS -maxdepth 1 -type f`
 SCRIPTS=`pwd`/scripts
 SCRIPTS_FILES=`find $SCRIPTS -maxdepth 1 -type f`
+MISC=`pwd`/misc
 
 chsh -s /bin/zsh
 git submodule init
@@ -27,4 +28,6 @@ for f in $SCRIPTS_FILES; do
   mv ~/$filename ~/dotfiles_backup/scripts/
   ln -s ${SCRIPTS}/$filename ~/scripts/$filename
 done
+
+cp $MISC/50-marblemouse.conf /usr/share/X11/xorg.conf.d/50-marblemouse.conf
 
