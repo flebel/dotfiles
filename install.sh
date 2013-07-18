@@ -29,5 +29,5 @@ for f in $SCRIPTS_FILES; do
   ln -s ${SCRIPTS}/$filename ~/scripts/$filename
 done
 
-cp $MISC/50-marblemouse.conf /usr/share/X11/xorg.conf.d/50-marblemouse.conf
+sudo cp $MISC/50-marblemouse.conf /usr/share/X11/xorg.conf.d/50-marblemouse.conf
 
