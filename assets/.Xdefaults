@@ -33,7 +33,7 @@ URxvt*internalBorder:        0
 ! https://github.com/muennich/urxvt-perls.git
 URxvt*perl-lib:        ~/bin/urxvt-perls/
 URxvt*perl-ext-common: default,clipboard,matcher,searchable-scrollback
-URxvt*urlLauncher:     firefox
+URxvt*urlLauncher:     google-chrome
 URxvt*matcher.button:  1
 ! Catch ugly URLs
 URxvt*cutchars:        '"'()*<>[]{|}
