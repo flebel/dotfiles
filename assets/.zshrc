@@ -37,7 +37,25 @@ DISABLE_AUTO_UPDATE="true"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(autoenv bower cp django git git-flow mercurial screen svn tmux vi-mode)
+plugins=(autoenv bower cp django git git-flow mercurial screen ssh-agent svn tmux vi-mode)
+
+SSH_ENV="$HOME/.ssh/agent-info"
+function start_agent {
+  echo -n 'Initializing SSH agent... '
+  /usr/bin/ssh-agent | sed 's/^echo/#echo/' > "${SSH_ENV}"
+  echo 'succeeded.'
+  chmod 600 "${SSH_ENV}"
+  . "${SSH_ENV}" > /dev/null
+  /usr/bin/ssh-add;
+}
+if [ -f "${SSH_ENV}" ]; then
+  . "${SSH_ENV}" > /dev/null
+  ps -e | grep ${SSH_AGENT_PID} | grep ssh-agent$ > /dev/null || {
+    start_agent;
+  }
+else
+  start_agent;
+fi
 
 source $ZSH/oh-my-zsh.sh
 
