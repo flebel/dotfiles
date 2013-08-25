@@ -2,6 +2,7 @@
 
 ASSETS=`pwd`/assets
 ASSETS_FILES=`find $ASSETS -maxdepth 1 -type f`
+ICONS=`pwd`/icons
 SCRIPTS=`pwd`/scripts
 SCRIPTS_FILES=`find $SCRIPTS -maxdepth 1 -type f`
 MISC=`pwd`/misc
@@ -30,4 +31,6 @@ for f in $SCRIPTS_FILES; do
 done
 
 sudo cp $MISC/50-marblemouse.conf /usr/share/X11/xorg.conf.d/50-marblemouse.conf
+
+cp ${ICONS}/* ~/.local/share/subtle/icons/
 
