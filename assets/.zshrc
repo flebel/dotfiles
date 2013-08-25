@@ -115,6 +115,11 @@ alias h=head
 alias l=less
 alias t=tail
 
+alias lb="usblamp -d 1000 blue blue white blue white blue white blue"
+alias lg="usblamp -d 1000 green green white green white green white green"
+alias lo="usblamp off"
+alias lr="usblamp -d 1000 red red white red white red white red"
+
 #
 # Key bindings
 #
