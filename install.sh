@@ -33,4 +33,5 @@ done
 sudo cp $MISC/50-marblemouse.conf /usr/share/X11/xorg.conf.d/50-marblemouse.conf
 
 cp ${ICONS}/* ~/.local/share/subtle/icons/
+sur install battery clock layout loadavg textfile
 
