@@ -1,4 +1,5 @@
 --color=auto
+--exclude=*.pyc
 --exclude-dir=.git
 -n
 -r
