@@ -75,8 +75,6 @@ source /usr/local/bin/virtualenvwrapper.sh
 
 source ~/.autoenv/activate.sh
 
-. ~/.nvm/nvm.sh
-
 #
 # Aliases
 #
