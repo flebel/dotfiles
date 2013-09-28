@@ -10,3 +10,12 @@
 [submodule "pyenv"]
 	path = pyenv
 	url = git://github.com/yyuu/pyenv.git
+[submodule "vim-colors-solarized"]
+	path = vim-colors-solarized
+	url = git://github.com/altercation/vim-colors-solarized
+[submodule "vim-pathogen"]
+	path = vim-pathogen
+	url = git://github.com/tpope/vim-pathogen
+[submodule "vim-vividchalk"]
+	path = vim-vividchalk
+	url = git://github.com/tpope/vim-vividchalk

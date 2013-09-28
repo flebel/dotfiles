@@ -7,13 +7,15 @@ SCRIPTS=`pwd`/scripts
 SCRIPTS_FILES=`find $SCRIPTS -maxdepth 1 -type f`
 MISC=`pwd`/misc
 
-chsh -s /bin/zsh
+# Submodules
 git submodule init
 git submodule update
 ln -s `pwd`/autoenv ~/.autoenv
 ln -s `pwd`/nvm ~/.nvm
 ln -s `pwd`/oh-my-zsh ~/.oh-my-zsh
 ln -s `pwd`/pyenv ~/.pyenv
+
+chsh -s /bin/zsh
 
 mkdir -p ~/dotfiles_backup/assets > /dev/null 2>&1
 for f in $ASSETS_FILES; do
@@ -33,6 +35,13 @@ done
 
 sudo cp $MISC/50-marblemouse.conf /usr/share/X11/xorg.conf.d/50-marblemouse.conf
 
+# Subtle window manager
 cp ${ICONS}/* ~/.local/share/subtle/icons/
 sur install battery clock layout loadavg textfile
+
+# Vim
+mkdir -p ~/.vim/autoload ~/.vim/bundle
+ln -s `pwd`/vim-pathogen/autoload/pathogen.vim ~/.vim/autoload/pathogen.vim
+ln -s `pwd`/vim-colors-solarized ~/.vim/bundle/
+ln -s `pwd`/vim-vividchalk ~/.vim/bundle/
 
