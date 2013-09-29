@@ -160,6 +160,12 @@ set backupdir=$MYBACKUPDIR
 " Sensible list of files we don't want backed up
 set backupskip=/tmp/*,/private/tmp/*,/var/tmp/tmp/*,$TMPDIR/*,$TMP/*,$TEMP/*
 
+" Format JSON: \-j
+map <Leader>j !python -m json.tool<CR>
+
+" Format XML: \-x
+map <Leader>x !tidy -xml -q -i<CR>
+
 if filereadable($HOME . "/.vimrc_local")
   source $HOME/.vimrc_local
 endif
