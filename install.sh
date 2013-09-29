@@ -23,7 +23,9 @@ for f in $ASSETS_FILES; do
   mv ~/$filename ~/dotfiles_backup/assets/
   ln -s ${ASSETS}/$filename ~/$filename
 done
+
 ln -s ${ASSETS_FILES}/.pip ~/.pip
+ln -s ${ASSETS_FILES}/.vim ~/.vim
 
 mkdir ~/scripts > /dev/null 2>&1
 mkdir -p ~/dotfiles_backup/scripts > /dev/null 2>&1
