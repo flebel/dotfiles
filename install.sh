@@ -42,7 +42,9 @@ cp ${ICONS}/* ~/.local/share/subtle/icons/
 sur install battery clock layout loadavg textfile
 
 # Vim
+sudo pip install jedi
 mkdir -p ~/.vim/autoload ~/.vim/bundle
+ln -s `pwd`/jedi-vim ~/.vim/bundle/
 ln -s `pwd`/vim-pathogen/autoload/pathogen.vim ~/.vim/autoload/pathogen.vim
 ln -s `pwd`/vim-colors-solarized ~/.vim/bundle/
 ln -s `pwd`/vim-vividchalk ~/.vim/bundle/
