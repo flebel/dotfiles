@@ -166,6 +166,16 @@ map <Leader>j !python -m json.tool<CR>
 " Format XML: \-x
 map <Leader>x !tidy -xml -q -i<CR>
 
+" http://jeffkreeftmeijer.com/2012/relative-line-numbers-in-vim-for-super-fast-movement/
+function! NumberToggle()
+  if(&relativenumber == 1)
+    set number
+  else
+    set relativenumber
+  endif
+endfunc
+nnoremap <C-l> :call NumberToggle()<CR>
+
 if filereadable($HOME . "/.vimrc_local")
   source $HOME/.vimrc_local
 endif
