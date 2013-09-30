@@ -1,21 +1,21 @@
 [submodule "oh-my-zsh"]
 	path = oh-my-zsh
-	url = git://github.com/flebel/oh-my-zsh.git
+	url = https://github.com/flebel/oh-my-zsh.git
 [submodule "autoenv"]
 	path = autoenv
-	url = git://github.com/kennethreitz/autoenv.git
+	url = https://github.com/kennethreitz/autoenv.git
 [submodule "nvm"]
 	path = nvm
-	url = git://github.com/creationix/nvm.git
+	url = https://github.com/creationix/nvm.git
 [submodule "pyenv"]
 	path = pyenv
-	url = git://github.com/yyuu/pyenv.git
+	url = https://github.com/yyuu/pyenv.git
 [submodule "vim-colors-solarized"]
 	path = vim-colors-solarized
-	url = git://github.com/altercation/vim-colors-solarized
+	url = https://github.com/altercation/vim-colors-solarized
 [submodule "vim-pathogen"]
 	path = vim-pathogen
-	url = git://github.com/tpope/vim-pathogen
+	url = https://github.com/tpope/vim-pathogen
 [submodule "vim-vividchalk"]
 	path = vim-vividchalk
-	url = git://github.com/tpope/vim-vividchalk
+	url = https://github.com/tpope/vim-vividchalk
