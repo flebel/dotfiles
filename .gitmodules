@@ -25,6 +25,12 @@
 [submodule "vim-vividchalk"]
 	path = vim-vividchalk
 	url = https://github.com/tpope/vim-vividchalk
+[submodule "vim-surround"]
+	path = vim-surround
+	url = https://github.com/tpope/vim-surround.git
+[submodule "vim-repeat"]
+	path = vim-repeat
+	url = https://github.com/tpope/vim-repeat.git
 [submodule "supertab"]
 	path = supertab
 	url = https://github.com/ervandew/supertab.git
