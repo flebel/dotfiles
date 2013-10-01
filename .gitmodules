@@ -16,6 +16,9 @@
 [submodule "vim-colors-solarized"]
 	path = vim-colors-solarized
 	url = https://github.com/altercation/vim-colors-solarized
+[submodule "vim-commentary"]
+	path = vim-commentary
+	url = https://github.com/tpope/vim-commentary.git
 [submodule "vim-multiple-cursors"]
 	path = vim-multiple-cursors
 	url = https://github.com/terryma/vim-multiple-cursors.git
