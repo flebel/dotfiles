@@ -24,9 +24,7 @@ URxvt*internalBorder:        0
 !URxvt*externalBorder:       0
 !
 ! Extensions
-! https://github.com/muennich/urxvt-perls.git
-URxvt*perl-lib:        ~/bin/urxvt-perls/
-URxvt*perl-ext-common: default,clipboard,matcher,searchable-scrollback
+URxvt*perl-ext-common: default,clipboard,font-size,matcher,searchable-scrollback
 URxvt*urlLauncher:     google-chrome
 URxvt*matcher.button:  1
 ! Catch ugly URLs
@@ -36,6 +34,12 @@ URxvt*cutchars:        '"'()*<>[]{|}
 URxvt.keysym.M-c:   perl:clipboard:copy
 URxvt.keysym.M-v:   perl:clipboard:paste
 URxvt.keysym.M-C-v: perl:clipboard:paste_escaped
+!
+! Font-size
+URxvt.keysym.C-Up:     perl:font-size:increase
+URxvt.keysym.C-Down:   perl:font-size:decrease
+URxvt.keysym.C-S-Up:   perl:font-size:incglobal
+URxvt.keysym.C-S-Down: perl:font-size:decglobal
 !
 ! Appearance
 URxvt*font:     -xos4-terminus-medium-*-*-*-12-*-*-*-*-*-iso8859-2

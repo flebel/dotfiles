@@ -43,6 +43,9 @@ sur install battery clock layout loadavg textfile
 
 # Vim
 sudo pip install jedi
+mkdir -p ~/.urxvt/ext
+ln -s `pwd`/urxvt-perls/clipboard ~/.urxvt/ext/
+ln -s `pwd`/urxvt-font-size/font-size ~/.urxvt/ext/
 mkdir -p ~/.vim/autoload ~/.vim/bundle
 ln -s `pwd`/jedi-vim ~/.vim/bundle/
 ln -s `pwd`/vim-pathogen/autoload/pathogen.vim ~/.vim/autoload/pathogen.vim
