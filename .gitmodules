@@ -1,6 +1,9 @@
 [submodule "autoenv"]
 	path = autoenv
 	url = https://github.com/kennethreitz/autoenv.git
+[submodule "ctrlp.vim"]
+	path = ctrlp.vim
+	url = https://github.com/kien/ctrlp.vim.git
 [submodule "jedi-vim"]
 	path = jedi-vim
 	url = https://github.com/davidhalter/jedi-vim.git
