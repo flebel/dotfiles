@@ -164,6 +164,8 @@ let g:ctrlp_extensions = ['funky']
 nnoremap <Leader>f :CtrlPFunky<Cr>
 nnoremap <Leader>F :execute 'CtrlPFunky ' . expand('<cword>')<Cr>
 
+let g:session_autosave_periodic = 5
+
 " Format JSON: \-j
 map <Leader>j !python -m json.tool<CR>
 
