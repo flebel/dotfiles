@@ -51,11 +51,12 @@ ln -s `pwd`/ctrlp.vim ~/.vim/bundle/
 ln -s `pwd`/ctrlp-funky ~/.vim/bundle/
 ln -s `pwd`/jedi-vim ~/.vim/bundle/
 ln -s `pwd`/minibufexpl.vim ~/.vim/bundle/
-ln -s `pwd`/vim-pathogen/autoload/pathogen.vim ~/.vim/autoload/pathogen.vim
+ln -s `pwd`/vim-autoclose ~/.vim/bundle/
 ln -s `pwd`/vim-colors-solarized ~/.vim/bundle/
 ln -s `pwd`/vim-commentary ~/.vim/bundle/
 ln -s `pwd`/vim-misc ~/.vim/bundle/
 ln -s `pwd`/vim-multiple-cursors ~/.vim/bundle/
+ln -s `pwd`/vim-pathogen/autoload/pathogen.vim ~/.vim/autoload/pathogen.vim
 ln -s `pwd`/vim-repeat ~/.vim/bundle/
 ln -s `pwd`/vim-session ~/.vim/bundle/
 ln -s `pwd`/vim-speeddating ~/.vim/bundle/

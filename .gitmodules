@@ -28,6 +28,9 @@
 [submodule "urxvt-perls"]
 	path = urxvt-perls
 	url = https://github.com/muennich/urxvt-perls.git
+[submodule "vim-autoclose"]
+	path = vim-autoclose
+	url = https://github.com/Townk/vim-autoclose.git
 [submodule "vim-colors-solarized"]
 	path = vim-colors-solarized
 	url = https://github.com/altercation/vim-colors-solarized
