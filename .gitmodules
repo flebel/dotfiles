@@ -1,6 +1,9 @@
 [submodule "autoenv"]
 	path = autoenv
 	url = https://github.com/kennethreitz/autoenv.git
+[submodule "clever-f.vim"]
+	path = clever-f.vim
+	url = https://github.com/rhysd/clever-f.vim.git
 [submodule "ctrlp.vim"]
 	path = ctrlp.vim
 	url = https://github.com/kien/ctrlp.vim.git
