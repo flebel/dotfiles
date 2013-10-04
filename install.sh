@@ -50,6 +50,7 @@ mkdir -p ~/.vim/autoload ~/.vim/bundle
 ln -s `pwd`/ctrlp.vim ~/.vim/bundle/
 ln -s `pwd`/ctrlp-funky ~/.vim/bundle/
 ln -s `pwd`/jedi-vim ~/.vim/bundle/
+ln -s `pwd`/minibufexpl.vim ~/.vim/bundle/
 ln -s `pwd`/vim-pathogen/autoload/pathogen.vim ~/.vim/autoload/pathogen.vim
 ln -s `pwd`/vim-colors-solarized ~/.vim/bundle/
 ln -s `pwd`/vim-commentary ~/.vim/bundle/

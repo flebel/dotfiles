@@ -164,6 +164,11 @@ let g:ctrlp_extensions = ['funky']
 nnoremap <Leader>f :CtrlPFunky<Cr>
 nnoremap <Leader>F :execute 'CtrlPFunky ' . expand('<cword>')<Cr>
 
+" minibufexpl
+noremap gt :MBEbf<CR>
+noremap gT :MBEbb<CR>
+let g:miniBufExplUseSingleClick = 1
+
 let g:session_autosave_periodic = 5
 
 " Format JSON: \-j

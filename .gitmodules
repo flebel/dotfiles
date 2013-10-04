@@ -10,6 +10,9 @@
 [submodule "jedi-vim"]
 	path = jedi-vim
 	url = https://github.com/davidhalter/jedi-vim.git
+[submodule "minibufexpl.vim"]
+	path = minibufexpl.vim
+	url = https://github.com/fholgado/minibufexpl.vim.git
 [submodule "nvm"]
 	path = nvm
 	url = https://github.com/creationix/nvm.git
