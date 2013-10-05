@@ -47,6 +47,8 @@ mkdir -p ~/.urxvt/ext
 ln -s `pwd`/urxvt-perls/clipboard ~/.urxvt/ext/
 ln -s `pwd`/urxvt-font-size/font-size ~/.urxvt/ext/
 mkdir -p ~/.vim/autoload ~/.vim/bundle
+ln -s `pwd`/accelerated-jk ~/.vim/bundle/
+ln -s `pwd`/clever-f.vim ~/.vim/bundle/
 ln -s `pwd`/ctrlp.vim ~/.vim/bundle/
 ln -s `pwd`/ctrlp-funky ~/.vim/bundle/
 ln -s `pwd`/jedi-vim ~/.vim/bundle/
