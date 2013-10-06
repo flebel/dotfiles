@@ -80,6 +80,10 @@ set autoindent nocindent nosmartindent
 highlight OverLength ctermbg=black ctermfg=220 guibg=black guifg=#ffd700
 match OverLength /\%81v.\+/
 
+" Color customizations
+highlight Comment ctermfg=100 guifg=#878700
+highlight Normal ctermfg=white ctermbg=black
+
 " Inform sh syntax that /bin/sh is actually bash
 let is_bash=1
 
