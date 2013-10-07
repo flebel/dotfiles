@@ -65,4 +65,5 @@ ln -s `pwd`/vim-speeddating ~/.vim/bundle/
 ln -s `pwd`/vim-surround ~/.vim/bundle/
 ln -s `pwd`/vim-vividchalk ~/.vim/bundle/
 ln -s `pwd`/supertab ~/.vim/bundle/
+ln -s `pwd`/syntastic ~/.vim/bundle/
 
