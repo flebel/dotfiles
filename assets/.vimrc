@@ -193,7 +193,7 @@ function! NumberToggle()
     set relativenumber
   endif
 endfunc
-nnoremap <C-l> :call NumberToggle()<CR>
+nnoremap <Leader>l :call NumberToggle()<CR>
 
 if filereadable($HOME . "/.vimrc_local")
   source $HOME/.vimrc_local
