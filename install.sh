@@ -56,6 +56,7 @@ ln -s `pwd`/minibufexpl.vim ~/.vim/bundle/
 ln -s `pwd`/vim-autoclose ~/.vim/bundle/
 ln -s `pwd`/vim-colors-solarized ~/.vim/bundle/
 ln -s `pwd`/vim-commentary ~/.vim/bundle/
+ln -s `pwd`/vim-fugitive ~/.vim/bundle/
 ln -s `pwd`/vim-misc ~/.vim/bundle/
 ln -s `pwd`/vim-multiple-cursors ~/.vim/bundle/
 ln -s `pwd`/vim-pathogen/autoload/pathogen.vim ~/.vim/autoload/pathogen.vim
