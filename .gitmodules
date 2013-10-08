@@ -19,6 +19,9 @@
 [submodule "minibufexpl.vim"]
 	path = minibufexpl.vim
 	url = https://github.com/fholgado/minibufexpl.vim.git
+[submodule "nerdtree"]
+	path = nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
 [submodule "nvm"]
 	path = nvm
 	url = https://github.com/creationix/nvm.git
