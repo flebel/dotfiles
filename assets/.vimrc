@@ -184,6 +184,9 @@ autocmd vimenter * if !argc() | NERDTree | endif
 " Close vim if the only window left open is a NERDTree
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 
+" Tagbar
+nmap <Leader>k :TagbarToggle<CR>
+
 let g:session_autosave_periodic = 5
 
 " Format JSON: \-j

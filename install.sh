@@ -42,6 +42,7 @@ cp ${ICONS}/* ~/.local/share/subtle/icons/
 sur install battery clock layout loadavg textfile
 
 # Vim
+# Tagbar requires ctags-exuberant
 sudo pip install jedi
 mkdir -p ~/.urxvt/ext
 ln -s `pwd`/urxvt-perls/clipboard ~/.urxvt/ext/
@@ -53,6 +54,7 @@ ln -s `pwd`/ctrlp.vim ~/.vim/bundle/
 ln -s `pwd`/ctrlp-funky ~/.vim/bundle/
 ln -s `pwd`/jedi-vim ~/.vim/bundle/
 ln -s `pwd`/minibufexpl.vim ~/.vim/bundle/
+ln -s `pwd`/tagbar ~/.vim/bundle/
 ln -s `pwd`/vim-autoclose ~/.vim/bundle/
 ln -s `pwd`/vim-colors-solarized ~/.vim/bundle/
 ln -s `pwd`/vim-commentary ~/.vim/bundle/
