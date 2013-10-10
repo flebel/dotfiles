@@ -113,6 +113,7 @@ alias h=head
 alias l=less
 alias t=tail
 alias httpserv="python -m SimpleHTTPServer"
+alias smtpserv="python -m smtpd -n -c DebuggingServer localhost:2525"
 
 alias lb="(usblamp -d 1000 blue blue white blue white blue white blue &)"
 alias lg="(usblamp -d 1000 green green white green white green white green &)"
