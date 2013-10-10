@@ -31,6 +31,15 @@
 [submodule "pyenv"]
 	path = pyenv
 	url = https://github.com/yyuu/pyenv.git
+[submodule "supertab"]
+	path = supertab
+	url = https://github.com/ervandew/supertab.git
+[submodule "syntastic"]
+	path = syntastic
+	url = https://github.com/scrooloose/syntastic.git
+[submodule "tagbar"]
+	path = tagbar
+	url = https://github.com/majutsushi/tagbar.git
 [submodule "urxvt-font-size"]
 	path = urxvt-font-size
 	url = https://github.com/majutsushi/urxvt-font-size.git
@@ -73,12 +82,3 @@
 [submodule "vim-vividchalk"]
 	path = vim-vividchalk
 	url = https://github.com/tpope/vim-vividchalk
-[submodule "tagbar"]
-	path = tagbar
-	url = https://github.com/majutsushi/tagbar.git
-[submodule "supertab"]
-	path = supertab
-	url = https://github.com/ervandew/supertab.git
-[submodule "syntastic"]
-	path = syntastic
-	url = https://github.com/scrooloose/syntastic.git
