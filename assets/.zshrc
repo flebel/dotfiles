@@ -112,6 +112,7 @@ function parse_url_json()
 alias h=head
 alias l=less
 alias t=tail
+alias httpserv="python -m SimpleHTTPServer"
 
 alias lb="(usblamp -d 1000 blue blue white blue white blue white blue &)"
 alias lg="(usblamp -d 1000 green green white green white green white green &)"
