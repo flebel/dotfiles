@@ -6,14 +6,18 @@ ICONS=`pwd`/icons
 SCRIPTS=`pwd`/scripts
 SCRIPTS_FILES=`find $SCRIPTS -maxdepth 1 -type f`
 MISC=`pwd`/misc
+SUBMODULES=`pwd`/submodules
 
 # Submodules
 git submodule init
 git submodule update
-ln -s `pwd`/autoenv ~/.autoenv
-ln -s `pwd`/nvm ~/.nvm
-ln -s `pwd`/oh-my-zsh ~/.oh-my-zsh
-ln -s `pwd`/pyenv ~/.pyenv
+ln -s ${SUBMODULES}/autoenv ~/.autoenv
+ln -s ${SUBMODULES}/nvm ~/.nvm
+ln -s ${SUBMODULES}/oh-my-zsh ~/.oh-my-zsh
+ln -s ${SUBMODULES}/pyenv ~/.pyenv
+mkdir -p ~/.urxvt/ext
+ln -s ${SUBMODULES}/submodules/urxvt-font-size/font-size ~/.urxvt/ext/
+ln -s ${SUBMODULES}/submodules/urxvt-perls/clipboard ~/.urxvt/ext/
 
 chsh -s /bin/zsh
 
@@ -44,30 +48,6 @@ sur install battery clock layout loadavg textfile
 # Vim
 # Tagbar requires ctags-exuberant
 sudo pip install jedi
-mkdir -p ~/.urxvt/ext
-ln -s `pwd`/urxvt-perls/clipboard ~/.urxvt/ext/
-ln -s `pwd`/urxvt-font-size/font-size ~/.urxvt/ext/
 mkdir -p ~/.vim/autoload ~/.vim/bundle
-ln -s `pwd`/accelerated-jk ~/.vim/bundle/
-ln -s `pwd`/clever-f.vim ~/.vim/bundle/
-ln -s `pwd`/ctrlp.vim ~/.vim/bundle/
-ln -s `pwd`/ctrlp-funky ~/.vim/bundle/
-ln -s `pwd`/jedi-vim ~/.vim/bundle/
-ln -s `pwd`/minibufexpl.vim ~/.vim/bundle/
-ln -s `pwd`/tagbar ~/.vim/bundle/
-ln -s `pwd`/vim-autoclose ~/.vim/bundle/
-ln -s `pwd`/vim-colors-solarized ~/.vim/bundle/
-ln -s `pwd`/vim-commentary ~/.vim/bundle/
-ln -s `pwd`/vim-fugitive ~/.vim/bundle/
-ln -s `pwd`/vim-misc ~/.vim/bundle/
-ln -s `pwd`/vim-multiple-cursors ~/.vim/bundle/
-ln -s `pwd`/nerdtree ~/.vim/bundle/
-ln -s `pwd`/vim-pathogen/autoload/pathogen.vim ~/.vim/autoload/pathogen.vim
-ln -s `pwd`/vim-repeat ~/.vim/bundle/
-ln -s `pwd`/vim-session ~/.vim/bundle/
-ln -s `pwd`/vim-speeddating ~/.vim/bundle/
-ln -s `pwd`/vim-surround ~/.vim/bundle/
-ln -s `pwd`/vim-vividchalk ~/.vim/bundle/
-ln -s `pwd`/supertab ~/.vim/bundle/
-ln -s `pwd`/syntastic ~/.vim/bundle/
+ln -s ~/.vim/bundle/vim-pathogen/autoload/pathogen.vim ~/.vim/autoload/
 
