@@ -16,6 +16,9 @@
 [submodule "assets/.vim/bundle/minibufexpl.vim"]
 	path = assets/.vim/bundle/minibufexpl.vim
 	url = https://github.com/fholgado/minibufexpl.vim.git
+[submodule "assets/.vim/bundle/molokai"]
+	path = assets/.vim/bundle/molokai
+	url = https://github.com/tomasr/molokai.git
 [submodule "assets/.vim/bundle/nerdtree"]
 	path = assets/.vim/bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
