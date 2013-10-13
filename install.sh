@@ -47,7 +47,7 @@ sur install battery clock layout loadavg textfile
 
 # Vim
 # Tagbar requires ctags-exuberant
-sudo pip install jedi
+sudo pip install jedi isort
 mkdir -p ~/.vim/autoload ~/.vim/bundle
 ln -s ~/.vim/bundle/vim-pathogen/autoload/pathogen.vim ~/.vim/autoload/
 
