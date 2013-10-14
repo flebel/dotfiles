@@ -22,6 +22,9 @@
 [submodule "assets/.vim/bundle/molokai"]
 	path = assets/.vim/bundle/molokai
 	url = https://github.com/tomasr/molokai.git
+[submodule "assets/.vim/bundle/mru.vim"]
+	path = assets/.vim/bundle/mru.vim
+	url = https://github.com/vim-scripts/mru.vim.git
 [submodule "assets/.vim/bundle/nerdtree"]
 	path = assets/.vim/bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
