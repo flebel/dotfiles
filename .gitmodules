@@ -19,6 +19,9 @@
 [submodule "assets/.vim/bundle/ctrlp-funky"]
 	path = assets/.vim/bundle/ctrlp-funky
 	url = https://github.com/tacahiroy/ctrlp-funky.git
+[submodule "assets/.vim/bundle/desert.vim"]
+	path = assets/.vim/bundle/desert.vim
+	url = https://github.com/fugalh/desert.vim.git
 [submodule "assets/.vim/bundle/jedi-vim"]
 	path = assets/.vim/bundle/jedi-vim
 	url = https://github.com/davidhalter/jedi-vim.git
