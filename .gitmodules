@@ -1,6 +1,9 @@
 [submodule "assets/.vim/bundle/Zenburn"]
 	path = assets/.vim/bundle/Zenburn
 	url = https://github.com/jnurmine/Zenburn.git
+[submodule "assets/.vim/bundle/SearchComplete"]
+	path = assets/.vim/bundle/SearchComplete
+	url = https://github.com/vim-scripts/SearchComplete.git
 [submodule "assets/.vim/bundle/accelerated-jk"]
 	path = assets/.vim/bundle/accelerated-jk
 	url = https://github.com/rhysd/accelerated-jk.git
