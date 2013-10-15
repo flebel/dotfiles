@@ -189,6 +189,9 @@ nmap <Leader>k :TagbarToggle<CR>
 
 let g:session_autosave_periodic = 5
 
+" YankRing
+nnoremap <Leader>y :YRShow<CR>
+
 " Format JSON: \-j
 map <Leader>j !python -m json.tool<CR>
 

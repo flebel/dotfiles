@@ -4,6 +4,9 @@
 [submodule "assets/.vim/bundle/SearchComplete"]
 	path = assets/.vim/bundle/SearchComplete
 	url = https://github.com/vim-scripts/SearchComplete.git
+[submodule "assets/.vim/bundle/YankRing"]
+	path = assets/.vim/bundle/YankRing
+	url = https://github.com/vim-scripts/YankRing.vim.git
 [submodule "assets/.vim/bundle/accelerated-jk"]
 	path = assets/.vim/bundle/accelerated-jk
 	url = https://github.com/rhysd/accelerated-jk.git
