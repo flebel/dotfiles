@@ -1,3 +1,6 @@
+[submodule "assets/.vim/bundle/Conque-Shell"]
+	path = assets/.vim/bundle/Conque-Shell
+	url = https://github.com/vim-scripts/Conque-Shell.git
 [submodule "assets/.vim/bundle/Zenburn"]
 	path = assets/.vim/bundle/Zenburn
 	url = https://github.com/jnurmine/Zenburn.git
