@@ -15,6 +15,7 @@ ln -s ${SUBMODULES}/autoenv ~/.autoenv
 ln -s ${SUBMODULES}/nvm ~/.nvm
 ln -s ${SUBMODULES}/oh-my-zsh ~/.oh-my-zsh
 ln -s ${SUBMODULES}/pyenv ~/.pyenv
+ln -s ${SUBMODULES}/zsh-fuzzy-match ~/.zsh-fuzzy-match
 mkdir -p ~/.urxvt/ext
 ln -s ${SUBMODULES}/submodules/urxvt-font-size/font-size ~/.urxvt/ext/
 ln -s ${SUBMODULES}/submodules/urxvt-perls/clipboard ~/.urxvt/ext/

@@ -106,3 +106,6 @@
 [submodule "submodules/urxvt-perls"]
 	path = submodules/urxvt-perls
 	url = https://github.com/muennich/urxvt-perls.git
+[submodule "submodules/zsh-fuzzy-match"]
+	path = submodules/zsh-fuzzy-match
+	url = https://github.com/tarruda/zsh-fuzzy-match.git

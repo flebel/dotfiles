@@ -75,6 +75,8 @@ source /usr/local/bin/virtualenvwrapper.sh
 
 source ~/.autoenv/activate.sh
 
+source ~/.zsh-fuzzy-match/fuzzy-match.zsh
+
 #
 # Aliases
 #
