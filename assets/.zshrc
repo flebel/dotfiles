@@ -75,6 +75,8 @@ source /usr/local/bin/virtualenvwrapper.sh
 
 source ~/.autoenv/activate.sh
 
+source ~/.zsh/plugins/bd/bd.zsh
+
 source ~/.zsh-fuzzy-match/fuzzy-match.zsh
 
 #
