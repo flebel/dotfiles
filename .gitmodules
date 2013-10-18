@@ -58,6 +58,9 @@
 [submodule "assets/.vim/bundle/vim-commentary"]
 	path = assets/.vim/bundle/vim-commentary
 	url = https://github.com/tpope/vim-commentary.git
+[submodule "assets/.vim/bundle/vim-css-color"]
+	path = assets/.vim/bundle/vim-css-color
+	url = https://github.com/skammer/vim-css-color.git
 [submodule "assets/.vim/bundle/vim-fugitive"]
 	path = assets/.vim/bundle/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive.git
