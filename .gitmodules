@@ -100,6 +100,9 @@
 [submodule "submodules/pyenv"]
 	path = submodules/pyenv
 	url = https://github.com/yyuu/pyenv.git
+[submodule "assets/.vim/bundle/renamer.vim"]
+	path = assets/.vim/bundle/renamer.vim
+	url = https://github.com/vim-scripts/renamer.vim.git
 [submodule "submodules/urxvt-font-size"]
 	path = submodules/urxvt-font-size
 	url = https://github.com/majutsushi/urxvt-font-size.git
