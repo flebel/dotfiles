@@ -79,6 +79,9 @@
 [submodule "assets/.vim/bundle/vim-repeat"]
 	path = assets/.vim/bundle/vim-repeat
 	url = https://github.com/tpope/vim-repeat.git
+[submodule "assets/.vim/bundle/vim-rooter"]
+	path = assets/.vim/bundle/vim-rooter
+	url = https://github.com/airblade/vim-rooter.git
 [submodule "assets/.vim/bundle/vim-scroll-position"]
 	path = assets/.vim/bundle/vim-scroll-position
 	url = https://github.com/junegunn/vim-scroll-position.git
