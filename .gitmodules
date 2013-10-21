@@ -1,9 +1,6 @@
 [submodule "assets/.vim/bundle/Conque-Shell"]
 	path = assets/.vim/bundle/Conque-Shell
 	url = https://github.com/vim-scripts/Conque-Shell.git
-[submodule "assets/.vim/bundle/Zenburn"]
-	path = assets/.vim/bundle/Zenburn
-	url = https://github.com/jnurmine/Zenburn.git
 [submodule "assets/.vim/bundle/SearchComplete"]
 	path = assets/.vim/bundle/SearchComplete
 	url = https://github.com/vim-scripts/SearchComplete.git
@@ -13,6 +10,9 @@
 [submodule "assets/.vim/bundle/YankRing"]
 	path = assets/.vim/bundle/YankRing
 	url = https://github.com/vim-scripts/YankRing.vim.git
+[submodule "assets/.vim/bundle/Zenburn"]
+	path = assets/.vim/bundle/Zenburn
+	url = https://github.com/jnurmine/Zenburn.git
 [submodule "assets/.vim/bundle/accelerated-jk"]
 	path = assets/.vim/bundle/accelerated-jk
 	url = https://github.com/rhysd/accelerated-jk.git
