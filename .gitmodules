@@ -1,6 +1,9 @@
 [submodule "assets/.vim/bundle/Conque-Shell"]
 	path = assets/.vim/bundle/Conque-Shell
 	url = https://github.com/vim-scripts/Conque-Shell.git
+[submodule "assets/.vim/bundle/MatchTag"]
+	path = assets/.vim/bundle/MatchTag
+	url = https://github.com/gregsexton/MatchTag.git
 [submodule "assets/.vim/bundle/SearchComplete"]
 	path = assets/.vim/bundle/SearchComplete
 	url = https://github.com/vim-scripts/SearchComplete.git
