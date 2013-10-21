@@ -100,6 +100,9 @@
 [submodule "submodules/autoenv"]
 	path = submodules/autoenv
 	url = https://github.com/kennethreitz/autoenv.git
+[submodule "assets/.vim/bundle/gitv"]
+	path = assets/.vim/bundle/gitv
+	url = https://github.com/gregsexton/gitv.git
 [submodule "submodules/nvm"]
 	path = submodules/nvm
 	url = https://github.com/creationix/nvm.git
