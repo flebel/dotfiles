@@ -177,6 +177,13 @@ noremap gt :MBEbf<CR>
 noremap gT :MBEbb<CR>
 let g:miniBufExplUseSingleClick = 1
 
+" rainbow-parentheses.vim
+au Syntax * RainbowParenthesesLoadBraces
+au Syntax * RainbowParenthesesLoadChevrons
+au Syntax * RainbowParenthesesLoadRound
+au Syntax * RainbowParenthesesLoadSquare
+au VimEnter * RainbowParenthesesToggle
+
 " NERDTree
 map <Leader>t :NERDTreeToggle<CR>
 " Open a NERDTree automatically when vim starts up if no files were specified

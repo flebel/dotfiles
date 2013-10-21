@@ -109,6 +109,9 @@
 [submodule "submodules/pyenv"]
 	path = submodules/pyenv
 	url = https://github.com/yyuu/pyenv.git
+[submodule "assets/.vim/bundle/rainbow_parentheses.vim"]
+	path = assets/.vim/bundle/rainbow_parentheses.vim
+	url = https://github.com/justincampbell/rainbow_parentheses.vim.git
 [submodule "assets/.vim/bundle/renamer.vim"]
 	path = assets/.vim/bundle/renamer.vim
 	url = https://github.com/vim-scripts/renamer.vim.git
