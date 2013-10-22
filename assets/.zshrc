@@ -75,6 +75,8 @@ source /usr/local/bin/virtualenvwrapper.sh
 
 source ~/.autoenv/activate.sh
 
+[ -s "$HOME/.scm_breeze/scm_breeze.sh" ] && source "$HOME/.scm_breeze/scm_breeze.sh"
+
 source ~/.zsh/plugins/bd/bd.zsh
 
 source ~/.zsh-fuzzy-match/fuzzy-match.zsh

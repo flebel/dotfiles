@@ -46,6 +46,9 @@
 [submodule "assets/.vim/bundle/nerdtree"]
 	path = assets/.vim/bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
+[submodule "submodules/scm_breeze"]
+	path = submodules/scm_breeze
+	url = https://github.com/ndbroadbent/scm_breeze.git
 [submodule "assets/.vim/bundle/supertab"]
 	path = assets/.vim/bundle/supertab
 	url = https://github.com/ervandew/supertab.git

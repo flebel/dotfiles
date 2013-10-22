@@ -15,6 +15,7 @@ ln -s ${SUBMODULES}/autoenv ~/.autoenv
 ln -s ${SUBMODULES}/nvm ~/.nvm
 ln -s ${SUBMODULES}/oh-my-zsh ~/.oh-my-zsh
 ln -s ${SUBMODULES}/pyenv ~/.pyenv
+ln -s ${SUBMODULES}/scm_breeze ~/.scm_breeze
 ln -s ${SUBMODULES}/zsh-fuzzy-match ~/.zsh-fuzzy-match
 mkdir -p ~/.zsh/plugins/bd
 ln -s ${SUBMODULES}/zsh-bd/bd.zsh ~/.zsh/plugins/bd/bd.zsh
