@@ -20,8 +20,8 @@ ln -s ${SUBMODULES}/zsh-fuzzy-match ~/.zsh-fuzzy-match
 mkdir -p ~/.zsh/plugins/bd
 ln -s ${SUBMODULES}/zsh-bd/bd.zsh ~/.zsh/plugins/bd/bd.zsh
 mkdir -p ~/.urxvt/ext
-ln -s ${SUBMODULES}/submodules/urxvt-font-size/font-size ~/.urxvt/ext/
-ln -s ${SUBMODULES}/submodules/urxvt-perls/clipboard ~/.urxvt/ext/
+ln -s ${SUBMODULES}/urxvt-font-size/font-size ~/.urxvt/ext/
+ln -s ${SUBMODULES}/urxvt-perls/clipboard ~/.urxvt/ext/
 
 chsh -s /bin/zsh
 
