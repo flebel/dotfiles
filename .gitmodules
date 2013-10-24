@@ -112,6 +112,9 @@
 [submodule "assets/.vim/bundle/vim-vividchalk"]
 	path = assets/.vim/bundle/vim-vividchalk
 	url = https://github.com/tpope/vim-vividchalk
+[submodule "assets/.vim/bundle/vim-yaml"]
+	path = assets/.vim/bundle/vim-yaml
+	url = https://github.com/avakhov/vim-yaml.git
 [submodule "assets/.vim/bundle/yaml.vim"]
 	path = assets/.vim/bundle/yaml.vim
 	url = https://github.com/vim-scripts/yaml.vim.git
