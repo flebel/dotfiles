@@ -46,9 +46,9 @@
 [submodule "assets/.vim/bundle/nerdtree"]
 	path = assets/.vim/bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
-[submodule "submodules/scm_breeze"]
-	path = submodules/scm_breeze
-	url = https://github.com/ndbroadbent/scm_breeze.git
+[submodule "assets/.vim/bundle/snipmate.vim"]
+	path = assets/.vim/bundle/snipmate.vim
+	url = https://github.com/garbas/vim-snipmate.git
 [submodule "assets/.vim/bundle/supertab"]
 	path = assets/.vim/bundle/supertab
 	url = https://github.com/ervandew/supertab.git
@@ -58,6 +58,12 @@
 [submodule "assets/.vim/bundle/tagbar"]
 	path = assets/.vim/bundle/tagbar
 	url = https://github.com/majutsushi/tagbar.git
+[submodule "assets/.vim/bundle/tlib_vim"]
+	path = assets/.vim/bundle/tlib_vim
+	url = https://github.com/tomtom/tlib_vim.git
+[submodule "assets/.vim/bundle/vim-addon-mw-utils"]
+	path = assets/.vim/bundle/vim-addon-mw-utils
+	url = https://github.com/MarcWeber/vim-addon-mw-utils.git
 [submodule "assets/.vim/bundle/vim-autoclose"]
 	path = assets/.vim/bundle/vim-autoclose
 	url = https://github.com/Townk/vim-autoclose.git
@@ -103,6 +109,9 @@
 [submodule "assets/.vim/bundle/vim-session"]
 	path = assets/.vim/bundle/vim-session
 	url = https://github.com/xolox/vim-session.git
+[submodule "assets/.vim/bundle/vim-snippets"]
+	path = assets/.vim/bundle/vim-snippets
+	url = https://github.com/honza/vim-snippets.git
 [submodule "assets/.vim/bundle/vim-speeddating"]
 	path = assets/.vim/bundle/vim-speeddating
 	url = https://github.com/tpope/vim-speeddating.git
@@ -133,6 +142,9 @@
 [submodule "submodules/pyenv"]
 	path = submodules/pyenv
 	url = https://github.com/yyuu/pyenv.git
+[submodule "submodules/scm_breeze"]
+	path = submodules/scm_breeze
+	url = https://github.com/ndbroadbent/scm_breeze.git
 [submodule "submodules/urxvt-font-size"]
 	path = submodules/urxvt-font-size
 	url = https://github.com/majutsushi/urxvt-font-size.git
