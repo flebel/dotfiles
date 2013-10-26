@@ -22,6 +22,9 @@
 [submodule "assets/.vim/bundle/clever-f.vim"]
 	path = assets/.vim/bundle/clever-f.vim
 	url = https://github.com/rhysd/clever-f.vim.git
+[submodule "assets/.vim/bundle/compview"]
+	path = assets/.vim/bundle/compview
+	url = https://github.com/vim-scripts/compview.git
 [submodule "assets/.vim/bundle/ctrlp.vim"]
 	path = assets/.vim/bundle/ctrlp.vim
 	url = https://github.com/kien/ctrlp.vim.git
