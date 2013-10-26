@@ -46,6 +46,9 @@
 [submodule "assets/.vim/bundle/nerdtree"]
 	path = assets/.vim/bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
+[submodule "assets/.vim/bundle/searchfold.vim"]
+	path = assets/.vim/bundle/searchfold.vim
+	url = https://github.com/vim-scripts/searchfold.vim.git
 [submodule "assets/.vim/bundle/snipmate.vim"]
 	path = assets/.vim/bundle/snipmate.vim
 	url = https://github.com/garbas/vim-snipmate.git
