@@ -7,6 +7,9 @@
 [submodule "assets/.vim/bundle/SearchComplete"]
 	path = assets/.vim/bundle/SearchComplete
 	url = https://github.com/vim-scripts/SearchComplete.git
+[submodule "assets/.vim/bundle/TaskList.vim"]
+	path = assets/.vim/bundle/TaskList.vim
+	url = https://github.com/sgelb/TaskList.vim.git
 [submodule "assets/.vim/bundle/VimCalc"]
 	path = assets/.vim/bundle/VimCalc
 	url = https://github.com/gregsexton/VimCalc.git

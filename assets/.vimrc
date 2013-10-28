@@ -219,6 +219,9 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTree
 " Tagbar
 nmap <Leader>k :TagbarToggle<CR>
 
+" TaskList
+map <Leader>T <Plug>TaskList
+
 let g:session_autosave_periodic = 5
 
 " YankRing
