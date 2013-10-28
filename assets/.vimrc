@@ -224,10 +224,10 @@ let g:session_autosave_periodic = 5
 " YankRing
 nnoremap <Leader>y :YRShow<CR>
 
-" Format JSON: \-j
+" Format JSON
 map <Leader>j !python -m json.tool<CR>
 
-" Format XML: \-x
+" Format XML
 map <Leader>x !tidy -xml -q -i<CR>
 
 " http://jeffkreeftmeijer.com/2012/relative-line-numbers-in-vim-for-super-fast-movement/
