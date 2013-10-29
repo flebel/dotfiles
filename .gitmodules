@@ -37,6 +37,9 @@
 [submodule "assets/.vim/bundle/desert.vim"]
 	path = assets/.vim/bundle/desert.vim
 	url = https://github.com/fugalh/desert.vim.git
+[submodule "assets/.vim/bundle/gundo.vim"]
+	path = assets/.vim/bundle/gundo.vim
+	url = https://github.com/sjl/gundo.vim.git
 [submodule "assets/.vim/bundle/jedi-vim"]
 	path = assets/.vim/bundle/jedi-vim
 	url = https://github.com/davidhalter/jedi-vim.git

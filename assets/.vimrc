@@ -209,6 +209,9 @@ au VimEnter * RainbowParenthesesToggle
 " searchfold
 let g:searchfold_foldlevel = 1
 
+" Gundo
+nnoremap <Leader>U :GundoToggle<CR>
+
 " NERDTree
 map <Leader>t :NERDTreeToggle<CR>
 " Open a NERDTree automatically when vim starts up if no files were specified
