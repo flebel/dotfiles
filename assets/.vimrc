@@ -41,8 +41,11 @@ set hidden
 " Show a ruler
 set ruler
 
-" Display line numbers
+" Display line numbers, and hybrid absolute/relative line numbers for vim >= 7.4
 set number
+if v:version >= 704
+  set relativenumber
+endif
 
 " Show partial commands
 set showcmd
