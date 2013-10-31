@@ -37,6 +37,9 @@
 [submodule "assets/.vim/bundle/desert.vim"]
 	path = assets/.vim/bundle/desert.vim
 	url = https://github.com/fugalh/desert.vim.git
+[submodule "assets/.vim/bundle/eraseSubword"]
+	path = assets/.vim/bundle/eraseSubword
+	url = https://github.com/vim-scripts/eraseSubword.git
 [submodule "assets/.vim/bundle/gundo.vim"]
 	path = assets/.vim/bundle/gundo.vim
 	url = https://github.com/sjl/gundo.vim.git
