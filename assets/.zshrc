@@ -82,6 +82,11 @@ source ~/.zsh/plugins/bd/bd.zsh
 source ~/.zsh-fuzzy-match/fuzzy-match.zsh
 
 #
+# Customizations
+#
+setopt nohup
+
+#
 # Aliases
 #
 
