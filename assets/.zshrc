@@ -39,6 +39,10 @@ DISABLE_AUTO_UPDATE="true"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 plugins=(autoenv bower cp django git git-flow mercurial python screen ssh-agent svn tmux torrent vi-mode)
 
+export PAGER=~/bin/vimpager
+alias less=$PAGER
+alias zless=$PAGER
+
 SSH_ENV="$HOME/.ssh/agent-info"
 function start_agent {
   echo -n 'Initializing SSH agent... '

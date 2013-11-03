@@ -11,6 +11,7 @@ SUBMODULES=`pwd`/submodules
 # Submodules
 git submodule init
 git submodule update
+ln -s ${ASSETS}/.vim/bundle/vimpager/vimpager ~/bin/vimpager
 ln -s ${SUBMODULES}/autoenv ~/.autoenv
 ln -s ${SUBMODULES}/nvm ~/.nvm
 ln -s ${SUBMODULES}/oh-my-zsh ~/.oh-my-zsh
