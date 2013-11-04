@@ -58,6 +58,9 @@
 [submodule "assets/.vim/bundle/nerdtree"]
 	path = assets/.vim/bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
+[submodule "assets/.vim/bundle/screen"]
+	path = assets/.vim/bundle/screen
+	url = https://github.com/ervandew/screen.git
 [submodule "assets/.vim/bundle/searchfold.vim"]
 	path = assets/.vim/bundle/searchfold.vim
 	url = https://github.com/vim-scripts/searchfold.vim.git
@@ -121,12 +124,6 @@
 [submodule "assets/.vim/bundle/vim-rooter"]
 	path = assets/.vim/bundle/vim-rooter
 	url = https://github.com/airblade/vim-rooter.git
-[submodule "assets/.vim/bundle/vimpager"]
-	path = assets/.vim/bundle/vimpager
-	url = https://github.com/rkitover/vimpager.git
-[submodule "assets/.vim/bundle/screen"]
-	path = assets/.vim/bundle/screen
-	url = https://github.com/ervandew/screen.git
 [submodule "assets/.vim/bundle/vim-scroll-position"]
 	path = assets/.vim/bundle/vim-scroll-position
 	url = https://github.com/junegunn/vim-scroll-position.git
@@ -148,6 +145,9 @@
 [submodule "assets/.vim/bundle/vim-yaml"]
 	path = assets/.vim/bundle/vim-yaml
 	url = https://github.com/avakhov/vim-yaml.git
+[submodule "assets/.vim/bundle/vimpager"]
+	path = assets/.vim/bundle/vimpager
+	url = https://github.com/rkitover/vimpager.git
 [submodule "assets/.vim/bundle/yaml.vim"]
 	path = assets/.vim/bundle/yaml.vim
 	url = https://github.com/vim-scripts/yaml.vim.git
