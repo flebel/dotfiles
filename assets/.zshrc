@@ -139,6 +139,8 @@ alias lr="(usblamp -d 1000 red red white red white red white red &)"
 # Key bindings
 #
 
+bindkey -v
+
 # http://zshwiki.org/home/zle/bindkeys
 # Create a zkbd compatible hash;
 # to add other keys to this hash, see: man 5 terminfo
@@ -172,6 +174,8 @@ function zle-line-finish () {
 }
 zle -N zle-line-init
 zle -N zle-line-finish
+
+bindkey ^R history-incremental-pattern-search-backward
 
 autoload -U up-line-or-beginning-search
 autoload -U down-line-or-beginning-search
