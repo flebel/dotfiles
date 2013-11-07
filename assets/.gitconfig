@@ -20,7 +20,7 @@
     filemode = false
 
 [help]
-    autocorrect = 1
+    autocorrect = 15
 
 [merge]
     tool = meld
