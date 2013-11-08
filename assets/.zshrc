@@ -124,6 +124,8 @@ function parse_url_json()
   curl -s "$@" | python -mjson.tool
 }
 
+alias bc="bc -l"
+
 alias h=head
 alias l=less
 alias t=tail
