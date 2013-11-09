@@ -28,6 +28,9 @@
 [merge "ours"]
     driver = true
 
+[push]
+    default = simple
+
 [user]
     email = francoislebel@gmail.com
     name = Francois Lebel
