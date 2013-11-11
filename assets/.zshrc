@@ -125,10 +125,12 @@ function parse_url_json()
 }
 
 alias bc="bc -l"
+alias gits="git s"
 
 alias h=head
 alias l=less
 alias t=tail
+
 alias httpserv="python -m SimpleHTTPServer"
 alias smtpserv="python -m smtpd -n -c DebuggingServer localhost:2525"
 
