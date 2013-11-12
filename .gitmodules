@@ -43,6 +43,9 @@
 [submodule "assets/.vim/bundle/gundo.vim"]
 	path = assets/.vim/bundle/gundo.vim
 	url = https://github.com/sjl/gundo.vim.git
+[submodule "assets/.vim/bundle/html5.vim"]
+	path = assets/.vim/bundle/html5.vim
+	url = https://github.com/othree/html5.vim.git
 [submodule "assets/.vim/bundle/jedi-vim"]
 	path = assets/.vim/bundle/jedi-vim
 	url = https://github.com/davidhalter/jedi-vim.git
