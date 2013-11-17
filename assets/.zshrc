@@ -130,6 +130,7 @@ alias gits="git s"
 alias h=head
 alias l=less
 alias t=tail
+alias v=vi
 
 alias httpserv="python -m SimpleHTTPServer"
 alias smtpserv="python -m smtpd -n -c DebuggingServer localhost:2525"
