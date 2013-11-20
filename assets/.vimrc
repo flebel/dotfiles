@@ -239,6 +239,9 @@ map <Leader>j !python -m json.tool<CR>
 " Format XML
 map <Leader>x !tidy -xml -q -i<CR>
 
+" Sudo save
+cmap w!! w !sudo dd of=%
+
 " http://jeffkreeftmeijer.com/2012/relative-line-numbers-in-vim-for-super-fast-movement/
 function! NumberToggle()
   if(&relativenumber == 1)
