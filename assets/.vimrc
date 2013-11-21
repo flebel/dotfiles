@@ -202,6 +202,9 @@ noremap gt :MBEbf<CR>
 noremap gT :MBEbb<CR>
 let g:miniBufExplUseSingleClick = 1
 
+" pydiction
+let g:pydiction_location = '~/.vim/bundle/pydiction/complete-dict'
+
 " rainbow-parentheses.vim
 au Syntax * RainbowParenthesesLoadBraces
 au Syntax * RainbowParenthesesLoadChevrons
