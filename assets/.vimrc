@@ -215,6 +215,9 @@ au VimEnter * RainbowParenthesesToggle
 " searchfold
 let g:searchfold_foldlevel = 1
 
+" vim-instant-markdown
+let g:instant_markdown_slow = 1
+
 " Gundo
 nnoremap <Leader>U :GundoToggle<CR>
 
