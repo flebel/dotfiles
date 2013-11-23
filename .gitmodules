@@ -169,6 +169,9 @@
 [submodule "assets/.vim/bundle/vimpager"]
 	path = assets/.vim/bundle/vimpager
 	url = https://github.com/rkitover/vimpager.git
+[submodule "assets/.vim/bundle/werks.vim"]
+	path = assets/.vim/bundle/werks.vim
+	url = https://github.com/vim-scripts/werks.vim.git
 [submodule "assets/.vim/bundle/yaml.vim"]
 	path = assets/.vim/bundle/yaml.vim
 	url = https://github.com/vim-scripts/yaml.vim.git
@@ -202,3 +205,4 @@
 [submodule "submodules/zsh-fuzzy-match"]
 	path = submodules/zsh-fuzzy-match
 	url = https://github.com/tarruda/zsh-fuzzy-match.git
+
