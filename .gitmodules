@@ -142,6 +142,9 @@
 [submodule "assets/.vim/bundle/renamer.vim"]
 	path = assets/.vim/bundle/renamer.vim
 	url = https://github.com/vim-scripts/renamer.vim.git
+[submodule "assets/.vim/bundle/riv.vim"]
+	path = assets/.vim/bundle/riv.vim
+	url = https://github.com/Rykka/riv.vim.git
 [submodule "assets/.vim/bundle/vim-repeat"]
 	path = assets/.vim/bundle/vim-repeat
 	url = https://github.com/tpope/vim-repeat.git
