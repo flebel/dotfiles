@@ -136,6 +136,9 @@
 [submodule "assets/.vim/bundle/vim-isort"]
 	path = assets/.vim/bundle/vim-isort
 	url = https://github.com/fisadev/vim-isort.git
+[submodule "assets/.vim/bundle/vim-signify"]
+	path = assets/.vim/bundle/vim-signify
+	url = https://github.com/mhinz/vim-signify.git
 [submodule "assets/.vim/bundle/rainbow_parentheses.vim"]
 	path = assets/.vim/bundle/rainbow_parentheses.vim
 	url = https://github.com/justincampbell/rainbow_parentheses.vim.git
