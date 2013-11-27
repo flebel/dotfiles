@@ -73,6 +73,9 @@
 [submodule "assets/.vim/bundle/pydiction"]
 	path = assets/.vim/bundle/pydiction
 	url = https://github.com/rkulla/pydiction.git
+[submodule "assets/.vim/bundle/pythonhelper.vim"]
+	path = assets/.vim/bundle/pythonhelper.vim
+	url = https://github.com/Finkregh/pythonhelper
 [submodule "assets/.vim/bundle/screen"]
 	path = assets/.vim/bundle/screen
 	url = https://github.com/ervandew/screen.git
