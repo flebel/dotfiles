@@ -239,6 +239,24 @@ let g:session_autosave_periodic = 5
 " YankRing
 nnoremap <Leader>y :YRShow<CR>
 
+" Strip the newline from the end of a string
+function! Chomp(str)
+  return substitute(a:str, '\n$', '', '')
+endfunction
+
+" Find a file and pass it to cmd
+function! DmenuOpen(cmd)
+  let fname = Chomp(system("find . | dmenu -i -l 20 -p " . a:cmd))
+  if empty(fname)
+    return
+  endif
+  execute a:cmd . " " . fname
+endfunction
+
+" Open dmenu fuzzy search
+map <c-t> :call DmenuOpen("tabe")<cr>
+map <c-f> :call DmenuOpen("e")<cr>
+
 " Format JSON
 map <Leader>j !python -m json.tool<CR>
 
