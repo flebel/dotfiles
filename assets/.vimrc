@@ -189,6 +189,9 @@ set backupdir=$MYBACKUPDIR
 " Sensible list of files we don't want backed up
 set backupskip=/tmp/*,/private/tmp/*,/var/tmp/tmp/*,$TMPDIR/*,$TMP/*,$TEMP/*
 
+let g:ctrlp_custom_ignore = {
+    \ 'dir': 'components/'
+    \ }
 let g:ctrlp_extensions = ['funky']
 nnoremap <Leader>f :CtrlPFunky<Cr>
 nnoremap <Leader>F :execute 'CtrlPFunky ' . expand('<cword>')<Cr>
