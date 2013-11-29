@@ -11,6 +11,8 @@
     s = status
     sin = submodule init
     st = stash
+    sta = stash apply
+    stp = stash pop
     sup = submodule update
 
 [color]
