@@ -1,0 +1,21 @@
+-- Autocomplete keywords to uppercase
+\set COMP_KEYWORD_CASE upper
+
+-- Save repeated commands once
+\set HISTCONTROL ignoredups
+
+-- Use a separate history file per database
+\set HISTFILE ~/.psql_history- :DBNAME
+
+\set PROMPT1 '%[%033[1m%]%M %n@%/%R%[%033[0m%]%# '
+\set PROMPT2 '%R >>> '
+
+-- Verbose error reports
+\set VERBOSITY verbose
+
+-- Show null as [NULL] instead of an empty space
+\pset null '[NULL]'
+
+-- Use table format by default
+\x auto
+
