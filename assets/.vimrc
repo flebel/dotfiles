@@ -38,6 +38,8 @@ set wildmode=list:longest
 " Keep unsaved files open with their changes
 set hidden
 
+set wildignore+=*.pyc
+
 " Show a ruler
 set ruler
 
