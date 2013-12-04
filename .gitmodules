@@ -148,6 +148,9 @@
 [submodule "assets/.vim/bundle/riv.vim"]
 	path = assets/.vim/bundle/riv.vim
 	url = https://github.com/Rykka/riv.vim.git
+[submodule "assets/.vim/bundle/vim-less"]
+	path = assets/.vim/bundle/vim-less
+	url = https://github.com/groenewege/vim-less.git
 [submodule "assets/.vim/bundle/vim-repeat"]
 	path = assets/.vim/bundle/vim-repeat
 	url = https://github.com/tpope/vim-repeat.git
