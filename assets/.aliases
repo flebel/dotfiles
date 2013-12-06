@@ -1,0 +1,46 @@
+function extract() {
+  if [ -f $1 ] ; then
+    case $1 in
+      *.tar.bz2)   tar vxjf $1     ;;
+      *.tar.gz)    tar vxzf $1     ;;
+      *.bz2)       bunzip2 -v $1     ;;
+      *.rar)       unrar ve $1     ;;
+      *.gz)        gunzip -v $1      ;;
+      *.tar)       tar vxf $1      ;;
+      *.tbz2)      tar vxjf $1     ;;
+      *.tgz)       tar vxzf $1     ;;
+      *.zip)       unzip -v $1       ;;
+      *.Z)         uncompress -v $1  ;;
+      *.7z)        7z x $1        ;;
+      *)     echo "'$1' cannot be extracted via extract()" ;;
+       esac
+   else
+       echo "'$1' is not a valid file"
+   fi
+}
+
+function mcd() {
+  mkdir -p "$1" && cd "$1"
+}
+
+function parse_url_json()
+{
+  curl -s "$@" | python -mjson.tool
+}
+
+alias bc="bc -l"
+alias gits="git s"
+
+alias h=head
+alias l=less
+alias t=tail
+alias v=vi
+
+alias httpserv="python -m SimpleHTTPServer"
+alias smtpserv="python -m smtpd -n -c DebuggingServer localhost:2525"
+
+alias lb="(usblamp -d 1000 blue blue white blue white blue white blue &)"
+alias lg="(usblamp -d 1000 green green white green white green white green &)"
+alias lo="(usblamp off &)"
+alias lr="(usblamp -d 1000 red red white red white red white red &)"
+
