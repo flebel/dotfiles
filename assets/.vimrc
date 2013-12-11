@@ -112,6 +112,9 @@ nnoremap <silent> - :exe "resize " . (winheight(0) * 2/3)<CR>
 " Compile every Perl file after saving
 au BufWritePost {*.pm,*.pl,*.inc,*.cgi} !perl -c %
 
+" HTML
+autocmd Filetype html setlocal ts=2 sts=2 sw=2
+
 " Python
 au FileType py set autoindent
 au FileType py set smartindent
