@@ -115,6 +115,9 @@ au BufWritePost {*.pm,*.pl,*.inc,*.cgi} !perl -c %
 " HTML
 autocmd Filetype html setlocal ts=2 sts=2 sw=2
 
+" JavaScript
+autocmd Filetype javascript setlocal ts=2 sts=2 sw=2
+
 " Python
 au FileType py set autoindent
 au FileType py set smartindent
