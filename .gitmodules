@@ -1,3 +1,6 @@
+[submodule "assets/.vim/bundle/Align"]
+	path = assets/.vim/bundle/Align
+	url = https://github.com/vim-scripts/Align.git
 [submodule "assets/.vim/bundle/Conque-Shell"]
 	path = assets/.vim/bundle/Conque-Shell
 	url = https://github.com/vim-scripts/Conque-Shell.git
@@ -214,4 +217,3 @@
 [submodule "submodules/zsh-fuzzy-match"]
 	path = submodules/zsh-fuzzy-match
 	url = https://github.com/tarruda/zsh-fuzzy-match.git
-
