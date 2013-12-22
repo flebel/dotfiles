@@ -74,6 +74,8 @@ setopt HIST_IGNORE_SPACE
 export GREP_COLOR="1;32"
 export GREP_OPTIONS="--color=auto"
 
+xmodmap ~/.Xmodmap
+
 export WORKON_HOME=~/.virtualenv
 source /usr/local/bin/virtualenvwrapper.sh
 
