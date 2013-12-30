@@ -205,6 +205,9 @@
 [submodule "submodules/scm_breeze"]
 	path = submodules/scm_breeze
 	url = https://github.com/ndbroadbent/scm_breeze.git
+[submodule "submodules/sysadmin-util"]
+	path = submodules/sysadmin-util
+	url = https://github.com/skx/sysadmin-util.git
 [submodule "submodules/urxvt-font-size"]
 	path = submodules/urxvt-font-size
 	url = https://github.com/majutsushi/urxvt-font-size.git
