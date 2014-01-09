@@ -28,6 +28,9 @@
 [submodule "assets/.vim/bundle/accelerated-jk"]
 	path = assets/.vim/bundle/accelerated-jk
 	url = https://github.com/rhysd/accelerated-jk.git
+[submodule "assets/.vim/bundle/bufkill.vim"]
+	path = assets/.vim/bundle/bufkill.vim
+	url = https://github.com/vim-scripts/bufkill.vim.git
 [submodule "assets/.vim/bundle/clever-f.vim"]
 	path = assets/.vim/bundle/clever-f.vim
 	url = https://github.com/rhysd/clever-f.vim.git
