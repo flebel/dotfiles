@@ -171,3 +171,7 @@ if [ -f ~/.zshrc_local ]; then
   . ~/.zshrc_local
 fi
 
+if [ -f "$HOME/.shell_notes" ] ; then
+  cat $HOME/.shell_notes
+fi
+
