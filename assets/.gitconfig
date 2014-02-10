@@ -11,8 +11,10 @@
     s = status
     sin = submodule init
     st = stash
+    stu = !git stash && git stash -u
     sta = stash apply
     stp = stash pop
+    stup = !git stash pop && git stash pop
     sup = submodule update
 
 [color]
