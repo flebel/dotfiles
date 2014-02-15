@@ -29,9 +29,25 @@ function parse_url_json()
 }
 
 # Open a file in vim at a given line number after `grep -nr`
-function vv()
+# Supports multiple line numbers, e.g. after multiple piped `grep`
+function v()
 {
-  vim +:`echo $1 | cut -d":" -f2`  `echo $1 | cut -d":" -f1`
+  unset filename
+  unset line
+  echo $1 | sed 's/:/\n/g' | \
+    while read e;
+    do
+      if [[ ! $filename = "" ]]
+      then
+        line=$e
+        break
+      fi
+      if ! [[ $e =~ ^-?[0-9]+$ ]]
+      then
+        filename=$e
+      fi
+    done
+  vim +:"$line" "$filename"
 }
 
 alias bc="bc -l"
@@ -40,7 +56,6 @@ alias gits="git s"
 alias h=head
 alias l=less
 alias t=tail
-alias v=vi
 
 alias httpserv="python -m SimpleHTTPServer"
 alias smtpserv="python -m smtpd -n -c DebuggingServer localhost:2525"
