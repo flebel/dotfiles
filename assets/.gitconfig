@@ -14,6 +14,7 @@
     stu = !git stash && git stash -u
     sta = stash apply
     stp = stash pop
+    stpf = !git stash show -p | git apply && git stash drop
     stup = !git stash pop && git stash pop
     sup = submodule update
 
