@@ -25,7 +25,7 @@ URxvt*internalBorder:        0
 !
 ! Extensions
 URxvt*perl-ext-common: default,clipboard,font-size,matcher,searchable-scrollback
-URxvt*urlLauncher:     google-chrome
+URxvt*urlLauncher:     firefox
 URxvt*matcher.button:  1
 ! Catch ugly URLs
 URxvt*cutchars:        '"'()*<>[]{|}
