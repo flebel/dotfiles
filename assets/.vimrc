@@ -1,5 +1,6 @@
 set nocompatible
 
+let g:pathogen_disabled = ['pydiction']
 execute pathogen#infect()
 
 " Hide the splash message
