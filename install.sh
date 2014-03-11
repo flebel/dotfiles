@@ -43,6 +43,7 @@ for f in $SCRIPTS_FILES; do
   mv ~/$filename ~/dotfiles_backup/scripts/
   ln -s ${SCRIPTS}/$filename ~/scripts/$filename
 done
+ln -s ${SUBMODULES}/git/contrib/diff-highlight/diff-highlight ~/scripts/git-diff-highlight
 
 sudo cp $MISC/50-marblemouse.conf /usr/share/X11/xorg.conf.d/50-marblemouse.conf
 

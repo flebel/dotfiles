@@ -34,6 +34,11 @@
 [merge "ours"]
     driver = true
 
+[pager]
+    log = ~/scripts/git-diff-highlight | less
+    show = ~/scripts/git-diff-highlight | less
+    diff = ~/scripts/git-diff-highlight | less
+
 [push]
     default = simple
 
