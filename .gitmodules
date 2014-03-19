@@ -178,6 +178,9 @@
 [submodule "assets/.vim/bundle/vim-snippets"]
 	path = assets/.vim/bundle/vim-snippets
 	url = https://github.com/honza/vim-snippets.git
+[submodule "assets/.vim/bundle/vim-sparkup"]
+	path = assets/.vim/bundle/vim-sparkup
+	url = https://github.com/rstacruz/sparkup.git
 [submodule "assets/.vim/bundle/vim-speeddating"]
 	path = assets/.vim/bundle/vim-speeddating
 	url = https://github.com/tpope/vim-speeddating.git

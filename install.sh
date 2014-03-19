@@ -58,4 +58,6 @@ mkdir -p ~/.vim/autoload ~/.vim/bundle
 ln -s ~/.vim/bundle/vim-pathogen/autoload/pathogen.vim ~/.vim/autoload/
 # Workaround GitHub's mirror missing required files
 cd assets/.vim/bundle/Conque-Shell/autoload && svn co http://conque.googlecode.com/svn/trunk/autoload/conque_term/ && cd -
+# Manual install for vim-sparkup
+cd assets/.vim/bundle/vim-sparkup && make vim-pathogen && cd -
 
