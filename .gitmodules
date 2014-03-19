@@ -25,6 +25,9 @@
 [submodule "assets/.vim/bundle/Zenburn"]
 	path = assets/.vim/bundle/Zenburn
 	url = https://github.com/jnurmine/Zenburn.git
+[submodule "assets/.vim/bundle/ZoomWin"]
+	path = assets/.vim/bundle/ZoomWin
+	url = https://github.com/dr-chip-vim-scripts/ZoomWin.git
 [submodule "assets/.vim/bundle/accelerated-jk"]
 	path = assets/.vim/bundle/accelerated-jk
 	url = https://github.com/rhysd/accelerated-jk.git
