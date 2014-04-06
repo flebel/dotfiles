@@ -59,7 +59,6 @@ set showmatch
 " Write before hiding a buffer
 set autowrite
 
-syntax on
 filetype plugin on
 filetype plugin indent on
 set list listchars=tab:▷⋅,trail:⋅,nbsp:⋅
@@ -223,6 +222,9 @@ au Syntax * RainbowParenthesesLoadChevrons
 au Syntax * RainbowParenthesesLoadRound
 au Syntax * RainbowParenthesesLoadSquare
 au VimEnter * RainbowParenthesesToggle
+
+" rainbow-parentheses.vim breaks vim-css-color, needs to set syntax after
+syntax on
 
 " searchfold
 let g:searchfold_foldlevel = 1
