@@ -34,7 +34,7 @@ function v()
 {
   unset filename
   unset line
-  echo $1 | sed 's/:/\n/g' | \
+  echo $1 | tr : '\n' | \
     while read e;
     do
       if [[ ! $filename = "" ]]
