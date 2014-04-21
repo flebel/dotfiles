@@ -74,7 +74,9 @@ setopt HIST_IGNORE_SPACE
 export GREP_COLOR="1;32"
 export GREP_OPTIONS="--color=auto"
 
-xmodmap ~/.Xmodmap
+if [ "$(uname)" != "Darwin" ]; then
+  xmodmap ~/.Xmodmap
+fi
 
 export WORKON_HOME=~/.virtualenv
 source /usr/local/bin/virtualenvwrapper.sh
@@ -142,8 +144,15 @@ autoload -U up-line-or-beginning-search
 autoload -U down-line-or-beginning-search
 zle -N up-line-or-beginning-search
 zle -N down-line-or-beginning-search
-bindkey "^[[A" up-line-or-beginning-search # Up
-bindkey "^[[B" down-line-or-beginning-search # Down
+if [ "$(uname)" == "Darwin" ]; then
+  bindkey "$terminfo[kcuu1]" up-line-or-beginning-search
+  bindkey "$terminfo[kcud1]" down-line-or-beginning-search
+else
+  bindkey "^[[A" up-line-or-beginning-search # Up
+  bindkey "^[[B" down-line-or-beginning-search # Down
+  bindkey "$terminfo[kcuu1]" history-substring-search-up
+  bindkey "$terminfo[kcud1]" history-substring-search-down
+fi
 
 local -a precmd_functions
 function grep_options() {
