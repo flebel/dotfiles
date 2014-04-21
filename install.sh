@@ -20,9 +20,12 @@ ln -s ${SUBMODULES}/scm_breeze ~/.scm_breeze
 ln -s ${SUBMODULES}/zsh-fuzzy-match ~/.zsh-fuzzy-match
 mkdir -p ~/.zsh/plugins/bd
 ln -s ${SUBMODULES}/zsh-bd/bd.zsh ~/.zsh/plugins/bd/bd.zsh
-mkdir -p ~/.urxvt/ext
-ln -s ${SUBMODULES}/urxvt-font-size/font-size ~/.urxvt/ext/
-ln -s ${SUBMODULES}/urxvt-perls/clipboard ~/.urxvt/ext/
+
+if [ "$(uname)" != "Darwin" ]; then ]
+  mkdir -p ~/.urxvt/ext
+  ln -s ${SUBMODULES}/urxvt-font-size/font-size ~/.urxvt/ext/
+  ln -s ${SUBMODULES}/urxvt-perls/clipboard ~/.urxvt/ext/
+fi
 
 chsh -s /bin/zsh
 
@@ -45,11 +48,15 @@ for f in $SCRIPTS_FILES; do
 done
 ln -s ${SUBMODULES}/git/contrib/diff-highlight/diff-highlight ~/scripts/git-diff-highlight
 
-sudo cp $MISC/50-marblemouse.conf /usr/share/X11/xorg.conf.d/50-marblemouse.conf
+if [ "$(uname)" != "Darwin" ]; then ]
+  sudo cp $MISC/50-marblemouse.conf /usr/share/X11/xorg.conf.d/50-marblemouse.conf
+fi
 
 # Subtle window manager
-cp ${ICONS}/* ~/.local/share/subtle/icons/
-sur install battery clock layout loadavg textfile
+if [ "$(uname)" != "Darwin" ]; then ]
+  cp ${ICONS}/* ~/.local/share/subtle/icons/
+  sur install battery clock layout loadavg textfile
+fi
 
 # Vim
 # Tagbar requires ctags-exuberant
