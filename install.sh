@@ -11,6 +11,7 @@ SUBMODULES=`pwd`/submodules
 # Submodules
 git submodule init
 git submodule update
+mkdir ~/bin
 ln -s ${ASSETS}/.vim/bundle/vimpager/vimpager ~/bin/vimpager
 ln -s ${SUBMODULES}/autoenv ~/.autoenv
 ln -s ${SUBMODULES}/nvm ~/.nvm
@@ -62,7 +63,7 @@ fi
 # Tagbar requires ctags-exuberant
 sudo pip install jedi isort
 mkdir -p ~/.vim/autoload ~/.vim/bundle
-ln -s ~/.vim/bundle/vim-pathogen/autoload/pathogen.vim ~/.vim/autoload/
+ln -s ${ASSETS}/.vim/bundle/vim-pathogen/autoload/pathogen.vim ~/.vim/autoload/
 # Workaround GitHub's mirror missing required files
 cd assets/.vim/bundle/Conque-Shell/autoload && svn co http://conque.googlecode.com/svn/trunk/autoload/conque_term/ && cd -
 # Manual install for vim-sparkup
