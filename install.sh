@@ -22,7 +22,7 @@ ln -s ${SUBMODULES}/zsh-fuzzy-match ~/.zsh-fuzzy-match
 mkdir -p ~/.zsh/plugins/bd
 ln -s ${SUBMODULES}/zsh-bd/bd.zsh ~/.zsh/plugins/bd/bd.zsh
 
-if [ "$(uname)" == "Linux" ]; then ]
+if [ "$(uname)" == "Linux" ]; then
   mkdir -p ~/.urxvt/ext
   ln -s ${SUBMODULES}/urxvt-font-size/font-size ~/.urxvt/ext/
   ln -s ${SUBMODULES}/urxvt-perls/clipboard ~/.urxvt/ext/
@@ -49,12 +49,12 @@ for f in $SCRIPTS_FILES; do
 done
 ln -s ${SUBMODULES}/git/contrib/diff-highlight/diff-highlight ~/scripts/git-diff-highlight
 
-if [ "$(uname)" == "Linux" ]; then ]
+if [ "$(uname)" == "Linux" ]; then
   sudo cp $MISC/50-marblemouse.conf /usr/share/X11/xorg.conf.d/50-marblemouse.conf
 fi
 
 # Subtle window manager
-if [ "$(uname)" == "Linux" ]; then ]
+if [ "$(uname)" == "Linux" ]; then
   cp ${ICONS}/* ~/.local/share/subtle/icons/
   sur install battery clock layout loadavg textfile
 fi
