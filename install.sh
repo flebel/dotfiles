@@ -49,6 +49,8 @@ for f in $SCRIPTS_FILES; do
 done
 ln -s ${SUBMODULES}/git/contrib/diff-highlight/diff-highlight ~/scripts/git-diff-highlight
 
+cd ${SUBMODULES}/sysadmin-util && make build && cd -
+
 if [ "$(uname)" == "Linux" ]; then
   sudo cp $MISC/50-marblemouse.conf /usr/share/X11/xorg.conf.d/50-marblemouse.conf
 fi
