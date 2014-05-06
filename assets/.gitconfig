@@ -25,6 +25,10 @@
     editor = vim
     filemode = false
 
+[grep]
+    extendRegexp = true
+    lineNumber = true
+
 [help]
     autocorrect = 15
 
