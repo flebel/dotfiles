@@ -90,3 +90,7 @@ snippet 505
 	status.HTTP_505_HTTP_VERSION_NOT_SUPPORTED
 snippet 511
 	status.HTTP_511_NETWORK_AUTHENTICATION_REQUIRED
+snippet addparentdirtopath
+	import os
+	os.sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
