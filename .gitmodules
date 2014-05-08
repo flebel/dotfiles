@@ -52,6 +52,9 @@
 [submodule "assets/.vim/bundle/eraseSubword"]
 	path = assets/.vim/bundle/eraseSubword
 	url = https://github.com/vim-scripts/eraseSubword.git
+[submodule "assets/.vim/bundle/github-issues.vim"]
+	path = assets/.vim/bundle/github-issues.vim
+	url = https://github.com/jaxbot/github-issues.vim.git
 [submodule "assets/.vim/bundle/gitv"]
 	path = assets/.vim/bundle/gitv
 	url = https://github.com/gregsexton/gitv.git
