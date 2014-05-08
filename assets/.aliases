@@ -53,6 +53,8 @@ function v()
 alias bc="bc -l"
 alias gits="git s"
 
+alias greo=grep
+
 alias h=head
 alias l=less
 alias t=tail
