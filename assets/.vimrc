@@ -208,6 +208,9 @@ nnoremap <Leader>F :execute 'CtrlPFunky ' . expand('<cword>')<Cr>
 nmap j <Plug>(accelerated_jk_gj)
 nmap k <Plug>(accelerated_jk_gk)
 
+" github-issues.vim
+let g:github_same_window = 1
+
 " minibufexpl
 noremap gt :MBEbf<CR>
 noremap gT :MBEbb<CR>
