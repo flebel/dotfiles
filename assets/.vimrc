@@ -1,5 +1,7 @@
 set nocompatible
 
+" Recommended by Pathogen to improve its support for Vim session
+set sessionoptions-=options
 let g:pathogen_disabled = ['pydiction']
 execute pathogen#infect()
 
