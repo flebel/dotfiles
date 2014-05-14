@@ -1,3 +1,12 @@
+[submodule "assets/.irssi/scripts/twirssi"]
+	path = assets/.irssi/scripts/twirssi
+	url = https://github.com/zigdon/twirssi.git
+[submodule "assets/.irssi/scripts/irssi-scripts"]
+	path = assets/.irssi/scripts/irssi-scripts
+	url = https://github.com/coekie/irssi-scripts.git
+[submodule "assets/.irssi/scripts/irssi-revolving-door"]
+	path = assets/.irssi/scripts/irssi-revolving-door
+	url = https://github.com/flebel/irssi-revolving-door.git
 [submodule "assets/.vim/bundle/Align"]
 	path = assets/.vim/bundle/Align
 	url = https://github.com/vim-scripts/Align.git

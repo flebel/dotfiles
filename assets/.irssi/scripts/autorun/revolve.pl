@@ -1,0 +1,1 @@
+../irssi-revolving-door/revolve.pl
