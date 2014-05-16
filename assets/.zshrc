@@ -150,8 +150,10 @@ if [ "$(uname)" == "Darwin" ]; then
 else
   bindkey "^[[A" up-line-or-beginning-search # Up
   bindkey "^[[B" down-line-or-beginning-search # Down
-  bindkey "$terminfo[kcuu1]" history-substring-search-up
-  bindkey "$terminfo[kcud1]" history-substring-search-down
+  bindkey "$terminfo[kcuu1]" up-line-or-beginning-search
+  bindkey "$terminfo[kcud1]" down-line-or-beginning-search
+  # bindkey "$terminfo[kcuu1]" history-substring-search-up
+  # bindkey "$terminfo[kcud1]" history-substring-search-down
 fi
 
 local -a precmd_functions
