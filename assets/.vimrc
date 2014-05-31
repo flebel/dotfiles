@@ -98,6 +98,9 @@ let is_bash=1
 set mouse=a
 set ttymouse=xterm2
 
+" Copy current line number into clipboard
+map <Leader>n <Esc>:let @*=line(".")<CR>
+
 " Create a reStructuredText HTML document from current buffer and open it in the browser
 :com RP :exec "Vst html" | w! /tmp/reST_test.html | :q | !google-chrome /tmp/temp_vim_rest.html
 
