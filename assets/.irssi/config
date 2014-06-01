@@ -286,7 +286,7 @@ settings = {
     proxy_password = "HIDDEN";
     proxy_string = "";
     proxy_string_after = "";
-    server_reconnect_time = "30";
+    server_reconnect_time = "120";
   };
   "fe-text" = { actlist_sort = "refnum"; };
   "perl/core/scripts" = {
