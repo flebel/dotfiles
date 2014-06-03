@@ -172,6 +172,9 @@
 [submodule "assets/.vim/bundle/riv.vim"]
 	path = assets/.vim/bundle/riv.vim
 	url = https://github.com/Rykka/riv.vim.git
+[submodule "assets/.vim/bundle/selective-undo.vim"]
+	path = assets/.vim/bundle/selective-undo.vim
+	url = https://github.com/jaxbot/selective-undo.vim.git
 [submodule "assets/.vim/bundle/vim-less"]
 	path = assets/.vim/bundle/vim-less
 	url = https://github.com/groenewege/vim-less.git
