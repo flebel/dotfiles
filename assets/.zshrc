@@ -40,6 +40,7 @@ DISABLE_AUTO_UPDATE="true"
 plugins=(autoenv bower cp django git git-flow mercurial pip python screen ssh-agent svn tmux torrent vi-mode)
 
 export PAGER=~/bin/vimpager
+export PATH=~/bin:$PATH
 alias less=$PAGER
 alias zless=$PAGER
 
