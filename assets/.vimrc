@@ -36,7 +36,7 @@ set hlsearch
 set wildmode=list:longest
 
 " Toggle word-wrap and auto-indent behaviors when pasting
-:set pastetoggle=<F10>
+set pastetoggle=<F10>
 
 " Keep unsaved files open with their changes
 set hidden
