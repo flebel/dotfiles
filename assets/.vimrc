@@ -67,7 +67,7 @@ set list listchars=tab:▷⋅,trail:⋅,nbsp:⋅
 
 " Spellcheck
 autocmd FileType mail,text,python setlocal spell
-set spelllang=en_us,fr
+set spelllang=en_us
 
 " Make backspace more powerful
 set backspace=indent,eol,start
