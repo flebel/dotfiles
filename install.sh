@@ -55,6 +55,9 @@ if [ "$(uname)" == "Linux" ]; then
   sudo cp $MISC/50-marblemouse.conf /usr/share/X11/xorg.conf.d/50-marblemouse.conf
 fi
 
+# Irssi
+sudo cpan install Net::Twitter JSON::Any
+
 # Subtle window manager
 if [ "$(uname)" == "Linux" ]; then
   cp ${ICONS}/* ~/.local/share/subtle/icons/
