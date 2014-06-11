@@ -136,6 +136,9 @@
 [submodule "assets/.vim/bundle/vim-fugitive"]
 	path = assets/.vim/bundle/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive.git
+[submodule "assets/.vim/bundle/vim-jdaddy"]
+	path = assets/.vim/bundle/vim-jdaddy
+	url = https://github.com/tpope/vim-jdaddy.git
 [submodule "assets/.vim/bundle/vim-instant-markdown"]
 	path = assets/.vim/bundle/vim-instant-markdown
 	url = https://github.com/suan/vim-instant-markdown.git
@@ -253,3 +256,4 @@
 [submodule "assets/.vim/bundle/repmo.vim"]
 	path = assets/.vim/bundle/repmo.vim
 	url = https://github.com/vim-scripts/repmo.vim.git
+
