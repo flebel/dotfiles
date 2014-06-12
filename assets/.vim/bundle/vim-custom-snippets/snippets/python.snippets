@@ -93,4 +93,8 @@ snippet 511
 snippet addparentdirtopath
 	import os
 	os.sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+snippet show_whoosh_documents
+	from whoosh.index import open_dir
+	index = open_dir('whoosh_index')
+	print list(index.searcher().documents())
 
