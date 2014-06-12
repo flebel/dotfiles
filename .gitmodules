@@ -94,6 +94,9 @@
 [submodule "assets/.vim/bundle/pydiction"]
 	path = assets/.vim/bundle/pydiction
 	url = https://github.com/rkulla/pydiction.git
+[submodule "assets/.vim/bundle/repmo.vim"]
+	path = assets/.vim/bundle/repmo.vim
+	url = https://github.com/vim-scripts/repmo.vim.git
 [submodule "assets/.vim/bundle/screen"]
 	path = assets/.vim/bundle/screen
 	url = https://github.com/ervandew/screen.git
@@ -253,7 +256,4 @@
 [submodule "submodules/zsh-fuzzy-match"]
 	path = submodules/zsh-fuzzy-match
 	url = https://github.com/tarruda/zsh-fuzzy-match.git
-[submodule "assets/.vim/bundle/repmo.vim"]
-	path = assets/.vim/bundle/repmo.vim
-	url = https://github.com/vim-scripts/repmo.vim.git
 
