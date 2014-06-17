@@ -72,9 +72,22 @@ set spelllang=en_us
 " Make backspace more powerful
 set backspace=indent,eol,start
 
-" Set up default spacing and tabs (8 for hard tabs, 4 for what we use, insert
-" spaces instead of hard tabs)
-set tabstop=8 shiftwidth=4 expandtab
+let shiftwidth=3
+execute "set shiftwidth=".shiftwidth
+execute "set softtabstop=".shiftwidth
+set expandtab
+function! TabToggle()
+  if &expandtab
+    set shiftwidth=8
+    set softtabstop=0
+    set noexpandtab
+  else
+    execute "set shiftwidth=".g:shiftwidth
+    execute "set softtabstop=".g:shiftwidth
+    set expandtab
+  endif
+endfunction
+nmap <C-t> mz:execute TabToggle()<CR>'z
 
 set smarttab
 
@@ -265,19 +278,6 @@ nnoremap <Leader>y :YRShow<CR>
 function! Chomp(str)
   return substitute(a:str, '\n$', '', '')
 endfunction
-
-" Find a file and pass it to cmd
-function! DmenuOpen(cmd)
-  let fname = Chomp(system("find . | dmenu -i -l 20 -p " . a:cmd))
-  if empty(fname)
-    return
-  endif
-  execute a:cmd . " " . fname
-endfunction
-
-" Open dmenu fuzzy search
-map <c-t> :call DmenuOpen("tabe")<cr>
-map <c-f> :call DmenuOpen("e")<cr>
 
 " Format JSON
 map <Leader>j !python -m json.tool<CR>
