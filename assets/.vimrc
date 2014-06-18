@@ -72,7 +72,7 @@ set spelllang=en_us
 " Make backspace more powerful
 set backspace=indent,eol,start
 
-let shiftwidth=3
+let shiftwidth=4
 execute "set shiftwidth=".shiftwidth
 execute "set softtabstop=".shiftwidth
 set expandtab
