@@ -235,6 +235,9 @@
 [submodule "submodules/oh-my-zsh"]
 	path = submodules/oh-my-zsh
 	url = https://github.com/flebel/oh-my-zsh.git
+[submodule "submodules/percol"]
+	path = submodules/percol
+	url = https://github.com/mooz/percol.git
 [submodule "submodules/pyenv"]
 	path = submodules/pyenv
 	url = https://github.com/yyuu/pyenv.git
@@ -256,4 +259,3 @@
 [submodule "submodules/zsh-fuzzy-match"]
 	path = submodules/zsh-fuzzy-match
 	url = https://github.com/tarruda/zsh-fuzzy-match.git
-
