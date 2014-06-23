@@ -40,7 +40,8 @@ DISABLE_AUTO_UPDATE="true"
 plugins=(autoenv bower cp django git git-flow mercurial pip python screen ssh-agent svn tmux torrent vi-mode)
 
 export PAGER=~/bin/vimpager
-export PATH=~/bin:$PATH
+export PATH=~/bin:$PATH:~/dotfiles/submodules/percol/percol
+export PYTHONPATH=~/dotfiles/submodules/percol
 alias less=$PAGER
 alias zless=$PAGER
 
