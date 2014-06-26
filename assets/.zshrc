@@ -91,6 +91,8 @@ source ~/.zsh/plugins/bd/bd.zsh
 
 source ~/.zsh-fuzzy-match/fuzzy-match.zsh
 
+source ~/.fzf.zsh
+
 . ~/.nvm/nvm.sh
 
 . ~/.aliases
