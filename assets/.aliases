@@ -64,6 +64,7 @@ function ppkill() {
   ppgrep $QUERY | xargs kill $*
 }
 
+alias vi='vim'
 # Open a file in vim at a given line number after `grep -nr`
 # Supports multiple line numbers, e.g. after multiple piped `grep`
 function v()
