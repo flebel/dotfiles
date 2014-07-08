@@ -296,7 +296,7 @@ settings = {
     nicklist_width = "100";
     twitter_usernames = "heredoc@twitter";
   };
-  "fe-common/core" = { theme = "weechat"; };
+  "fe-common/core" = { theme = "oscar-thread"; };
 };
 logs = { };
 hilights = ( { text = "flebel"; nick = "yes"; word = "yes"; } );
