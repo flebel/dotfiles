@@ -7,9 +7,6 @@
 [submodule "assets/.irssi/scripts/irssi-revolving-door"]
 	path = assets/.irssi/scripts/irssi-revolving-door
 	url = https://github.com/flebel/irssi-revolving-door.git
-[submodule "assets/.vim/bundle/Align"]
-	path = assets/.vim/bundle/Align
-	url = https://github.com/vim-scripts/Align.git
 [submodule "assets/.vim/bundle/Conque-Shell"]
 	path = assets/.vim/bundle/Conque-Shell
 	url = https://github.com/vim-scripts/Conque-Shell.git
@@ -136,6 +133,9 @@
 [submodule "assets/.vim/bundle/vim-diminactive"]
 	path = assets/.vim/bundle/vim-diminactive
 	url = https://github.com/blueyed/vim-diminactive.git
+[submodule "assets/.vim/bundle/vim-easy-align"]
+	path = assets/.vim/bundle/vim-easy-align
+	url = https://github.com/junegunn/vim-easy-align.git
 [submodule "assets/.vim/bundle/vim-fugitive"]
 	path = assets/.vim/bundle/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive.git
