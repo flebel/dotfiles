@@ -251,6 +251,12 @@ syntax on
 " searchfold
 let g:searchfold_foldlevel = 1
 
+" vim-easy-align
+" Start interactive EasyAlign in visual mode (e.g. vip<Enter>)
+vmap <Enter> <Plug>(EasyAlign)
+" Start interactive EasyAlign for a motion/text object (e.g. <Leader>aip)
+nmap <Leader>a <Plug>(EasyAlign)
+
 " vim-instant-markdown
 let g:instant_markdown_slow = 1
 
