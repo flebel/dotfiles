@@ -118,6 +118,9 @@
 [submodule "assets/.vim/bundle/tlib_vim"]
 	path = assets/.vim/bundle/tlib_vim
 	url = https://github.com/tomtom/tlib_vim.git
+[submodule "assets/.vim/bundle/vim-accordion"]
+	path = assets/.vim/bundle/vim-accordion
+	url = https://github.com/mattboehm/vim-accordion
 [submodule "assets/.vim/bundle/vim-addon-mw-utils"]
 	path = assets/.vim/bundle/vim-addon-mw-utils
 	url = https://github.com/MarcWeber/vim-addon-mw-utils.git
