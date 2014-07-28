@@ -112,6 +112,9 @@
 [submodule "assets/.vim/bundle/supertab"]
 	path = assets/.vim/bundle/supertab
 	url = https://github.com/ervandew/supertab.git
+[submodule "assets/.vim/bundle/swapit"]
+	path = assets/.vim/bundle/swapit
+	url = https://github.com/mjbrownie/swapit.git
 [submodule "assets/.vim/bundle/syntastic"]
 	path = assets/.vim/bundle/syntastic
 	url = https://github.com/scrooloose/syntastic.git
