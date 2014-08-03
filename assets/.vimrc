@@ -251,6 +251,16 @@ syntax on
 " searchfold
 let g:searchfold_foldlevel = 1
 
+" swapit
+" nmap <Plug>SwapItFallbackIncrement <Plug>SpeedDatingUp
+" nmap <Plug>SwapItFallbackDecrement <Plug>SpeedDatingDown
+" vmap <Plug>SwapItFallbackIncrement <Plug>SpeedDatingUp
+" vmap <Plug>SwapItFallbackDecrement <Plug>SpeedDatingDown
+nnoremap <silent><c-A> :<c-u>call SwapWord(expand("<cword>"), v:count, 'forward', 'no')<cr>
+nnoremap <silent><c-X> :<c-u>call SwapWord(expand("<cword>"), v:count, 'backward','no')<cr>
+vnoremap <silent><c-A> :<c-u>let swap_count = v:count<Bar>call SwapWord(<SID>GetSelection(), swap_count, 'forward', 'yes')<Bar>unlet swap_count<cr>
+vnoremap <silent><c-X> :<c-u>let swap_count = v:count<Bar>call SwapWord(<SID>GetSelection(), swap_count, 'backward','yes')<Bar>unlet swap_count<cr>
+
 " vim-easy-align
 " Start interactive EasyAlign in visual mode (e.g. vip<Enter>)
 vmap <Enter> <Plug>(EasyAlign)
