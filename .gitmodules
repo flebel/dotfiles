@@ -241,6 +241,9 @@
 [submodule "submodules/autoenv"]
 	path = submodules/autoenv
 	url = https://github.com/kennethreitz/autoenv.git
+[submodule "submodules/cv"]
+	path = submodules/cv
+	url = https://github.com/Xfennec/cv.git
 [submodule "submodules/fzf"]
 	path = submodules/fzf
 	url = https://github.com/junegunn/fzf.git

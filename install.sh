@@ -50,6 +50,7 @@ for f in $SCRIPTS_FILES; do
 done
 ln -s ${SUBMODULES}/git/contrib/diff-highlight/diff-highlight ~/scripts/git-diff-highlight
 
+cd ${SUBMODULES}/cv && make && sudo make install && cd -
 cd ${SUBMODULES}/sysadmin-util && make build && cd -
 
 if [ "$(uname)" == "Linux" ]; then
