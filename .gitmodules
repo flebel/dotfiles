@@ -196,6 +196,9 @@
 [submodule "assets/.vim/bundle/vim-less"]
 	path = assets/.vim/bundle/vim-less
 	url = https://github.com/groenewege/vim-less.git
+[submodule "assets/.vim/bundle/vim-rename2"]
+	path = assets/.vim/bundle/vim-rename2
+	url = https://github.com/ReekenX/vim-rename2.git
 [submodule "assets/.vim/bundle/vim-repeat"]
 	path = assets/.vim/bundle/vim-repeat
 	url = https://github.com/tpope/vim-repeat.git
