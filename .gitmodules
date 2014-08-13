@@ -265,6 +265,9 @@
 [submodule "submodules/pyenv"]
 	path = submodules/pyenv
 	url = https://github.com/yyuu/pyenv.git
+[submodule "submodules/pythonpy"]
+	path = submodules/pythonpy
+	url = https://github.com/Russell91/pythonpy.git
 [submodule "submodules/scm_breeze"]
 	path = submodules/scm_breeze
 	url = https://github.com/ndbroadbent/scm_breeze.git

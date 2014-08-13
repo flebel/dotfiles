@@ -18,6 +18,7 @@ ln -s ${SUBMODULES}/nvm ~/.nvm
 ln -s ${SUBMODULES}/oh-my-zsh ~/.oh-my-zsh
 ln -s ${SUBMODULES}/percol/bin/percol ~/bin/percol
 ln -s ${SUBMODULES}/pyenv ~/.pyenv
+ln -s ${SUBMODULES}/pythonpy/py ~/bin/py
 ln -s ${SUBMODULES}/scm_breeze ~/.scm_breeze
 ln -s ${SUBMODULES}/zsh-fuzzy-match ~/.zsh-fuzzy-match
 mkdir -p ~/.zsh/plugins/bd
