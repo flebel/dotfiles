@@ -39,6 +39,10 @@ DISABLE_AUTO_UPDATE="true"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 plugins=(autoenv bower cp dirhistory django git git-flow github mercurial nvm pip pyenv pylint python jsontools jump screen ssh-agent svn tmux torrent vi-mode)
 
+# Enable support for bash completion scripts
+autoload bashcompinit
+bashcompinit
+
 export PATH=~/bin:$PATH:~/dotfiles/submodules/percol/percol
 export PYTHONPATH=~/dotfiles/submodules/percol
 
