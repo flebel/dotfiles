@@ -91,6 +91,8 @@ source ~/.zsh-fuzzy-match/fuzzy-match.zsh
 
 source ~/.fzf.zsh
 
+source ~/dotfiles/submodules/pythonpy/extras/pycompletion.sh
+
 . ~/.nvm/nvm.sh
 
 . ~/.aliases
