@@ -106,3 +106,5 @@ alias lg="(usblamp -d 1000 green green white green white green white green &)"
 alias lo="(usblamp off &)"
 alias lr="(usblamp -d 1000 red red white red white red white red &)"
 
+alias msp="./manage.py shell_plus"
+
