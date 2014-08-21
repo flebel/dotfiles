@@ -222,6 +222,9 @@ let g:ctrlp_map = '<c-\>'
 let g:ctrlp_extensions = ['funky']
 nnoremap <Leader>f :CtrlPFunky<Cr>
 nnoremap <Leader>F :execute 'CtrlPFunky ' . expand('<cword>')<Cr>
+let g:ctrlp_funky_sort_by_mru = 1
+let g:ctrlp_funky_syntax_highlight = 1
+let g:ctrlp_funky_use_cache = 1
 
 " accelerated-jk
 nmap j <Plug>(accelerated_jk_gj)
