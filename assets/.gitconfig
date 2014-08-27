@@ -30,6 +30,7 @@
 
 [grep]
     extendRegexp = true
+    fullname = false
     lineNumber = true
 
 [help]
