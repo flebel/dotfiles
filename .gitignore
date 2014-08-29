@@ -4,3 +4,5 @@ assets/.irssi/scripts/twirssi.ids
 assets/.irssi/scripts/twirssi.json
 assets/.pip/pip.log
 assets/.vim/sessions
+assets/.vim/spell/*.add.spl
+
