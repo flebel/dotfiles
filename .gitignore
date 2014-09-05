@@ -1,8 +1,8 @@
 assets/.irssi/away.log
-assets/.irssi/triggers
 assets/.irssi/scripts/twirssi.ids
 assets/.irssi/scripts/twirssi.json
 assets/.irssi/scripts/twirssi.oauth
+assets/.irssi/triggers
 assets/.pip/pip.log
 assets/.vim/sessions
 assets/.vim/spell/*.add.spl
