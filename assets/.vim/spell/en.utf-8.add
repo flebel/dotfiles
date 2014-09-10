@@ -1,8 +1,16 @@
+MRO
 QuerySet
 SMS
+Stringify
 apps
 async
 hashtag
 hashtags
+json
 playlist
 queryset
+serializer
+str
+unicode
+uri
+uris
