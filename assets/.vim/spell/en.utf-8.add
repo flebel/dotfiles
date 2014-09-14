@@ -6,6 +6,7 @@ MRO
 QuerySet
 SMS
 Stringify
+URIs
 addressbook
 apps
 async
