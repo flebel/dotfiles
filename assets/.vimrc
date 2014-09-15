@@ -136,6 +136,10 @@ autocmd Filetype html setlocal ts=2 sts=2 sw=2
 " JavaScript
 autocmd Filetype javascript setlocal ts=2 sts=2 sw=2
 
+" Markdown
+" The following line makes vim-markdown useless on recent vim builds
+autocmd BufNewFile,BufReadPost *.md set filetype=markdown
+
 " Python
 au FileType py set autoindent
 au FileType py set smartindent
