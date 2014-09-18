@@ -2,7 +2,7 @@ set nocompatible
 
 " Recommended by Pathogen to improve its support for Vim sessions
 set sessionoptions-=options
-let g:pathogen_disabled = ['pydiction']
+let g:pathogen_disabled = []
 execute pathogen#infect()
 
 " Hide the splash message
@@ -244,6 +244,9 @@ let g:miniBufExplUseSingleClick = 1
 
 " pydiction
 let g:pydiction_location = '~/.vim/bundle/pydiction/complete-dict'
+" Remap snipmate's trigger key from tab to <C-J>
+imap <C-J> <Plug>snipMateNextOrTrigger
+smap <C-J> <Plug>snipMateNextOrTrigger
 
 " rainbow-parentheses.vim
 au Syntax * RainbowParenthesesLoadBraces
