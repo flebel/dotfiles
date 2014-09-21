@@ -123,6 +123,22 @@ nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 
+" Kill the buffer if it's visible from only one window, otherwise close the
+" window without killing the buffer
+function! CloseWindowOrKillBuffer() "{{{
+  let number_of_windows_to_this_buffer = len(filter(range(1, winnr('$')), "winbufnr(v:val) == bufnr('%')"))
+  " Never close a nerd tree if matchstr(expand("%"), 'NERD') == 'NERD'
+    wincmd c
+    return
+  endif
+  if number_of_windows_to_this_buffer > 1
+    wincmd c
+  else
+    bdelete
+  endif
+  endfunction "}}}
+nnoremap <silent> Q :call CloseWindowOrKillBuffer()<CR>
+
 " Increase/decrease window size by sane amounts
 nnoremap <silent> + :exe "resize " . (winheight(0) * 3/2)<CR>
 nnoremap <silent> - :exe "resize " . (winheight(0) * 2/3)<CR>
