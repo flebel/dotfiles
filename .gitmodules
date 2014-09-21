@@ -133,6 +133,9 @@
 [submodule "assets/.vim/bundle/vim-autoclose"]
 	path = assets/.vim/bundle/vim-autoclose
 	url = https://github.com/Townk/vim-autoclose.git
+[submodule "assets/.vim/bundle/vim-bufferline"]
+	path = assets/.vim/bundle/vim-bufferline
+	url = https://github.com/bling/vim-bufferline.git
 [submodule "assets/.vim/bundle/vim-colors-solarized"]
 	path = assets/.vim/bundle/vim-colors-solarized
 	url = https://github.com/altercation/vim-colors-solarized
