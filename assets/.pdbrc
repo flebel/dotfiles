@@ -1,0 +1,14 @@
+# `.pdbrc` does not support code spawning multiple lines, import complex functions
+import os
+execfile(os.path.expanduser("~/.pdbrc.py"))
+
+# Auto-import pprint
+from pprint import pprint
+
+# `__dict__` shortcut
+alias pd p_ %1.__dict__ %1.
+
+# Display a 11 lines context upon `n(ext)` or `s(tep)`
+alias nl n;;l
+alias sl s;;l
+
