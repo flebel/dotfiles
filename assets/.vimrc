@@ -14,6 +14,9 @@ colorscheme vividchalk
 " Status Line
 set statusline=%F%m%r%h%w\ [T=%Y\ %{&ff}]\ [A/H=\%03.3b/\%02.2B]\ [P=%04l/%04L,%04v][%p%%]\ %{TagInStatusLine()}
 
+" Bufferline
+let g:bufferline_fname_mod = ':s?version?main?'
+
 " Always turn on status line
 set laststatus=2
 
