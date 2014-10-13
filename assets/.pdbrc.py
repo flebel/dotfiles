@@ -13,6 +13,7 @@ readline.set_history_length(1000)
 
 # Return to debugger after a fatal exception has occurred
 # Borrowed from https://github.com/whiteinge/dotfiles/blob/53da9abc2fc871c41654236c6edd9bff155a681e/.pdbrc.py#L30
+from bdb import sys
 def info(type, value, tb):
     if hasattr(sys, 'ps1') or not sys.stderr.isatty():
         sys.__excepthook__(type, value, tb)
