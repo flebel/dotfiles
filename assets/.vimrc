@@ -100,12 +100,12 @@ set autoindent nocindent nosmartindent
 " Jump to last position in file
 :au BufReadPost * if line("'\"") > 0 && line("'\"") <= line("$") | exe "normal g'\"" | endif
 
-highlight OverLength ctermbg=black ctermfg=220 guibg=black guifg=#ffd700
-match OverLength /\%81v.\+/
-
 " Color customizations
 highlight Comment ctermfg=100 guifg=#878700
 highlight Normal ctermfg=white ctermbg=black
+
+" vim-lengthmatters
+call lengthmatters#highlight('ctermbg=60') "ctermfg=yellow
 
 " Inform sh syntax that /bin/sh is actually bash
 let is_bash=1
