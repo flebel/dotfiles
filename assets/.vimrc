@@ -106,6 +106,7 @@ highlight Normal ctermfg=white ctermbg=black
 
 " vim-lengthmatters
 call lengthmatters#highlight('ctermbg=60') "ctermfg=yellow
+let g:lengthmatters_start_at_column=101
 
 " Inform sh syntax that /bin/sh is actually bash
 let is_bash=1
