@@ -87,6 +87,13 @@ function v()
   vim +:"$line" "$filename"
 }
 
+ccyt() {
+  curl -H "Content-Type: application/json" \
+    http://192.168.1.103:8008/apps/YouTube \
+    -X POST \
+    -d "v=$1";
+}
+
 ytsearch() {
   curl -s https://www.youtube.com/results\?search_query\=$@ | \
   grep -o 'watch?v=[^"]*"[^>]*title="[^"]*' | \
