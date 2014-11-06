@@ -43,12 +43,14 @@ json
 localhost
 middleware
 offline
+playlist
 postgresql
 psycopg2
 queryset
 redis
 s
 serializer
+serializers
 sqlite3
 str
 timestamp
