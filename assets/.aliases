@@ -108,7 +108,7 @@ alias greo=grep
 alias h=head
 alias l=less
 alias t=tail
-alias ccat='pygmentize -g'
+alias ccat="pygmentize -g"
 
 alias httpserv="python -m SimpleHTTPServer"
 alias smtpserv="python -m smtpd -n -c DebuggingServer localhost:2525"
@@ -116,7 +116,7 @@ alias smtpserv="python -m smtpd -n -c DebuggingServer localhost:2525"
 alias stripexif="exiftool -all="
 
 # Disable 'lp' to avoid fat fingering 'git lp'
-alias lp='/usr/bin/false'
+alias lp="/usr/bin/false"
 
 alias lb="(usblamp -d 1000 blue blue white blue white blue white blue &)"
 alias lg="(usblamp -d 1000 green green white green white green white green &)"
