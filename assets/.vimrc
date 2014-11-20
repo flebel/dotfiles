@@ -255,6 +255,7 @@ nmap j <Plug>(accelerated_jk_gj)
 nmap k <Plug>(accelerated_jk_gk)
 
 " github-issues.vim
+let g:gissues_lazy_load = 1
 let g:github_same_window = 1
 
 " minibufexpl
