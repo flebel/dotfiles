@@ -126,3 +126,5 @@ alias lr="(usblamp -d 1000 red red white red white red white red &)"
 alias ip="ipython"
 alias msp="./manage.py shell_plus"
 
+alias x509text="openssl x509 -inform PEM -text -in"
+
