@@ -95,7 +95,7 @@ source ~/.zsh-fuzzy-match/fuzzy-match.zsh
 
 source ~/.fzf.zsh
 
-source ~/dotfiles/submodules/pythonpy/extras/pycompletion.sh
+source ~/dotfiles/submodules/pythonpy/pythonpy/pycompletion.sh
 
 . ~/.nvm/nvm.sh
 
