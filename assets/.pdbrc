@@ -2,7 +2,8 @@
 import os
 execfile(os.path.expanduser("~/.pdbrc.py"))
 
-# Auto-import pprint
+# Auto-imports
+from operator import attrgetter, attrsetter
 from pprint import pprint
 
 # `__dict__` shortcut
