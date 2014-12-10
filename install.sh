@@ -14,6 +14,7 @@ git submodule update
 mkdir ~/bin
 ln -s ${ASSETS}/.vim/bundle/vimpager/vimpager ~/bin/vimpager
 ln -s ${SUBMODULES}/autoenv ~/.autoenv
+ln -s ${SUBMODULES}/icdiff/icdiff ~/bin/icdiff
 ln -s ${SUBMODULES}/nvm ~/.nvm
 ln -s ${SUBMODULES}/oh-my-zsh ~/.oh-my-zsh
 ln -s ${SUBMODULES}/percol/bin/percol ~/bin/percol

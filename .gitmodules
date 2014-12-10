@@ -262,6 +262,9 @@
 [submodule "submodules/git"]
 	path = submodules/git
 	url = https://github.com/git/git.git
+[submodule "submodules/icdiff"]
+	path = submodules/icdiff
+	url = https://github.com/jeffkaufman/icdiff.git
 [submodule "submodules/nvm"]
 	path = submodules/nvm
 	url = https://github.com/creationix/nvm.git
