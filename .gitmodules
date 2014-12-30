@@ -213,7 +213,7 @@
 	url = https://github.com/airblade/vim-rooter.git
 [submodule "assets/.vim/bundle/vim-scroll-position"]
 	path = assets/.vim/bundle/vim-scroll-position
-	url = https://github.com/junegunn/vim-scroll-position.git
+	url = https://github.com/flebel/vim-scroll-position.git
 [submodule "assets/.vim/bundle/vim-session"]
 	path = assets/.vim/bundle/vim-session
 	url = https://github.com/xolox/vim-session.git
