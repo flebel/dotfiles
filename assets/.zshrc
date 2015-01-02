@@ -43,6 +43,7 @@ plugins=(autoenv bower cp dirhistory django git git-flow github mercurial nvm pi
 autoload bashcompinit
 bashcompinit
 
+export MANPAGER='less -s -M +Gg'
 export PATH=~/bin:$PATH:~/dotfiles/submodules/percol/percol
 export PYTHONPATH=~/dotfiles/submodules/percol
 
