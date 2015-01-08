@@ -44,7 +44,7 @@ autoload bashcompinit
 bashcompinit
 
 export MANPAGER='less -s -M +Gg'
-export PATH=~/bin:$PATH:~/dotfiles/submodules/percol/percol
+export PATH=~/bin:~/.pyenv/shims:$PATH:~/dotfiles/submodules/percol/percol
 export PYTHONPATH=~/dotfiles/submodules/percol
 
 SSH_ENV="$HOME/.ssh/agent-info"
