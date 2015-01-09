@@ -23,6 +23,7 @@ assertEqual
 async
 backends
 base62
+callees
 d
 db
 dealbreaker
@@ -52,6 +53,8 @@ s
 serializer
 serializers
 sqlite3
+stdin
+stdout
 str
 timestamp
 tmp
