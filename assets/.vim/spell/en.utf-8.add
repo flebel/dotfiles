@@ -2,6 +2,7 @@ APNS
 Baiduspider
 Django
 Django's
+ECONNRESET
 FK
 GCM
 GitHub
@@ -66,3 +67,4 @@ uris
 username
 usernames
 usr
+zunionstore
