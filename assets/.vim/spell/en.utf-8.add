@@ -17,6 +17,7 @@ URIs
 Vimeo
 WIP
 YouTube
+addressbook
 app
 apps
 ascii
@@ -53,6 +54,7 @@ redis
 s
 serializer
 serializers
+signup
 sqlite3
 stdin
 stdout
