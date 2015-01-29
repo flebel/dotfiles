@@ -76,6 +76,9 @@
 [submodule "assets/.vim/bundle/jedi-vim"]
 	path = assets/.vim/bundle/jedi-vim
 	url = https://github.com/davidhalter/jedi-vim.git
+[submodule "assets/.vim/bundle/loremipsum"]
+	path = assets/.vim/bundle/loremipsum
+	url = https://github.com/vim-scripts/loremipsum.git
 [submodule "assets/.vim/bundle/minibufexpl.vim"]
 	path = assets/.vim/bundle/minibufexpl.vim
 	url = https://github.com/fholgado/minibufexpl.vim.git
