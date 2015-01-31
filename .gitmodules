@@ -100,15 +100,27 @@
 [submodule "assets/.vim/bundle/pythonhelper"]
 	path = assets/.vim/bundle/pythonhelper
 	url = https://github.com/mjbrownie/pythonhelper.git
+[submodule "assets/.vim/bundle/rainbow_parentheses.vim"]
+	path = assets/.vim/bundle/rainbow_parentheses.vim
+	url = https://github.com/justincampbell/rainbow_parentheses.vim.git
+[submodule "assets/.vim/bundle/renamer.vim"]
+	path = assets/.vim/bundle/renamer.vim
+	url = https://github.com/vim-scripts/renamer.vim.git
 [submodule "assets/.vim/bundle/repmo.vim"]
 	path = assets/.vim/bundle/repmo.vim
 	url = https://github.com/vim-scripts/repmo.vim.git
+[submodule "assets/.vim/bundle/riv.vim"]
+	path = assets/.vim/bundle/riv.vim
+	url = https://github.com/Rykka/riv.vim.git
 [submodule "assets/.vim/bundle/screen"]
 	path = assets/.vim/bundle/screen
 	url = https://github.com/ervandew/screen.git
 [submodule "assets/.vim/bundle/searchfold.vim"]
 	path = assets/.vim/bundle/searchfold.vim
 	url = https://github.com/vim-scripts/searchfold.vim.git
+[submodule "assets/.vim/bundle/selective-undo.vim"]
+	path = assets/.vim/bundle/selective-undo.vim
+	url = https://github.com/jaxbot/selective-undo.vim.git
 [submodule "assets/.vim/bundle/snipmate.vim"]
 	path = assets/.vim/bundle/snipmate.vim
 	url = https://github.com/garbas/vim-snipmate.git
@@ -187,18 +199,6 @@
 [submodule "assets/.vim/bundle/vim-signify"]
 	path = assets/.vim/bundle/vim-signify
 	url = https://github.com/mhinz/vim-signify.git
-[submodule "assets/.vim/bundle/rainbow_parentheses.vim"]
-	path = assets/.vim/bundle/rainbow_parentheses.vim
-	url = https://github.com/justincampbell/rainbow_parentheses.vim.git
-[submodule "assets/.vim/bundle/renamer.vim"]
-	path = assets/.vim/bundle/renamer.vim
-	url = https://github.com/vim-scripts/renamer.vim.git
-[submodule "assets/.vim/bundle/riv.vim"]
-	path = assets/.vim/bundle/riv.vim
-	url = https://github.com/Rykka/riv.vim.git
-[submodule "assets/.vim/bundle/selective-undo.vim"]
-	path = assets/.vim/bundle/selective-undo.vim
-	url = https://github.com/jaxbot/selective-undo.vim.git
 [submodule "assets/.vim/bundle/vim-lengthmatters"]
 	path = assets/.vim/bundle/vim-lengthmatters
 	url = https://github.com/whatyouhide/vim-lengthmatters.git
