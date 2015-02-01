@@ -55,6 +55,7 @@ ln -s ${SUBMODULES}/git/contrib/diff-highlight/diff-highlight ~/scripts/git-diff
 
 cd ${SUBMODULES}/cv && make && sudo make install && cd -
 cd ${SUBMODULES}/sysadmin-util && make build && cd -
+cd ${SUBMODULES}/pgcli && sudo pip install -e . && cd -
 
 if [ "$(uname)" == "Linux" ]; then
   sudo cp $MISC/50-marblemouse.conf /usr/share/X11/xorg.conf.d/50-marblemouse.conf

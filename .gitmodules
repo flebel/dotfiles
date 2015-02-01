@@ -277,6 +277,9 @@
 [submodule "submodules/percol"]
 	path = submodules/percol
 	url = https://github.com/mooz/percol.git
+[submodule "submodules/pgcli"]
+	path = submodules/pgcli
+	url = https://github.com/amjith/pgcli.git
 [submodule "submodules/pyenv"]
 	path = submodules/pyenv
 	url = https://github.com/yyuu/pyenv.git
