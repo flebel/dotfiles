@@ -14,3 +14,7 @@ from pprint import pprint
 alias nl n;;l
 alias sl s;;l
 
+import __builtin__
+__builtin__.__dict__.update(locals())
+import timeit
+
