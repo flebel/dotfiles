@@ -78,6 +78,9 @@ setopt HIST_IGNORE_SPACE
 export GREP_COLOR="1;32"
 export GREP_OPTIONS="--color=auto"
 
+export JAVA_HOME=$(/usr/libexec/java_home)
+export JDK_HOME=$(/usr/libexec/java_home)
+
 if [ "$(uname)" != "Darwin" ]; then
   xmodmap ~/.Xmodmap
 fi
