@@ -64,6 +64,9 @@ fi
 # Irssi
 sudo cpan install Net::Twitter JSON::Any
 
+# Misc
+sudo gem install mailcatcher
+
 # Subtle window manager
 if [ "$(uname)" == "Linux" ]; then
   cp ${ICONS}/* ~/.local/share/subtle/icons/
