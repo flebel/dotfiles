@@ -169,6 +169,9 @@
 [submodule "assets/.vim/bundle/vim-easy-align"]
 	path = assets/.vim/bundle/vim-easy-align
 	url = https://github.com/junegunn/vim-easy-align.git
+[submodule "assets/.vim/bundle/vim-expand-region"]
+	path = assets/.vim/bundle/vim-expand-region
+	url = https://github.com/terryma/vim-expand-region.git
 [submodule "assets/.vim/bundle/vim-fugitive"]
 	path = assets/.vim/bundle/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive.git
