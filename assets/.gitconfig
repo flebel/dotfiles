@@ -57,3 +57,5 @@
     email = francoislebel@gmail.com
     name = Francois Lebel
 
+[rerere]
+	enabled = true
