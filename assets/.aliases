@@ -111,6 +111,7 @@ alias l=less
 alias t=tail
 alias ccat="pygmentize -g"
 
+alias dtest="python -m doctest -v"
 alias httpserv="python -m SimpleHTTPServer"
 alias smtpserv="python -m smtpd -n -c DebuggingServer localhost:2525"
 
