@@ -226,6 +226,9 @@
 [submodule "assets/.vim/bundle/vim-session"]
 	path = assets/.vim/bundle/vim-session
 	url = https://github.com/xolox/vim-session.git
+[submodule "assets/.vim/bundle/vim-sleuth"]
+	path = assets/.vim/bundle/vim-sleuth
+	url = https://github.com/tpope/vim-sleuth.git
 [submodule "assets/.vim/bundle/vim-snippets"]
 	path = assets/.vim/bundle/vim-snippets
 	url = https://github.com/honza/vim-snippets.git
