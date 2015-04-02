@@ -23,3 +23,7 @@ def info(type, value, tb):
     pdb.pm()
 sys.excepthook = info
 
+def listdict(l):
+    print '\033[94m%i elements\033[0m' % (len(l),)
+    return [x.__dict__ for x in l]
+
