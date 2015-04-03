@@ -51,6 +51,7 @@ json
 localhost
 middleware
 offline
+passphrased
 playlist
 postgresql
 psycopg2
