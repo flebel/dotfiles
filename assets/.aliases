@@ -108,6 +108,7 @@ alias greo=grep
 
 alias h=head
 alias l=less
+alias j=jobs
 alias t=tail
 alias ccat="pygmentize -g"
 
