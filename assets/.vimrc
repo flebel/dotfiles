@@ -147,6 +147,9 @@ nnoremap <silent> Q :call CloseWindowOrKillBuffer()<CR>
 nnoremap <silent> + :exe "resize " . (winheight(0) * 3/2)<CR>
 nnoremap <silent> - :exe "resize " . (winheight(0) * 2/3)<CR>
 
+" Copy current filename to the clipboard
+nmap <Leader>c :call system("pbcopy", expand("%:p"))<CR>
+
 " Compile every Perl file after saving
 au BufWritePost {*.pm,*.pl,*.inc,*.cgi} !perl -c %
 
