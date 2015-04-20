@@ -199,6 +199,9 @@
 [submodule "assets/.vim/bundle/vim-pathogen"]
 	path = assets/.vim/bundle/vim-pathogen
 	url = https://github.com/tpope/vim-pathogen
+[submodule "assets/.vim/bundle/vim-peekaboo"]
+	path = assets/.vim/bundle/vim-peekaboo
+	url = https://github.com/junegunn/vim-peekaboo.git
 [submodule "assets/.vim/bundle/vim-isort"]
 	path = assets/.vim/bundle/vim-isort
 	url = https://github.com/fisadev/vim-isort.git
