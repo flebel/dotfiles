@@ -151,6 +151,9 @@
 [submodule "assets/.vim/bundle/vim-bufferline"]
 	path = assets/.vim/bundle/vim-bufferline
 	url = https://github.com/bling/vim-bufferline.git
+[submodule "assets/.vim/bundle/vim-capslock"]
+	path = assets/.vim/bundle/vim-capslock
+	url = https://github.com/tpope/vim-capslock.git
 [submodule "assets/.vim/bundle/vim-coffee-script"]
 	path = assets/.vim/bundle/vim-coffee-script
 	url = https://github.com/kchmck/vim-coffee-script
