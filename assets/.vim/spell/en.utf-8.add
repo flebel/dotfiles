@@ -57,6 +57,7 @@ postgresql
 psycopg2
 queryset
 redis
+retweeted
 s
 savepoint
 serializer
