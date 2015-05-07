@@ -21,6 +21,7 @@ ln -s ${SUBMODULES}/percol/bin/percol ~/bin/percol
 ln -s ${SUBMODULES}/pyenv ~/.pyenv
 ln -s ${SUBMODULES}/pythonpy/pythonpy ~/bin/py
 ln -s ${SUBMODULES}/pythonpy/extras/pycompleter ~/bin/pycompleter
+ln -s ${SUBMODULES}/git-when-merged/bin/git-when-merged ~/bin/git-when-merged
 ln -s ${SUBMODULES}/scm_breeze ~/.scm_breeze
 ln -s ${SUBMODULES}/zsh-fuzzy-match ~/.zsh-fuzzy-match
 mkdir -p ~/.zsh/plugins/bd

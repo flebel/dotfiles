@@ -301,6 +301,9 @@
 [submodule "submodules/pythonpy"]
 	path = submodules/pythonpy
 	url = https://github.com/Russell91/pythonpy.git
+[submodule "submodules/git-when-merged"]
+	path = submodules/git-when-merged
+	url = https://github.com/mhagger/git-when-merged.git
 [submodule "submodules/scm_breeze"]
 	path = submodules/scm_breeze
 	url = https://github.com/ndbroadbent/scm_breeze.git
