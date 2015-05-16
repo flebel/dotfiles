@@ -33,6 +33,9 @@ if [ "$(uname)" == "Linux" ]; then
   ln -s ${SUBMODULES}/urxvt-perls/clipboard ~/.urxvt/ext/
 fi
 
+cd ${SUBMODULES}/rtop && make init && make
+ln -s ${SUBMODULES}/rtop/rtop ~/bin/rtop
+
 chsh -s /bin/zsh
 
 mkdir -p ~/dotfiles_backup/assets > /dev/null 2>&1
