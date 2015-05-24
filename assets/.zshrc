@@ -109,6 +109,7 @@ source ~/dotfiles/submodules/pythonpy/pythonpy/pycompletion.sh
 # Customizations
 #
 setopt nohup
+xset r rate 350 45
 
 #
 # Key bindings
