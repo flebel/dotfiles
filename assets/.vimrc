@@ -326,6 +326,7 @@ map <Leader>T <Plug>TaskList
 let g:session_autosave_periodic = 5
 
 " YankRing
+let g:yankring_max_history = 500
 nnoremap <Leader>y :YRShow<CR>
 
 " Strip the newline from the end of a string
