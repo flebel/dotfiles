@@ -47,6 +47,7 @@ hashtags
 hostname
 https
 ident
+ing
 json
 localhost
 middleware
@@ -54,6 +55,7 @@ offline
 passphrased
 playlist
 postgresql
+programmatically
 psycopg2
 queryset
 redis
@@ -62,11 +64,13 @@ s
 savepoint
 serializer
 serializers
+should've
 signup
 sqlite3
 stdin
 stdout
 str
+texted
 timestamp
 tmp
 tz
