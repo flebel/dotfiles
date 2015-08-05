@@ -191,7 +191,9 @@ function grep_options() {
 precmd_functions=( grep_options )
 
 # Pretend we're xterm
-if (${TERM} == "rxvt-unicode") setenv TERM "xterm"
+if [ "${TERM}" == "rxvt-unicode" ]; then
+  setenv TERM "xterm"
+fi
 
 if [ -f ~/.zshrc_local ]; then
   . ~/.zshrc_local
