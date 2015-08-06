@@ -42,8 +42,8 @@ URxvt.keysym.C-S-Up:   perl:font-size:incglobal
 URxvt.keysym.C-S-Down: perl:font-size:decglobal
 !
 ! Appearance
-URxvt*font:     -xos4-terminus-medium-*-*-*-12-*-*-*-*-*-iso8859-2
-URxvt*boldFont: -xos4-terminus-bold-*-*-*-12-*-*-*-*-*-iso8859-2
+URxvt*font:     xft:DejaVu Sans Mono-8
+URxvt*boldFont: xft:DejaVu Sans Mono Bold-8
 !
 ! Cursor
 URxvt*cursorColor: #657b83
@@ -98,8 +98,8 @@ xterm*highlightSelection: true
 xterm*utf8:            2
 xterm*eightBitInput:   true
 xterm*metaSendsEscape: true
-xterm*font:        -xos4-terminus-medium-*-*-*-12-*-*-*-*-*-iso8859-2
-xterm*boldFont:    -xos4-terminus-bold-*-*-*-12-*-*-*-*-*-iso8859-2
+xterm*font:        xft:DejaVu Sans Mono-8
+xterm*boldFont:    xft:DejaVu Sans Mono Bold-8
 xterm*cursorColor: #DCDCCC
 ! Zenburn
 xterm*background:  #3f3f3f
@@ -139,7 +139,7 @@ XLock.info:
 !XLock.info:         Enter password to unlock \nSelect icon to lock
 XLock.validate:      Validating login...
 XLock.invalid:       Login failed
-XLock*font:          -xos4-terminus-medium-*-*-*-12-*-*-*-*-*-iso8859-2
+XLock*font:          xft:DejaVu Sans Mono-8
 !XLock.ncolors:      200
 !XLock.dpmsstandby:  600
 !XLock.dpmssuspend:  1200
@@ -152,10 +152,11 @@ Xman*Background:          #3F3F3F
 Xman*Foreground:          #F0DFAF
 Xman*bothShown:           true
 Xman*topBox:              false
-Xman*manualFontNormal:    -xos4-terminus-medium-*-*-*-12-*-*-*-*-*-iso8859-2
-Xman*manualFontBold:      -xos4-terminus-bold-*-*-*-12-*-*-*-*-*-iso8859-2
-Xman*manualFontItalic:    -xos4-terminus-medium-*-*-*-12-*-*-*-*-*-iso8859-2
-Xman*directoryFontNormal: -xos4-terminus-medium-*-*-*-12-*-*-*-*-*-iso8859-2
+Xman*manualFontNormal:    xft:DejaVu Sans Mono-8
+Xman*manualFontBold:      xft:DejaVu Sans Mono Bold-8
+Xman*manualFontItalic:    xft:DejaVu Sans Mono Bold Oblique-8
+Xman*directoryFontNormal: xft:DejaVu Sans Mono-8
+
 !}}}
 
 
@@ -186,7 +187,7 @@ xdiary*foreground: #F0DFAF
 
 
 !{{{ XMESSAGE
-Xmessage*font:                  -xos4-terminus-medium-*-*-*-12-*-*-*-*-*-iso8859-2
+Xmessage*font:                  xft:DejaVu Sans Mono-8
 Xmessage*background:            #3F3F3F
 Xmessage*foreground:            #F0DFAF
 Xmessage*form.*.shapeStyle:     rectangle
@@ -202,7 +203,7 @@ Xmessage*defaultButton:         Quit
 !{{{ XCLIPBOARD
 xclipboard.geometry:      287x195+993+15
 XClipboard*international: true
-XClipboard*font:          -xos4-terminus-medium-*-*-*-12-*-*-*-*-*-iso8859-2
+XClipboard*font:          xft:DejaVu Sans Mono-8
 XClipboard*borderColor:   #3F3F3F
 XClipboard*cursorColor:   Gray93
 XClipboard*Foreground:    #F0DFAF
@@ -264,7 +265,7 @@ XFontSel*MenuButton.shadowWidth:          0
 XFontsel*Toggle*ToggleStyle:          check
 XFontsel*MenuButton*Justify:           left
 XFontsel*MenuButton*MenuButtonStyle: select
-xfontsel*Font: -xos4-terminus-medium-*-*-*-12-*-*-*-*-*-iso8859-2
+xfontsel*Font: xft:DejaVu Sans Mono-8
 xfontsel.pane.commandBox.quitButton.background:           #777777
 xfontsel.pane.commandBox.quitButton.foreground:           snow
 xfontsel.pane.commandBox.ownButton.background:            orange3
