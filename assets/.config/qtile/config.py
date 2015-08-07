@@ -35,6 +35,7 @@ widget_defaults = {
 
 widget_groupbox_defaults = widget_defaults
 widget_groupbox_defaults['fontsize'] = 9
+widget_groupbox_defaults['foreground'] = BRIGHT_BLUE
 widget_groupbox_defaults['padding'] = 0
 
 widget_graph_defaults = {
