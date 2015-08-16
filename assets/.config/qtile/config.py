@@ -196,6 +196,8 @@ groups = [
           matches=[Match(wm_class=['Gimp'])]),
     Group('miscterms', layout='vtile',
           matches=[Match(title=['miscterm'])]),
+    Group('monitoring', layout='matrix',
+          matches=[Match(title=['feh', 'mplayer2'])]),
 ]
 
 dgroups_key_binder = simple_key_binder(MOD_KEY)
@@ -206,11 +208,10 @@ border_args = {
 
 layouts = [
     layout.VerticalTile(name='vtile'),
-
+    layout.Matrix(name='matrix'),
     # layout.Slice('top', 192, name='im', role='irssi',
     #     fallback=layout.Slice('bottom', 256, role='buddy_list',
     #         fallback=layout.Stack(stacks=1))),
-
     layout.Slice('left', 192, name='gimp',
         fallback=layout.Slice('right', 256,
            fallback=layout.Stack(num_stacks=1, **border_args))),
