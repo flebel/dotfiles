@@ -65,6 +65,10 @@ if hostname == 'tambora':
                 widget.MemoryGraph(**widget_graph_defaults),
 
                 widget.Spacer(width=2),
+                widget.TextBox('Swap:'),
+                widget.SwapGraph(**widget_graph_defaults),
+
+                widget.Spacer(width=2),
                 widget.TextBox('Net:'),
                 widget.NetGraph(**widget_graph_defaults),
 
@@ -117,6 +121,10 @@ else:
                 widget.Spacer(width=2),
                 widget.TextBox('Mem:'),
                 widget.MemoryGraph(**widget_graph_defaults),
+
+                widget.Spacer(width=2),
+                widget.TextBox('Swap:'),
+                widget.SwapGraph(**widget_graph_defaults),
 
                 widget.Spacer(width=2),
                 widget.TextBox('Net:'),
