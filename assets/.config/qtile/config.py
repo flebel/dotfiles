@@ -50,7 +50,7 @@ if hostname == 'tambora':
                 widget.GroupBox(urgent_alert_method='text', **widget_groupbox_defaults),
                 widget.Spacer(width=bar.STRETCH),
                 widget.Clock(format='%Y-%m-%d %a %I:%M %p', timezone='UTC', **widget_defaults),
-                widget.Spacer(width=10),
+                widget.TextBox('  /\  '),
                 widget.Clock(format='%Y-%m-%d %a %I:%M %p', **widget_defaults),
                 widget.Spacer(width=5),
             ], size=17, **bar_defaults),
