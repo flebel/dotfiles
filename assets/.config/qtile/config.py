@@ -180,11 +180,11 @@ keys = [
 ]
 
 mouse = [
-    Drag([MOD_KEY], 'Button1', lazy.window.set_position_floating(),
-        start=lazy.window.get_position()),
-    Click([MOD_KEY], 'Button2', lazy.window.bring_to_front()),
-    Drag([MOD_KEY], 'Button3', lazy.window.set_size_floating(),
-        start=lazy.window.get_size()),
+    # Drag([MOD_KEY], 'Button1', lazy.window.set_position_floating(),
+    #     start=lazy.window.get_position()),
+    # Click([MOD_KEY], 'Button2', lazy.window.bring_to_front()),
+    # Drag([MOD_KEY], 'Button3', lazy.window.set_size_floating(),
+    #     start=lazy.window.get_size()),
 ]
 
 groups = [
