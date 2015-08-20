@@ -28,6 +28,7 @@ assertEqual
 async
 backends
 base62
+browscap
 callees
 d
 db
