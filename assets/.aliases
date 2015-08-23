@@ -122,8 +122,8 @@ alias smtpserv="python -m smtpd -n -c DebuggingServer localhost:2525"
 
 alias stripexif="exiftool -all="
 
-# Disable 'lp' to avoid fat fingering 'git lp'
-alias lp="/usr/bin/false"
+# Replace 'lp' by the frequently used 'git lp'
+alias lp="git lp"
 
 alias lb="(usblamp -d 1000 blue blue white blue white blue white blue &)"
 alias lg="(usblamp -d 1000 green green white green white green white green &)"
