@@ -105,6 +105,7 @@ ytsearch() {
 }
 
 alias bc="bc -l"
+alias gg="git grep"
 alias gti="git"
 alias gits="git s"
 
