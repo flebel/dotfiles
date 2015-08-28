@@ -13,6 +13,7 @@ git submodule init
 git submodule update
 mkdir ~/bin
 ln -s ${ASSETS}/.vim/bundle/vimpager/vimpager ~/bin/vimpager
+ln -s ${ASSETS}/.config/qtile ~/.config/qtile
 ln -s ${SUBMODULES}/autoenv ~/.autoenv
 ln -s ${SUBMODULES}/icdiff/icdiff ~/bin/icdiff
 ln -s ${SUBMODULES}/nvm ~/.nvm
