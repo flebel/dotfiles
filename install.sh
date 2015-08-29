@@ -14,6 +14,8 @@ git submodule update
 mkdir ~/bin
 ln -s ${ASSETS}/.vim/bundle/vimpager/vimpager ~/bin/vimpager
 ln -s ${ASSETS}/.config/qtile ~/.config/qtile
+sudo mkdir /usr/share/fonts/truetype/hack
+sudo cp ${SUBMODULES}/Hack/build/ttf/*.ttf /usr/share/fonts/truetype/hack/
 ln -s ${SUBMODULES}/autoenv ~/.autoenv
 ln -s ${SUBMODULES}/icdiff/icdiff ~/bin/icdiff
 ln -s ${SUBMODULES}/nvm ~/.nvm
