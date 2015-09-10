@@ -109,7 +109,9 @@ source ~/dotfiles/submodules/pythonpy/pythonpy/pycompletion.sh
 # Customizations
 #
 setopt nohup
-xset r rate 350 45
+if [ "$(uname)" == "Linux" ]; then
+  xset r rate 350 45
+fi
 
 #
 # Key bindings
