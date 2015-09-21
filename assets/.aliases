@@ -20,7 +20,7 @@ function extract() {
 }
 
 # fd - cd to selected directory
-fd() {
+function fd() {
   local dir
   dir=$(find ${1:-*} -path '*/\.*' -prune \
                   -o -type d -print 2> /dev/null | fzf +m) &&
@@ -30,7 +30,7 @@ fd() {
 # fe [FUZZY PATTERN] - Open the selected file with the default editor
 #   - Bypass fuzzy finder if there's only one match (--select-1)
 #   - Exit if there's no match (--exit-0)
-fe() {
+function fe() {
   local file
   file=$(fzf --query="$1" --select-1 --exit-0)
   [ -n "$file" ] && ${EDITOR:-vim} "$file"
@@ -91,14 +91,14 @@ function whois() {
   command whois "domain ${1}"
 }
 
-ccyt() {
+function ccyt() {
   curl -H "Content-Type: application/json" \
     http://192.168.1.103:8008/apps/YouTube \
     -X POST \
     -d "v=$1";
 }
 
-ytsearch() {
+function ytsearch() {
   curl -s https://www.youtube.com/results\?search_query\=$@ | \
   grep -o 'watch?v=[^"]*"[^>]*title="[^"]*' | \
   sed -e 's/^watch\?v=\([^"]*\)".*title="\(.*\)/\1 \2/g'
