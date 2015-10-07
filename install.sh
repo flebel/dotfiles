@@ -75,6 +75,8 @@ sudo cpan install Net::Twitter JSON::Any
 
 # Misc
 sudo gem install mailcatcher
+sudo gem install pry-byebug
+sudo gem install pry-stack_explorer
 
 # Subtle window manager
 if [ "$(uname)" == "Linux" ]; then
