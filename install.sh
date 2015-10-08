@@ -87,7 +87,8 @@ fi
 # Vim
 # Tagbar requires ctags-exuberant
 sudo pip install jedi isort
-mkdir -p ~/.vim/autoload ~/.vim/bundle
+ln -s ${ASSETS}/.vim/bundle ~/.vim/bundle
+mkdir -p ~/.vim/autoload
 ln -s ${ASSETS}/.vim/bundle/vim-pathogen/autoload/pathogen.vim ~/.vim/autoload/
 # Workaround GitHub's mirror missing required files
 cd assets/.vim/bundle/Conque-Shell/autoload && svn co http://conque.googlecode.com/svn/trunk/autoload/conque_term/ && cd -
