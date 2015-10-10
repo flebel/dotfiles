@@ -87,6 +87,10 @@ function v()
   vim +:"$line" "$filename"
 }
 
+function ssl_cert() {
+  command openssl s_client -connect "${1}"
+}
+
 function whois() {
   command whois "domain ${1}"
 }
