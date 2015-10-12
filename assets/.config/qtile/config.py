@@ -69,6 +69,10 @@ if hostname == 'tambora':
                 widget.SwapGraph(**widget_graph_defaults),
 
                 widget.Spacer(width=2),
+                widget.TextBox('HDD:'),
+                widget.HDDGraph(space_type='used', **widget_graph_defaults),
+
+                widget.Spacer(width=2),
                 widget.TextBox('Net:'),
                 widget.NetGraph(**widget_graph_defaults),
 
@@ -125,6 +129,10 @@ else:
                 widget.Spacer(width=2),
                 widget.TextBox('Swap:'),
                 widget.SwapGraph(**widget_graph_defaults),
+
+                widget.Spacer(width=2),
+                widget.TextBox('HDD:'),
+                widget.HDDGraph(space_type='used', **widget_graph_defaults),
 
                 widget.Spacer(width=2),
                 widget.TextBox('Net:'),
