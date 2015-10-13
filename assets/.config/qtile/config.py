@@ -85,6 +85,8 @@ if hostname == 'tambora':
         ),
         Screen(bottom=bar.Bar(widgets=[
                 widget.GroupBox(urgent_alert_method='text', **widget_groupbox_defaults),
+                widget.Spacer(width=10),
+                widget.DF(measure='G', update_interval=300, warn_space=200),
                 widget.Spacer(width=bar.STRETCH),
                 widget.Systray(icon_size=14),
                 widget.Spacer(width=10),
@@ -110,6 +112,8 @@ else:
     screens = [
         Screen(bottom=bar.Bar(widgets=[
                 widget.GroupBox(urgent_alert_method='text', **widget_groupbox_defaults),
+                widget.Spacer(width=25),
+                widget.DF(measure='G', update_interval=300, warn_space=200),
                 widget.Spacer(width=bar.STRETCH),
                 widget.Systray(icon_size=14),
                 widget.Spacer(width=10),
