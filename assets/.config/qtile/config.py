@@ -97,6 +97,7 @@ if hostname == 'tambora':
             ], size=17, **bar_defaults),
             top=bar.Bar(widgets=[
                 widget.WindowName(**widget_defaults),
+                widget.HDDBusyGraph(device='sda', **widget_graph_defaults),
             ], size=17, **bar_defaults)
         ),
         Screen(bottom=bar.Bar(widgets=[
