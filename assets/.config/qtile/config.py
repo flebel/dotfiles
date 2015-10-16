@@ -98,6 +98,12 @@ if hostname == 'tambora':
             top=bar.Bar(widgets=[
                 widget.WindowName(**widget_defaults),
                 widget.HDDBusyGraph(device='sda', **widget_graph_defaults),
+                widget.Spacer(width=10),
+                widget.YahooWeather(location='95112', metric=False),
+                widget.Spacer(width=10),
+                widget.YahooWeather(location='94107', metric=False),
+                widget.Spacer(width=10),
+                widget.YahooWeather(location='Montreal, QC, Canada', metric=False),
             ], size=17, **bar_defaults)
         ),
         Screen(bottom=bar.Bar(widgets=[
