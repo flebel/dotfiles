@@ -104,6 +104,8 @@ if hostname == 'tambora':
                 widget.YahooWeather(location='94107', metric=False),
                 widget.Spacer(width=10),
                 widget.YahooWeather(location='Montreal, QC, Canada', metric=False),
+                widget.Spacer(width=10),
+                widget.BitcoinTicker(currency='USD', format='BTC: {last}')
             ], size=17, **bar_defaults)
         ),
         Screen(bottom=bar.Bar(widgets=[
