@@ -1,6 +1,8 @@
 --color=auto
 --exclude=*.pyc
 --exclude-dir=.git
+--exclude-dir=bower_components
+--exclude-dir=node_modules
 -n
 -r
 
