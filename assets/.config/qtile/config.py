@@ -218,7 +218,7 @@ groups = [
     Group('im', layout='vtile',
           matches=[Match(wm_class=['Pidgin'], role=['Buddy List'], title=['irssi'])]),
     Group('www-c', layout='vtile',
-          matches=[Match(wm_class=['Google-chrome'])]),
+          matches=[Match(wm_class=['Google-chrome', 'google-chrome'])]),
     Group('misc', layout='vtile',
           matches=[Match(wm_class=['Keepassx'])]),
     Group('terms', layout='vtile',
