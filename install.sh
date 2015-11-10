@@ -77,6 +77,7 @@ sudo cpan install Net::Twitter JSON::Any
 sudo gem install mailcatcher
 sudo gem install pry-byebug
 sudo gem install pry-stack_explorer
+sudo pip install ohmu
 
 # Subtle window manager
 if [ "$(uname)" == "Linux" ]; then
