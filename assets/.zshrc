@@ -154,6 +154,7 @@ zle -N zle-line-init
 zle -N zle-line-finish
 
 bindkey ^R history-incremental-pattern-search-backward
+bindkey -e
 
 autoload -U up-line-or-beginning-search
 autoload -U down-line-or-beginning-search
