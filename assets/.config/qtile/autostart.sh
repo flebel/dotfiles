@@ -9,12 +9,6 @@ cp ~/.irssi/config ~/.irssi/config.backup
 urxvt -title irssi -e irssi &
 
 urxvt -title miscterm -e zsh &
-urxvt -title miscterm -e zsh &
-urxvt -title miscterm -e zsh &
-urxvt -title miscterm -e zsh &
-urxvt -title miscterm -e zsh &
-urxvt -title term -e zsh &
-urxvt -title term -e zsh &
 urxvt -title term -e zsh &
 
 nm-applet &
