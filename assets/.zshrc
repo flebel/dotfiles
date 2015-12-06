@@ -44,7 +44,7 @@ autoload bashcompinit
 bashcompinit
 
 export MANPAGER='less -s -M +Gg'
-export PATH=~/bin:~/.pyenv/shims:$PATH:~/dotfiles/submodules/percol/percol
+export PATH=~/bin:~/.pyenv/shims:~/go/bin:$PATH:~/dotfiles/submodules/percol/percol
 export PYTHONPATH=~/dotfiles/submodules/percol
 
 SSH_ENV="$HOME/.ssh/agent-info"
@@ -78,6 +78,7 @@ setopt HIST_IGNORE_SPACE
 export GREP_COLOR="1;32"
 export GREP_OPTIONS="--color=auto"
 
+export GOPATH=~/go
 export JAVA_HOME=$(/usr/libexec/java_home)
 export JDK_HOME=$(/usr/libexec/java_home)
 
