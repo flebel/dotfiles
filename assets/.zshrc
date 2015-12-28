@@ -39,6 +39,9 @@ DISABLE_AUTO_UPDATE="true"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 plugins=(autoenv bower cp dirhistory django git git-flow github mercurial nvm pip postgres pyenv pylint python jsontools jump screen ssh-agent svn tmux torrent vi-mode)
 
+# Remove git plugin's conflicting alias with the gb Go tool
+unalias gb
+
 # Enable support for bash completion scripts
 autoload bashcompinit
 bashcompinit
