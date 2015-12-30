@@ -261,6 +261,13 @@ nmap k <Plug>(accelerated_jk_gk)
 let g:gissues_lazy_load = 1
 let g:github_same_window = 1
 
+" vim-go
+let g:go_highlight_build_constraints = 1
+let g:go_highlight_functions = 1
+let g:go_highlight_methods = 1
+let g:go_highlight_operators = 1
+let g:go_highlight_structs = 1
+
 " minibufexpl
 noremap gt :MBEbf<CR>
 noremap gT :MBEbb<CR>
