@@ -3,6 +3,7 @@
 firefox &
 google-chrome &
 pidgin &
+quicksynergy &
 thunderbird &
 
 cp ~/.irssi/config ~/.irssi/config.backup
