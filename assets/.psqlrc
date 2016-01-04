@@ -16,6 +16,11 @@
 -- Show null as [NULL] instead of an empty space
 \pset null '[NULL]'
 
--- Use table format by default
+-- Pretty print by default
 \x auto
+
+-- Set nulls to something
+\pset null ¤
+
+\timing on
 
