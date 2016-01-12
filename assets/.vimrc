@@ -2,6 +2,9 @@ set nocompatible
 
 " Recommended by Pathogen to improve its support for Vim sessions
 set sessionoptions-=options
+" Don't save hidden and unloaded buffers in sessions
+set sessionoptions-=buffers
+
 let g:pathogen_disabled = []
 execute pathogen#infect()
 
