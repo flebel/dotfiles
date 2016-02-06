@@ -3,6 +3,7 @@
     b = branch
     c = commit
     co = checkout
+    cp = cherry-pick
     d = diff
     dc = diff --cached
     l = log --color --graph --pretty=format:'%C(yellow)%h%Creset %C(magenta)%an%Creset%C(yellow)%d%Creset %s %C(yellow)%cr%Creset %C(cyan)%ad%Creset' --abbrev-commit
