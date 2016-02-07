@@ -47,8 +47,9 @@ autoload bashcompinit
 bashcompinit
 
 export MANPAGER='less -s -M +Gg'
-export PATH=~/bin:~/.pyenv/shims:~/go/bin:$PATH:~/dotfiles/submodules/percol/percol
-export PYTHONPATH=~/dotfiles/submodules/percol
+export GOPATH=$HOME/go
+export PATH=$HOME/bin:$HOME/.pyenv/shims:$GOPATH/bin:$PATH:$HOME/code/bin:$HOME/dotfiles/submodules/percol/percol
+export PYTHONPATH=$HOME/dotfiles/submodules/percol
 
 SSH_ENV="$HOME/.ssh/agent-info"
 function start_agent {
@@ -81,33 +82,32 @@ setopt HIST_IGNORE_SPACE
 export GREP_COLOR="1;32"
 export GREP_OPTIONS="--color=auto"
 
-export GOPATH=~/go
 export JAVA_HOME=$(/usr/libexec/java_home)
 export JDK_HOME=$(/usr/libexec/java_home)
 
 if [ "$(uname)" != "Darwin" ]; then
-  xmodmap ~/.Xmodmap
+  xmodmap $HOME/.Xmodmap
 fi
 
-export WORKON_HOME=~/.virtualenv
+export WORKON_HOME=$HOME/.virtualenv
 source /usr/local/bin/virtualenvwrapper.sh
 
-source ~/.autoenv/activate.sh
+source $HOME/.autoenv/activate.sh
 
 [ -s "$HOME/.scm_breeze/scm_breeze.sh" ] && source "$HOME/.scm_breeze/scm_breeze.sh"
 [ -f "$HOME/.travis/travis.sh" ] && source $HOME/.travis/travis.sh
 
-source ~/.zsh/plugins/bd/bd.zsh
+source $HOME/.zsh/plugins/bd/bd.zsh
 
-source ~/.zsh-fuzzy-match/fuzzy-match.zsh
+source $HOME/.zsh-fuzzy-match/fuzzy-match.zsh
 
-source ~/.fzf.zsh
+source $HOME/.fzf.zsh
 
-source ~/dotfiles/submodules/pythonpy/pythonpy/pycompletion.sh
+source $HOME/dotfiles/submodules/pythonpy/pythonpy/pycompletion.sh
 
-. ~/.nvm/nvm.sh
+. $HOME/.nvm/nvm.sh
 
-. ~/.aliases
+. $HOME/.aliases
 
 #
 # Customizations
@@ -202,8 +202,8 @@ if [ "${TERM}" == "rxvt-unicode" ]; then
   setenv TERM "xterm"
 fi
 
-if [ -f ~/.zshrc_local ]; then
-  . ~/.zshrc_local
+if [ -f $HOME/.zshrc_local ]; then
+  . $HOME/.zshrc_local
 fi
 
 if [ -f "$HOME/.shell_notes" ] ; then
