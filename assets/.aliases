@@ -117,6 +117,7 @@ alias gits="git s"
 
 alias greo=grep
 
+alias f=find
 alias h=head
 alias l=less
 alias j=jobs
