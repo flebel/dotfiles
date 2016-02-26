@@ -43,8 +43,6 @@ fi
 cd ${SUBMODULES}/rtop && make init && make
 ln -s ${SUBMODULES}/rtop/rtop ~/bin/rtop
 
-chsh -s /bin/zsh
-
 mkdir -p ~/dotfiles_backup/assets > /dev/null 2>&1
 for f in $ASSETS_FILES; do
   filename="${f##*/}"
@@ -97,6 +95,13 @@ ln -s ${ASSETS}/.vim/bundle/vim-pathogen/autoload/pathogen.vim ~/.vim/autoload/
 cd ${ASSETS}/.vim/bundle/Conque-Shell/autoload && svn co http://conque.googlecode.com/svn/trunk/autoload/conque_term/ && cd -
 # Manual install for vim-sparkup
 cd ${ASSETS}/.vim/bundle/vim-sparkup && make vim-pathogen && cd -
-# vim-instant-markdown dependency
+
+if [ "$(uname)" == "Darwin" ]; then
+  brew install npm
+  brew install tmux
+  brew install zsh
+fi
+
+chsh -s /bin/zsh
 npm -g update instant-markdown-d
 
