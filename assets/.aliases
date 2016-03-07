@@ -110,7 +110,7 @@ function ytsearch() {
 
 alias bc="bc -l"
 alias c="clear"
-alias gg="git grep"
+alias gg="PAGER=cat git grep"
 alias gs="git s"
 alias gti="git"
 alias gits="git s"
