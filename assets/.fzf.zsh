@@ -4,7 +4,7 @@ unalias fzf 2> /dev/null
 fzf() {
   /usr/bin/ruby --disable-gems /Users/flebel/dotfiles/submodules/fzf/fzf "$@"
 }
-export -f fzf > /dev/null
+export -f fzf &> /dev/null
 
 # Auto-completion
 # ---------------
