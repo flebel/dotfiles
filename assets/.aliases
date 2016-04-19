@@ -1,3 +1,11 @@
+function b64_decode() {
+  echo "$1" | base64 --decode
+}
+
+function b64_encode() {
+  echo "$1" | base64
+}
+
 function extract() {
   if [ -f $1 ] ; then
     case $1 in
