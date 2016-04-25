@@ -50,6 +50,7 @@ export MANPAGER='less -s -M +Gg'
 export GOPATH=$HOME/go
 export PATH=$HOME/bin:$HOME/.pyenv/shims:$GOPATH/bin:$PATH:$HOME/code/bin:$HOME/dotfiles/submodules/percol/percol
 export PYTHONPATH=$HOME/dotfiles/submodules/percol
+export HOMEBREW_NO_ANALYTICS=1
 
 SSH_ENV="$HOME/.ssh/agent-info"
 function start_agent {
