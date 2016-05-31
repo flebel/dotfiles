@@ -40,7 +40,7 @@ DISABLE_AUTO_UPDATE="true"
 plugins=(autoenv bower cp dirhistory django git git-flow github mercurial nvm pip postgres pyenv pylint python jsontools jump screen ssh-agent svn tmux torrent vi-mode)
 
 # Remove git plugin's conflicting alias with the gb Go tool
-unalias gb
+unalias gb &>/dev/null
 
 # Enable support for bash completion scripts
 autoload bashcompinit
