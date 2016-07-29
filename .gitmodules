@@ -334,3 +334,12 @@
 [submodule "submodules/zsh-fuzzy-match"]
 	path = submodules/zsh-fuzzy-match
 	url = https://github.com/tarruda/zsh-fuzzy-match.git
+[submodule "submodules/dracula-zsh"]
+	path = submodules/dracula-zsh
+	url = https://github.com/dracula/zsh.git
+[submodule "assets/vim/bundle/dracula-theme"]
+	path = assets/vim/bundle/dracula-theme
+	url = git@github.com:dracula/vim.git
+[submodule "assets/.vim/bundle/dracula-theme"]
+	path = assets/.vim/bundle/dracula-theme
+	url = git@github.com:dracula/vim.git
