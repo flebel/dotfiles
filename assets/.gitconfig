@@ -1,5 +1,6 @@
 [alias]
     a = add
+    archivezip = archive -o latest.zip HEAD
     b = branch
     c = commit
     co = checkout
