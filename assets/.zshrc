@@ -80,6 +80,9 @@ setopt EXTENDED_HISTORY
 setopt HIST_EXPIRE_DUPS_FIRST
 setopt HIST_IGNORE_SPACE
 
+# Disable XON/XOFF to avoid collisions with Ctrl-S in fwd-i-search
+stty -ixon
+
 export GREP_COLOR="1;32"
 export GREP_OPTIONS="--color=auto"
 
