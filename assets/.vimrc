@@ -265,6 +265,10 @@ let g:gissues_lazy_load = 1
 let g:github_same_window = 1
 
 " vim-go
+let g:go_fmt_command = 'goimports'
+let g:go_metalinter_autosave = 1
+let g:go_metalinter_deadline = "5s"
+let g:go_metalinter_enabled = ['vet', 'golint', 'errcheck']
 let g:go_highlight_build_constraints = 1
 let g:go_highlight_functions = 1
 let g:go_highlight_methods = 1
