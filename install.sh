@@ -47,7 +47,7 @@ ln -s ${SUBMODULES}/rtop/rtop ~/bin/rtop
 mkdir -p ~/dotfiles_backup/assets > /dev/null 2>&1
 for f in $ASSETS_FILES; do
   filename="${f##*/}"
-  mv ~/$filename ~/dotfiles_backup/assets/
+  mv ~/$filename ~/dotfiles_backup/assets/ > /dev/null 2>&1
   ln -s ${ASSETS}/$filename ~/$filename
 done
 
