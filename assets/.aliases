@@ -152,4 +152,5 @@ alias msp="./manage.py shell_plus"
 
 alias x509text="openssl x509 -inform PEM -text -in"
 alias testkeypassphrase="openssl rsa -check -noout -in"
+alias winfileendings="grep -IUr '' .|cat"
 
