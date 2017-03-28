@@ -58,6 +58,12 @@
 [submodule "assets/.vim/bundle/django-template-textobjects"]
 	path = assets/.vim/bundle/django-template-textobjects
 	url = https://github.com/mjbrownie/django-template-textobjects.git
+[submodule "assets/vim/bundle/dracula-theme"]
+	path = assets/.vim/bundle/dracula-theme
+	url = git@github.com:dracula/vim.git
+[submodule "assets/.vim/bundle/dracula-theme"]
+	path = assets/.vim/bundle/dracula-theme
+	url = git@github.com:dracula/vim.git
 [submodule "assets/.vim/bundle/eraseSubword"]
 	path = assets/.vim/bundle/eraseSubword
 	url = https://github.com/vim-scripts/eraseSubword.git
@@ -280,6 +286,9 @@
 [submodule "submodules/cv"]
 	path = submodules/cv
 	url = https://github.com/Xfennec/cv.git
+[submodule "submodules/dracula-zsh"]
+	path = submodules/dracula-zsh
+	url = https://github.com/dracula/zsh.git
 [submodule "submodules/fzf"]
 	path = submodules/fzf
 	url = https://github.com/junegunn/fzf.git
@@ -334,12 +343,4 @@
 [submodule "submodules/zsh-fuzzy-match"]
 	path = submodules/zsh-fuzzy-match
 	url = https://github.com/tarruda/zsh-fuzzy-match.git
-[submodule "submodules/dracula-zsh"]
-	path = submodules/dracula-zsh
-	url = https://github.com/dracula/zsh.git
-[submodule "assets/vim/bundle/dracula-theme"]
-	path = assets/vim/bundle/dracula-theme
-	url = git@github.com:dracula/vim.git
-[submodule "assets/.vim/bundle/dracula-theme"]
-	path = assets/.vim/bundle/dracula-theme
-	url = git@github.com:dracula/vim.git
+
