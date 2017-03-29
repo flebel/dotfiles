@@ -256,6 +256,9 @@
 [submodule "assets/.vim/bundle/vim-surround"]
 	path = assets/.vim/bundle/vim-surround
 	url = https://github.com/tpope/vim-surround.git
+[submodule "assets/.vim/bundle/vim-tmux-navigator"]
+	path = assets/.vim/bundle/vim-tmux-navigator
+	url = https://github.com/christoomey/vim-tmux-navigator.git
 [submodule "assets/.vim/bundle/vim-unstack"]
 	path = assets/.vim/bundle/vim-unstack
 	url = https://github.com/mattboehm/vim-unstack.git
@@ -331,6 +334,12 @@
 [submodule "submodules/sysadmin-util"]
 	path = submodules/sysadmin-util
 	url = https://github.com/skx/sysadmin-util.git
+[submodule "submodules/tmux-continuum"]
+	path = submodules/tmux-continuum
+	url = https://github.com/tmux-plugins/tmux-continuum
+[submodule "submodules/tmux-resurrect"]
+	path = submodules/tmux-resurrect
+	url = https://github.com/tmux-plugins/tmux-resurrect.git
 [submodule "submodules/urxvt-font-size"]
 	path = submodules/urxvt-font-size
 	url = https://github.com/majutsushi/urxvt-font-size.git
