@@ -147,6 +147,12 @@ alias lg="(usblamp -d 1000 green green white green white green white green &)"
 alias lo="(usblamp off &)"
 alias lr="(usblamp -d 1000 red red white red white red white red &)"
 
+function termcolors() {
+  for i in {0..255}; do
+    printf "\x1b[38;5;${i}mcolour${i}\x1b[0m\n"
+  done
+}
+
 alias ip="ipython"
 alias msp="./manage.py shell_plus"
 
