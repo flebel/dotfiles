@@ -58,7 +58,7 @@
 [submodule "assets/.vim/bundle/django-template-textobjects"]
 	path = assets/.vim/bundle/django-template-textobjects
 	url = https://github.com/mjbrownie/django-template-textobjects.git
-[submodule "assets/vim/bundle/dracula-theme"]
+[submodule "assets/.vim/bundle/dracula-theme"]
 	path = assets/.vim/bundle/dracula-theme
 	url = git@github.com:dracula/vim.git
 [submodule "assets/.vim/bundle/dracula-theme"]
