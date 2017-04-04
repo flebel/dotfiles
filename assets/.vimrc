@@ -172,6 +172,12 @@ au FileType py set autoindent
 au FileType py set smartindent
 au FileType py set textwidth=79 " PEP-8 Friendly
 
+" Show flake8 signs in file and gutter
+let g:flake8_show_in_file=1
+let g:flake8_show_in_gutter=1
+" Run flake8 on save
+autocmd BufWritePost *.py call Flake8()
+
 " Enable VIM 7.3+ native column indicator support if possible
 if exists("+colorcolumn")
   " Use the textwidth value as the column length indicator

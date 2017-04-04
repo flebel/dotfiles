@@ -91,7 +91,7 @@ fi
 
 # Vim
 # Tagbar requires ctags-exuberant
-sudo pip install jedi isort
+sudo pip install flake8 jedi isort
 ln -s ${ASSETS}/.vim/bundle ~/.vim/bundle
 mkdir -p ~/.vim/autoload
 ln -s ${ASSETS}/.vim/bundle/vim-pathogen/autoload/pathogen.vim ~/.vim/autoload/

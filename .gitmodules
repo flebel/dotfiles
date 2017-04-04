@@ -175,6 +175,9 @@
 [submodule "assets/.vim/bundle/vim-diminactive"]
 	path = assets/.vim/bundle/vim-diminactive
 	url = https://github.com/blueyed/vim-diminactive.git
+[submodule "assets/.vim/bundle/vim-flake8"]
+	path = assets/.vim/bundle/vim-flake8
+	url = https://github.com:nvie/vim-flake8.git
 [submodule "assets/.vim/bundle/vim-easy-align"]
 	path = assets/.vim/bundle/vim-easy-align
 	url = https://github.com/junegunn/vim-easy-align.git
