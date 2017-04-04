@@ -60,10 +60,10 @@
 	url = https://github.com/mjbrownie/django-template-textobjects.git
 [submodule "assets/.vim/bundle/dracula-theme"]
 	path = assets/.vim/bundle/dracula-theme
-	url = git@github.com:dracula/vim.git
+	url = https://github.com/dracula/vim.git
 [submodule "assets/.vim/bundle/dracula-theme"]
 	path = assets/.vim/bundle/dracula-theme
-	url = git@github.com:dracula/vim.git
+	url = https://github.com/dracula/vim.git
 [submodule "assets/.vim/bundle/eraseSubword"]
 	path = assets/.vim/bundle/eraseSubword
 	url = https://github.com/vim-scripts/eraseSubword.git
@@ -177,7 +177,7 @@
 	url = https://github.com/blueyed/vim-diminactive.git
 [submodule "assets/.vim/bundle/vim-flake8"]
 	path = assets/.vim/bundle/vim-flake8
-	url = https://github.com:nvie/vim-flake8.git
+	url = https://github.com/nvie/vim-flake8.git
 [submodule "assets/.vim/bundle/vim-easy-align"]
 	path = assets/.vim/bundle/vim-easy-align
 	url = https://github.com/junegunn/vim-easy-align.git
