@@ -132,6 +132,7 @@ alias l=less
 alias j=jobs
 alias t=tail
 alias ccat="pygmentize -g"
+alias listwincrlf="grep -IUr --color '' .| less"
 
 alias dtest="python -m doctest -v"
 alias httpserv="python -m SimpleHTTPServer"
