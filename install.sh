@@ -8,8 +8,9 @@ SCRIPTS_FILES=`find $SCRIPTS -maxdepth 1 -type f`
 MISC=`pwd`/misc
 SUBMODULES=`pwd`/submodules
 
-mkdir ~/work
 mkdir ~/go
+mkdir ~/tmp
+mkdir ~/work
 
 # Submodules
 git submodule init
