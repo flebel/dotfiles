@@ -80,7 +80,7 @@ sudo gem install mailcatcher
 sudo gem install pry-byebug
 sudo gem install pry-stack_explorer
 sudo pip install ohmu
-sudo easy_install ipython # Since Darwin El Capitan, pip attempts to install in restricted location
+sudo pip install ipython
 sudo pip install virtualenvwrapper --ignore-installed six # Workaround OS X El Capitan's installed six https://github.com/pypa/pip/issues/3165
 
 # Subtle window manager
