@@ -131,6 +131,9 @@ nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 
+" Maximize active pane
+nnoremap <silent> <C-w>w :ZoomWin<CR>
+
 " Kill the buffer if it's visible from only one window, otherwise close the
 " window without killing the buffer
 function! CloseWindowOrKillBuffer() "{{{
