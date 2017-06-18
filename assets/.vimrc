@@ -11,7 +11,7 @@ execute pathogen#infect()
 " Hide the splash message
 set shortmess+=I
 
-colorscheme vividchalk
+colorscheme slate
 set background=light
 
 " Status Line
