@@ -181,13 +181,8 @@ let g:flake8_show_in_gutter=1
 " Run flake8 on save
 autocmd BufWritePost *.py call Flake8()
 
-" Enable VIM 7.3+ native column indicator support if possible
-if exists("+colorcolumn")
-  " Use the textwidth value as the column length indicator
-  set colorcolumn=+1,+21,+41
-else
-  " No native support, I can't stand using overlength
-endif
+" Display vertical line at 80 characters
+set colorcolumn=80
 
 " http://vim.wikia.com/wiki/Highlight_cursor_line_after_cursor_jump
 function s:Cursor_Moved()
