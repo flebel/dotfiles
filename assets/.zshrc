@@ -78,6 +78,7 @@ SAVEHIST=50000
 setopt APPEND_HISTORY
 setopt EXTENDED_HISTORY
 setopt HIST_EXPIRE_DUPS_FIRST
+# HISTIGNORESPACE prevents the current line from being saved if it begins with a space
 setopt HIST_IGNORE_SPACE
 
 # Disable XON/XOFF to avoid collisions with Ctrl-S in fwd-i-search
