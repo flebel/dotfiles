@@ -81,6 +81,9 @@ setopt HIST_EXPIRE_DUPS_FIRST
 # HISTIGNORESPACE prevents the current line from being saved if it begins with a space
 setopt HIST_IGNORE_SPACE
 
+# IGNOREEOF forces the user to type exit or logout, instead of just pressing ^D
+setopt ignoreeof
+
 # Disable XON/XOFF to avoid collisions with Ctrl-S in fwd-i-search
 stty -ixon
 
