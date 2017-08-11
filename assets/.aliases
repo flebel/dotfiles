@@ -128,6 +128,7 @@ alias greo=grep
 
 alias f=find
 alias h=head
+alias k=kubectl
 alias l=less
 alias j=jobs
 alias t=tail
