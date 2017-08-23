@@ -119,6 +119,7 @@ function ytsearch() {
 alias bc="bc -l"
 alias c="clear"
 alias dc="docker-compose"
+function dbash() { docker exec -it $(docker ps | sed -n 2p | awk '{print $1}') /bin/bash }
 alias gg="PAGER=cat git grep"
 alias gs="git s"
 alias gti="git"
