@@ -125,6 +125,8 @@ alias gs="git s"
 alias gti="git"
 alias gits="git s"
 
+# "clean grep" removes output from convenient flags set in ~/.grepoptions
+function cg() { grep -h $1 | sed 's/.*://' }
 alias greo=grep
 
 alias f=find
