@@ -87,6 +87,9 @@ setopt ignoreeof
 # CORRECTALL option turns on spelling correction for all arguments
 setopt correctall
 
+# INTERACTIVECOMMENTS turns on interactive comments; comments begin with a #
+setopt interactivecomments
+
 # Disable XON/XOFF to avoid collisions with Ctrl-S in fwd-i-search
 stty -ixon
 
