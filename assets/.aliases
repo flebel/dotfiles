@@ -161,6 +161,7 @@ function termcolors() {
 alias ip="ipython"
 alias msp="./manage.py shell_plus"
 
+alias bell="tput bel"
 alias x509text="openssl x509 -inform PEM -text -in"
 alias slackmojify="mogrify -resize 128x128 -unsharp 2x1.4+0.5+0 -quality 100 -verbose"
 alias testkeypassphrase="openssl rsa -check -noout -in"
