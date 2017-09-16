@@ -217,6 +217,9 @@
 [submodule "assets/.vim/bundle/vim-peekaboo"]
 	path = assets/.vim/bundle/vim-peekaboo
 	url = https://github.com/junegunn/vim-peekaboo.git
+[submodule "assets/.vim/bundle/vim-pydocstring"]
+	path = assets/.vim/bundle/vim-pydocstring
+	url = https://github.com/heavenshell/vim-pydocstring.git
 [submodule "assets/.vim/bundle/vim-isort"]
 	path = assets/.vim/bundle/vim-isort
 	url = https://github.com/fisadev/vim-isort.git
@@ -355,4 +358,3 @@
 [submodule "submodules/zsh-fuzzy-match"]
 	path = submodules/zsh-fuzzy-match
 	url = https://github.com/tarruda/zsh-fuzzy-match.git
-
