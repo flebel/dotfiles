@@ -124,5 +124,8 @@ cd ${ASSETS}/.vim/bundle/vim-sparkup && make vim-pathogen && cd -
 chsh -s /bin/zsh
 npm -g update instant-markdown-d
 
+# Select most recent 4096 bits GPG key to auto-sign git commits.
+gpg --list-keys|grep -B1 francoislebel@gmail.com|grep "201[0-9]"|sed -e 's|.*4096R/\(.*\) 201[0-9].*|\1|'
+
 echo "Download and install JRE: http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html"
 
