@@ -208,6 +208,9 @@
 [submodule "assets/.vim/bundle/vim-multiple-cursors"]
 	path = assets/.vim/bundle/vim-multiple-cursors
 	url = https://github.com/terryma/vim-multiple-cursors.git
+[submodule "assets/.vim/bundle/vim-mypy"]
+	path = assets/.vim/bundle/vim-mypy
+	url = https://github.com/Integralist/vim-mypy.git
 [submodule "assets/.vim/bundle/vim-online-thesaurus"]
 	path = assets/.vim/bundle/vim-online-thesaurus
 	url = https://github.com/beloglazov/vim-online-thesaurus.git
