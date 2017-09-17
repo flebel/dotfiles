@@ -60,7 +60,10 @@
 [user]
     email = francoislebel@gmail.com
     name = Francois Lebel
+    signingkey = B9D1AEBA
 
 [rerere]
     enabled = true
 
+[commit]
+    gpgsign = true

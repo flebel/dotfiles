@@ -65,12 +65,34 @@ for f in $SCRIPTS_FILES; do
 done
 ln -s ${SUBMODULES}/git/contrib/diff-highlight/diff-highlight ~/scripts/git-diff-highlight
 
+sudo easy_install pip
+
 cd ${SUBMODULES}/cv && make && sudo make install && cd -
 cd ${SUBMODULES}/sysadmin-util && make build && cd -
 cd ${SUBMODULES}/pgcli && sudo pip install -e . && cd -
 
 if [ "$(uname)" == "Linux" ]; then
   sudo cp $MISC/50-marblemouse.conf /usr/share/X11/xorg.conf.d/50-marblemouse.conf
+fi
+
+if [ "$(uname)" == "Darwin" ]; then
+  brew install golang
+  brew install git # Upgrade to latest version
+  brew install gnupg
+  brew install htop
+  brew install npm
+  brew install tig
+  brew install tree
+  brew install tmux
+  brew install vim # Upgrade to latest version
+  brew install wget
+  brew install zsh
+
+  brew cast install minikube &&\
+    brew install docker-machine-driver-xhyve &&\
+    sudo chown root:wheel $(brew --prefix)/opt/docker-machine-driver-xhyve/bin/docker-machine-driver-xhyve &&\
+    sudo chmod u+s $(brew --prefix)/opt/docker-machine-driver-xhyve/bin/docker-machine-driver-xhyve &&\
+    minikube start --vm-driver xhyve
 fi
 
 # Irssi
@@ -82,6 +104,7 @@ sudo gem install pry-byebug
 sudo gem install pry-stack_explorer
 sudo pip install ohmu
 sudo pip install ipython
+sudo pip install mypy
 sudo pip install virtualenvwrapper --ignore-installed six # Workaround OS X El Capitan's installed six https://github.com/pypa/pip/issues/3165
 
 # Subtle window manager
@@ -93,7 +116,6 @@ fi
 # Vim
 # Tagbar requires ctags-exuberant
 sudo pip install flake8 jedi isort
-ln -s ${ASSETS}/.vim/bundle ~/.vim/bundle
 mkdir -p ~/.vim/autoload
 ln -s ${ASSETS}/.vim/bundle/vim-pathogen/autoload/pathogen.vim ~/.vim/autoload/
 # Workaround GitHub's mirror missing required files
@@ -101,15 +123,11 @@ cd ${ASSETS}/.vim/bundle/Conque-Shell/autoload && svn co http://conque.googlecod
 # Manual install for vim-sparkup
 cd ${ASSETS}/.vim/bundle/vim-sparkup && make vim-pathogen && cd -
 
-if [ "$(uname)" == "Darwin" ]; then
-  brew install golang
-  brew install npm
-  brew install tig
-  brew install tmux
-  brew install tree
-  brew install zsh
-fi
-
 chsh -s /bin/zsh
 npm -g update instant-markdown-d
+
+# Select most recent 4096 bits GPG key to auto-sign git commits.
+gpg --list-keys|grep -B1 francoislebel@gmail.com|grep "201[0-9]"|sed -e 's|.*4096R/\(.*\) 201[0-9].*|\1|'
+
+echo "Download and install JRE: http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html"
 

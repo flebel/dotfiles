@@ -208,6 +208,9 @@
 [submodule "assets/.vim/bundle/vim-multiple-cursors"]
 	path = assets/.vim/bundle/vim-multiple-cursors
 	url = https://github.com/terryma/vim-multiple-cursors.git
+[submodule "assets/.vim/bundle/vim-mypy"]
+	path = assets/.vim/bundle/vim-mypy
+	url = https://github.com/Integralist/vim-mypy.git
 [submodule "assets/.vim/bundle/vim-online-thesaurus"]
 	path = assets/.vim/bundle/vim-online-thesaurus
 	url = https://github.com/beloglazov/vim-online-thesaurus.git
@@ -217,6 +220,9 @@
 [submodule "assets/.vim/bundle/vim-peekaboo"]
 	path = assets/.vim/bundle/vim-peekaboo
 	url = https://github.com/junegunn/vim-peekaboo.git
+[submodule "assets/.vim/bundle/vim-pydocstring"]
+	path = assets/.vim/bundle/vim-pydocstring
+	url = https://github.com/heavenshell/vim-pydocstring.git
 [submodule "assets/.vim/bundle/vim-isort"]
 	path = assets/.vim/bundle/vim-isort
 	url = https://github.com/fisadev/vim-isort.git
@@ -355,4 +361,3 @@
 [submodule "submodules/zsh-fuzzy-match"]
 	path = submodules/zsh-fuzzy-match
 	url = https://github.com/tarruda/zsh-fuzzy-match.git
-
