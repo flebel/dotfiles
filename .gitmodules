@@ -229,6 +229,9 @@
 [submodule "assets/.vim/bundle/vim-signify"]
 	path = assets/.vim/bundle/vim-signify
 	url = https://github.com/mhinz/vim-signify.git
+[submodule "assets/.vim/bundle/vim-styled-components"]
+	path = assets/.vim/bundle/vim-styled-components
+	url = https://github.com/styled-components/vim-styled-components.git
 [submodule "assets/.vim/bundle/vim-lengthmatters"]
 	path = assets/.vim/bundle/vim-lengthmatters
 	url = https://github.com/whatyouhide/vim-lengthmatters.git
