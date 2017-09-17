@@ -106,6 +106,7 @@ if [ "$(uname)" == "Darwin" ]; then
   brew install npm
   brew install tig
   brew install tmux
+  brew install tree
   brew install zsh
 fi
 
