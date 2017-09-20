@@ -291,6 +291,7 @@ let g:go_highlight_structs = 1
 
 " vim-pydocstring
 autocmd FileType python setlocal tabstop=4 shiftwidth=4 softtabstop=4 expandtab
+nmap <silent> <C-_> <Plug>(pydocstring)
 
 " minibufexpl
 noremap gt :MBEbf<CR>
