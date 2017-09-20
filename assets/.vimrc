@@ -316,6 +316,9 @@ syntax on
 " default colors after
 hi statusline guibg=33 ctermfg=233 guifg=233 ctermbg=33
 
+" Disable vim-diminactive because it's counter-productive with my current tmux color scheme.
+let g:diminactive=0
+
 " searchfold
 let g:searchfold_foldlevel = 1
 
