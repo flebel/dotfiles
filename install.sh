@@ -32,6 +32,7 @@ ln -s ${SUBMODULES}/pythonpy/pythonpy ~/bin/py
 ln -s ${SUBMODULES}/pythonpy/extras/pycompleter ~/bin/pycompleter
 ln -s ${SUBMODULES}/git-when-merged/bin/git-when-merged ~/bin/git-when-merged
 ln -s ${SUBMODULES}/github-markdown-toc/gh-md-toc ~/bin/gh-md-toc
+ln -s ${SUBMODULES}/kubetail/kubetail ~/bin/kubetail
 ln -s ${SUBMODULES}/scm_breeze ~/.scm_breeze
 ln -s ${SUBMODULES}/zsh-fuzzy-match ~/.zsh-fuzzy-match
 mkdir -p ~/.zsh/plugins/bd

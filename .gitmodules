@@ -337,6 +337,9 @@
 [submodule "submodules/github-markdown-toc"]
 	path = submodules/github-markdown-toc
 	url = https://github.com/ekalinin/github-markdown-toc.git
+[submodule "submodules/kubetail"]
+	path = submodules/kubetail
+	url = https://github.com/johanhaleby/kubetail.git
 [submodule "submodules/rtop"]
 	path = submodules/rtop
 	url = https://github.com/rapidloop/rtop.git
