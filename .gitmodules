@@ -16,6 +16,9 @@
 [submodule "assets/.tmux/plugins/tmux-open"]
 	path = assets/.tmux/plugins/tmux-open
 	url = https://github.com/tmux-plugins/tmux-open.git
+[submodule "assets/.tmux/plugins/tmux-yank"]
+	path = assets/.tmux/plugins/tmux-yank
+	url = https://github.com/tmux-plugins/tmux-yank.git
 [submodule "assets/.vim/bundle/Conque-Shell"]
 	path = assets/.vim/bundle/Conque-Shell
 	url = https://github.com/vim-scripts/Conque-Shell.git
