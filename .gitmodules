@@ -301,6 +301,15 @@
 [submodule "assets/.vim/bundle/vimpager"]
 	path = assets/.vim/bundle/vimpager
 	url = https://github.com/rkitover/vimpager.git
+[submodule "assets/.vim/bundle/vimux"]
+	path = assets/.vim/bundle/vimux
+	url = https://github.com/benmills/vimux.git
+[submodule "assets/.vim/bundle/vimux-golang"]
+	path = assets/.vim/bundle/vimux-golang
+	url = https://github.com/benmills/vimux-golang.git
+[submodule "assets/.vim/bundle/vimux-nose-test"]
+	path = assets/.vim/bundle/vimux-nose-test
+	url = https://github.com/pitluga/vimux-nose-test.git
 [submodule "assets/.vim/bundle/werks.vim"]
 	path = assets/.vim/bundle/werks.vim
 	url = https://github.com/vim-scripts/werks.vim.git
