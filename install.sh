@@ -77,6 +77,7 @@ if [ "$(uname)" == "Linux" ]; then
 fi
 
 if [ "$(uname)" == "Darwin" ]; then
+  brew install fpp
   brew install golang
   brew install git # Upgrade to latest version
   brew install gnupg
