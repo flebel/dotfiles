@@ -10,6 +10,9 @@
 [submodule "assets/.tmux/plugins/tmux-battery"]
 	path = assets/.tmux/plugins/tmux-battery
 	url = https://github.com/tmux-plugins/tmux-battery
+[submodule "assets/.tmux/plugins/tmux-online-status"]
+	path = assets/.tmux/plugins/tmux-online-status
+	url = https://github.com/tmux-plugins/tmux-online-status.git
 [submodule "assets/.vim/bundle/Conque-Shell"]
 	path = assets/.vim/bundle/Conque-Shell
 	url = https://github.com/vim-scripts/Conque-Shell.git
