@@ -7,6 +7,9 @@
 [submodule "assets/.irssi/scripts/irssi-revolving-door"]
 	path = assets/.irssi/scripts/irssi-revolving-door
 	url = https://github.com/flebel/irssi-revolving-door.git
+[submodule "assets/.tmux/plugins/tmux-battery"]
+	path = assets/.tmux/plugins/tmux-battery
+	url = https://github.com/tmux-plugins/tmux-battery
 [submodule "assets/.vim/bundle/Conque-Shell"]
 	path = assets/.vim/bundle/Conque-Shell
 	url = https://github.com/vim-scripts/Conque-Shell.git
