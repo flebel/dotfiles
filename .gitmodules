@@ -364,6 +364,9 @@
 [submodule "submodules/github-markdown-toc"]
 	path = submodules/github-markdown-toc
 	url = https://github.com/ekalinin/github-markdown-toc.git
+[submodule "submodules/git-open"]
+	path = submodules/git-open
+	url = git@github.com:paulirish/git-open.git
 [submodule "submodules/kubetail"]
 	path = submodules/kubetail
 	url = https://github.com/johanhaleby/kubetail.git
