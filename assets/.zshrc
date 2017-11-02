@@ -212,8 +212,8 @@ function grep_options() {
 precmd_functions=( grep_options )
 
 # Pretend we're xterm
-if [ "${TERM}" == "rxvt-unicode" ]; then
-  setenv TERM "xterm"
+if [ "${TERM}" == "rxvt-unicode-256color" ]; then
+  export TERM="xterm"
 fi
 
 if [ -f $HOME/.zshrc_local ]; then
