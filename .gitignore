@@ -6,5 +6,6 @@ assets/.irssi/scripts/twirssi.oauth
 assets/.irssi/triggers
 assets/.pip/pip.log
 assets/.pip/zsh-cache
+assets/.tmux/resurrect
 assets/.vim/sessions
 assets/.vim/spell/*.add.spl
