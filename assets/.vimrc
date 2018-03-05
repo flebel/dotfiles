@@ -314,9 +314,6 @@ au VimEnter * RainbowParenthesesToggle
 
 " rainbow-parentheses.vim breaks vim-css-color, needs to set syntax after
 syntax on
-" `syntax on` breaks setting the default color for the status line, must set
-" default colors after
-hi statusline guibg=33 ctermfg=233 guifg=233 ctermbg=33
 
 " Disable vim-diminactive because it's counter-productive with my current tmux color scheme.
 let g:diminactive=0
