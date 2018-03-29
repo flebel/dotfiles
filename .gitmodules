@@ -313,6 +313,9 @@
 [submodule "assets/.vim/bundle/yaml.vim"]
 	path = assets/.vim/bundle/yaml.vim
 	url = https://github.com/vim-scripts/yaml.vim.git
+[submodule "chrome_extensions/DontFuckWithPaste"]
+	path = chrome_extensions/DontFuckWithPaste
+	url = git@github.com:jswanner/DontFuckWithPaste.git
 [submodule "submodules/Hack"]
 	path = submodules/Hack
 	url = https://github.com/chrissimpkins/Hack.git
