@@ -136,6 +136,7 @@ alias stripexif="exiftool -all="
 alias t=tail
 alias testkeypassphrase="openssl rsa -check -noout -in"
 alias ts='python -c "import time; print int(time.time())"'
+alias uuid='python -c "import sys, uuid; sys.stdout.write(str(uuid.uuid4()))"'
 alias vi='vim'
 alias winfileendings="grep -IUr '' .|cat"
 alias x509text="openssl x509 -inform PEM -text -in"
