@@ -182,7 +182,7 @@ let g:flake8_show_in_gutter=1
 autocmd BufWritePost *.py call Flake8()
 
 " Display vertical line at 100 characters
-set colorcolumn=100
+set colorcolumn=80
 
 " http://vim.wikia.com/wiki/Highlight_cursor_line_after_cursor_jump
 function s:Cursor_Moved()
