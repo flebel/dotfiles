@@ -85,6 +85,7 @@ if [ "$(uname)" == "Darwin" ]; then
   brew install golang
   brew install git # Upgrade to latest version
   brew install gnupg
+  brew install kubernetes-helm
   brew install htop
   brew install npm
   brew install reattach-to-user-namespace # Accessing the Mac OS X pasteboard in tmux sessions.
@@ -104,6 +105,9 @@ fi
 
 # Irssi
 sudo cpan install Net::Twitter JSON::Any
+
+helm init
+helm repo add incubator https://kubernetes-charts-incubator.storage.googleapis.com/
 
 # Misc
 sudo gem install mailcatcher
