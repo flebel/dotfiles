@@ -130,8 +130,6 @@ fi
 sudo pip install flake8 jedi isort --ignore-installed six
 mkdir -p ~/.vim/autoload
 ln -s ${ASSETS}/.vim/bundle/vim-pathogen/autoload/pathogen.vim ~/.vim/autoload/
-# Workaround GitHub's mirror missing required files
-cd ${ASSETS}/.vim/bundle/Conque-Shell/autoload && svn co http://conque.googlecode.com/svn/trunk/autoload/conque_term/ && cd -
 # Manual install for vim-sparkup
 cd ${ASSETS}/.vim/bundle/vim-sparkup && make vim-pathogen && cd -
 
