@@ -56,6 +56,7 @@ for f in $ASSETS_FILES; do
 done
 
 ln -s ${ASSETS}/.pip ~/.pip
+ln -s ${ASSETS}/.tmux ~/.tmux
 ln -s ${ASSETS}/.vim ~/.vim
 
 mkdir ~/scripts > /dev/null 2>&1
