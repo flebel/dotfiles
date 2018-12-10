@@ -127,7 +127,7 @@ fi
 
 # Vim
 # Tagbar requires ctags-exuberant
-sudo pip install flake8 jedi isort
+sudo pip install flake8 jedi isort --ignore-installed six
 mkdir -p ~/.vim/autoload
 ln -s ${ASSETS}/.vim/bundle/vim-pathogen/autoload/pathogen.vim ~/.vim/autoload/
 # Workaround GitHub's mirror missing required files
