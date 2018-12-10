@@ -118,7 +118,7 @@ sudo pip install ohmu
 sudo pip install ipython
 sudo pip install mypy
 pip install pur
-sudo pip install virtualenvwrapper --ignore-installed six # Workaround OS X El Capitan's installed six https://github.com/pypa/pip/issues/3165
+sudo pip install virtualenvwrapper
 
 # Subtle window manager
 if [ "$(uname)" == "Linux" ]; then
