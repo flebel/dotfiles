@@ -84,16 +84,16 @@ if [ "$(uname)" == "Darwin" ]; then
   brew install exiftool
   brew install fpp
   brew install golang
-  brew install git # Upgrade to latest version
+  brew install git  # Upgrade to latest version
   brew install gnupg
   brew install kubernetes-helm
   brew install htop
   brew install npm
-  brew install reattach-to-user-namespace # Accessing the Mac OS X pasteboard in tmux sessions.
+  brew install reattach-to-user-namespace  # Accessing the Mac OS X pasteboard in tmux sessions.
   brew install tig
   brew install tree
   brew install tmux
-  brew install vim # Upgrade to latest version
+  brew install vim  # Upgrade to latest version
   brew install wget
   brew install zsh
 
