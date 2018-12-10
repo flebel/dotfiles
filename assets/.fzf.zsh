@@ -2,13 +2,13 @@
 # ------------------
 unalias fzf 2> /dev/null
 fzf() {
-  /usr/bin/ruby --disable-gems /Users/flebel/dotfiles/submodules/fzf/fzf "$@"
+  /usr/bin/ruby --disable-gems $HOME/dotfiles/submodules/fzf/fzf "$@"
 }
 export -f fzf &> /dev/null
 
 # Auto-completion
 # ---------------
-[[ $- =~ i ]] && source /Users/flebel/dotfiles/submodules/fzf/fzf-completion.zsh
+[[ $- =~ i ]] && source $HOME/dotfiles/submodules/fzf/fzf-completion.zsh
 
 # Key bindings
 # ------------
