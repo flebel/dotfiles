@@ -78,6 +78,8 @@ if [ "$(uname)" == "Linux" ]; then
 fi
 
 if [ "$(uname)" == "Darwin" ]; then
+  defaults write com.apple.finder AppleShowAllFiles YES
+
   brew install fpp
   brew install golang
   brew install git # Upgrade to latest version
