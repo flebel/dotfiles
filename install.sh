@@ -82,6 +82,7 @@ if [ "$(uname)" == "Darwin" ]; then
   defaults write com.apple.finder AppleShowAllFiles YES
 
   /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  brew install bat
   brew install exiftool
   brew install fpp
   brew install golang
