@@ -85,6 +85,7 @@ if [ "$(uname)" == "Darwin" ]; then
   brew install bat
   brew install exiftool
   brew install fpp
+  brew install fswatch
   brew install golang
   brew install git  # Upgrade to latest version
   brew install gnupg
