@@ -2,6 +2,7 @@ API
 APNS
 AppEngine
 Baiduspider
+CDN
 Django
 Django's
 ECONNRESET
@@ -36,6 +37,7 @@ assertEqual
 async
 backends
 base62
+bluetooth
 browscap
 callees
 cls
@@ -82,6 +84,7 @@ jwt
 kubernetes
 kwargs
 localhost
+metadata
 middleware
 mountpoint
 noqa
