@@ -89,6 +89,7 @@ if [ "$(uname)" == "Darwin" ]; then
   brew install fswatch
   brew install git  # Upgrade to latest version
   brew install gnupg
+  brew install kubeless
   brew install kubernetes-helm
   brew install htop
   brew install npm
