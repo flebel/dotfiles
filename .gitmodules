@@ -394,3 +394,6 @@
 [submodule "submodules/zsh-fuzzy-match"]
 	path = submodules/zsh-fuzzy-match
 	url = https://github.com/tarruda/zsh-fuzzy-match.git
+[submodule "submodules/cf-keylayout"]
+	path = submodules/cf-keylayout
+	url = https://github.com/ergosteur/cf-keylayout.git

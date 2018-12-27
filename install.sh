@@ -146,3 +146,6 @@ gpg --list-keys|grep -B1 francoislebel@gmail.com|grep "201[0-9]"|sed -e 's|.*409
 
 echo "Download and install JRE: http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html"
 
+if [ "$(uname)" == "Darwin" ]; then
+  bash $(pwd)/submodules/cf-keylayout/install
+fi
