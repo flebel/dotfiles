@@ -83,10 +83,10 @@ if [ "$(uname)" == "Darwin" ]; then
 
   /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
   brew install bat
+  brew install dep  # golang dep
   brew install exiftool
   brew install fpp
   brew install fswatch
-  brew install golang
   brew install git  # Upgrade to latest version
   brew install gnupg
   brew install kubernetes-helm
