@@ -39,6 +39,7 @@ backends
 base62
 bluetooth
 browscap
+cached
 callees
 cls
 cmd
@@ -84,6 +85,7 @@ jwt
 kubernetes
 kwargs
 localhost
+memoization
 metadata
 middleware
 mountpoint
