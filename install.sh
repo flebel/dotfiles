@@ -94,6 +94,7 @@ if [ "$(uname)" == "Darwin" ]; then
   brew install htop
   brew install npm
   brew install reattach-to-user-namespace  # Accessing the Mac OS X pasteboard in tmux sessions.
+  brew install stern
   brew install tig
   brew install tree
   brew install tmux
