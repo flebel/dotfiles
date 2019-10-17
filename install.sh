@@ -92,6 +92,8 @@ if [ "$(uname)" == "Darwin" ]; then
   brew install kubeless
   brew install kubernetes-helm
   brew install htop
+  brew install jq
+  brew install ncdu
   brew install npm
   brew install reattach-to-user-namespace  # Accessing the Mac OS X pasteboard in tmux sessions.
   brew install stern
