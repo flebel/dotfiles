@@ -134,6 +134,7 @@ alias httpserv="python -m SimpleHTTPServer"
 alias ip="ipython"
 alias j=jobs
 alias k=kubectl
+alias kubectldeleteevictedpods='kubectl get pods | GREP_OPTIONS= grep Evicted | awk '{print $1}'| xargs kubectl delete pod'
 alias l=less
 alias listwincrlf="grep -IUr --color '' .| less"
 alias lp="git lp" # Replace 'lp' by the frequently used 'git lp'
