@@ -208,6 +208,12 @@
 [submodule "assets/.vim/bundle/vim-javascript"]
 	path = assets/.vim/bundle/vim-javascript
 	url = https://github.com/pangloss/vim-javascript.git
+[submodule "assets/.vim/bundle/vim-lengthmatters"]
+	path = assets/.vim/bundle/vim-lengthmatters
+	url = https://github.com/whatyouhide/vim-lengthmatters.git
+[submodule "assets/.vim/bundle/vim-less"]
+	path = assets/.vim/bundle/vim-less
+	url = https://github.com/groenewege/vim-less.git
 [submodule "assets/.vim/bundle/vim-markdown"]
 	path = assets/.vim/bundle/vim-markdown
 	url = https://github.com/tpope/vim-markdown.git
@@ -244,12 +250,6 @@
 [submodule "assets/.vim/bundle/vim-terraform"]
 	path = assets/.vim/bundle/vim-terraform
 	url = git@github.com:hashivim/vim-terraform.git
-[submodule "assets/.vim/bundle/vim-lengthmatters"]
-	path = assets/.vim/bundle/vim-lengthmatters
-	url = https://github.com/whatyouhide/vim-lengthmatters.git
-[submodule "assets/.vim/bundle/vim-less"]
-	path = assets/.vim/bundle/vim-less
-	url = https://github.com/groenewege/vim-less.git
 [submodule "assets/.vim/bundle/vim-rename2"]
 	path = assets/.vim/bundle/vim-rename2
 	url = https://github.com/ReekenX/vim-rename2.git
