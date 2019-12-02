@@ -324,6 +324,9 @@ au Syntax * RainbowParenthesesLoadRound
 au Syntax * RainbowParenthesesLoadSquare
 au VimEnter * RainbowParenthesesToggle
 
+let g:terraform_align=1
+let g:terraform_fmt_on_save=1
+
 " rainbow-parentheses.vim breaks vim-css-color, needs to set syntax after
 syntax on
 

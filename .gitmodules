@@ -241,6 +241,9 @@
 [submodule "assets/.vim/bundle/vim-styled-components"]
 	path = assets/.vim/bundle/vim-styled-components
 	url = https://github.com/styled-components/vim-styled-components.git
+[submodule "assets/.vim/bundle/vim-terraform"]
+	path = assets/.vim/bundle/vim-terraform
+	url = git@github.com:hashivim/vim-terraform.git
 [submodule "assets/.vim/bundle/vim-lengthmatters"]
 	path = assets/.vim/bundle/vim-lengthmatters
 	url = https://github.com/whatyouhide/vim-lengthmatters.git
