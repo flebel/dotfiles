@@ -60,6 +60,10 @@ function ppkill() {
   ppgrep $QUERY | xargs kill $*
 }
 
+pyclean () {
+    find . -type f -name '*.py[co]' -delete -o -type d -name __pycache__ -delete
+}
+
 # Open a file in vim at a given line number after `grep -nr`
 # Supports multiple line numbers, e.g. after multiple piped `grep`
 function v()
