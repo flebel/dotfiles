@@ -185,7 +185,9 @@ autocmd BufNewFile,BufReadPost *.md set filetype=markdown
 " Python
 au FileType py set autoindent
 au FileType py set smartindent
-au FileType py set textwidth=79 " PEP-8 Friendly
+au FileType py set textwidth=99 " PEP-8 Friendly
+au FileType python map <silent> <leader>b oimport pdb; pdb.set_trace()<esc>
+au FileType python map <silent> <leader>B Oimport pdb; pdb.set_trace()<esc>
 
 " Show flake8 signs in file and gutter
 let g:flake8_show_in_file=1
