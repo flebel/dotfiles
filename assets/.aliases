@@ -132,6 +132,7 @@ alias c="clear"
 alias ct="pygmentize -g"
 alias dc="docker-compose"
 alias dockercleanimages='docker rmi -f $(docker images | GREP_OPTIONS= grep "<none>" | awk "{print \$3}")'
+alias dockerubuntu='docker run --rm -v $(pwd):/cwd -it ubuntu'
 alias deletepyobjfiles='find . -name "*.py[cod]" -delete'
 alias dtest="python -m doctest -v"
 alias f=find
