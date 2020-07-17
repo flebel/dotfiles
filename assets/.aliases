@@ -118,6 +118,7 @@ function ytsearch() {
 function b64_decode() { echo "$1" | base64 --decode }
 function b64_encode() { echo "$1" | base64 }
 function cg() { grep -h $1 | sed 's/.*://' } # "clean grep" removes output from convenient flags set in ~/.grepoptions
+function hg() { tee >(head -1) >(grep "$1") >/dev/null }
 function dbash() { docker exec -it $(docker ps | sed -n 2p | awk '{print $1}') /bin/bash }
 function dinspect() { docker inspect  -f '{{.Name}} {{.Config.Cmd}}' $(docker ps -a -q) }
 function dbuildrun() { docker run --rm -it $(docker build -q .) }
