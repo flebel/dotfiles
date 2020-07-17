@@ -195,6 +195,8 @@ let g:flake8_show_in_gutter=1
 " Run flake8 on save
 autocmd BufWritePost *.py call Flake8()
 
+let g:jedi#popup_select_first=0
+
 " Display vertical line at 100 characters
 set colorcolumn=80
 
