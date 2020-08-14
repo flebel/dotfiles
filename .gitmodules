@@ -22,6 +22,9 @@
 [submodule "assets/.tmux/plugins/tmux-prefix-highlight"]
 	path = assets/.tmux/plugins/tmux-prefix-highlight
 	url = https://github.com/tmux-plugins/tmux-prefix-highlight.git
+[submodule "assets/.tmux/plugins/tmux-spotify"]
+	path = assets/.tmux/plugins/tmux-spotify
+	url = https://github.com/robhurring/tmux-spotify
 [submodule "assets/.tmux/plugins/tmux-yank"]
 	path = assets/.tmux/plugins/tmux-yank
 	url = https://github.com/tmux-plugins/tmux-yank.git
