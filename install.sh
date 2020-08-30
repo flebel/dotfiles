@@ -87,6 +87,7 @@ if [ "$(uname)" == "Darwin" ]; then
   brew install exiftool
   brew install fpp
   brew install fswatch
+  brew install gettext && brew link gettext --force
   brew install git  # Upgrade to latest version
   brew install gnupg
   brew install kubeless
