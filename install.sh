@@ -120,13 +120,14 @@ helm init
 helm repo add incubator https://kubernetes-charts-incubator.storage.googleapis.com/
 
 # Misc
-sudo gem install mailcatcher
-sudo gem install pry-byebug
-sudo gem install pry-stack_explorer
-sudo pip install ohmu
+#sudo gem install mailcatcher
+#sudo gem install pry-byebug
+#sudo gem install pry-stack_explorer
+#sudo pip install ohmu
+pip install ranger-fm
 sudo pip install ipython
 sudo pip install mypy
-pip install pur
+#pip install pur
 sudo pip install virtualenvwrapper
 
 # Subtle window manager
