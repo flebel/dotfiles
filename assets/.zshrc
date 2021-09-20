@@ -46,12 +46,12 @@ unalias gb &>/dev/null
 autoload bashcompinit
 bashcompinit
 
-export MANPAGER='less -s -M +Gg'
 export GOPATH=$HOME/go
+export HOMEBREW_NO_ANALYTICS=1
+export MANPAGER='less -s -M +Gg'
 export NODE_OPTIONS="--max-old-space-size=8192"
 export PATH=$HOME/bin:$HOME/.pyenv/shims:$GOPATH/bin:$PATH:/usr/local/opt/python/libexec/bin:$HOME/code/bin:$HOME/dotfiles/submodules/percol/percol
 export PYTHONPATH=$HOME/dotfiles/submodules/percol
-export HOMEBREW_NO_ANALYTICS=1
 
 SSH_ENV="$HOME/.ssh/agent-info"
 function start_agent {
@@ -180,6 +180,7 @@ autoload -U down-line-or-beginning-search
 zle -N up-line-or-beginning-search
 zle -N down-line-or-beginning-search
 if [ "$(uname)" == "Darwin" ]; then
+  defaults write -g com.apple.mouse.scaling -float 5.0
   bindkey "$terminfo[kcuu1]" up-line-or-beginning-search
   bindkey "$terminfo[kcud1]" down-line-or-beginning-search
 else
