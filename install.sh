@@ -58,6 +58,7 @@ done
 ln -s ${ASSETS}/.pip ~/.pip
 ln -s ${ASSETS}/.tmux ~/.tmux
 ln -s ${ASSETS}/.vim ~/.vim
+mkdir ~/.ssh && ln -s ${ASSETS}/.ssh/config ~/.ssh/config
 
 mkdir ~/scripts > /dev/null 2>&1
 mkdir -p ~/dotfiles_backup/scripts > /dev/null 2>&1
